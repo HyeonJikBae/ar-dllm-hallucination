@@ -1,17 +1,6 @@
-# Exact package versions from the conda environment used for the completed runs:
-#   environment: hyeonjik_base
-#   Python:      3.10.20
-#
-# torch includes the CUDA build tag used in that environment. The matching
-# CUDA wheel must be available from the PyTorch package index used for install.
+datasets==2.14.6
+pytest==8.3.5
 torch==2.9.1+cu130
 transformers==4.55.4
-datasets==2.14.6
-huggingface-hub==0.36.2
-accelerate==1.10.1
-safetensors==0.8.0
-numpy==1.26.4
-pyarrow==12.0.1
-tokenizers==0.21.4
 tqdm==4.68.4
-regex==2026.6.28
+requests==2.32.3
