@@ -39,7 +39,45 @@ def gold_is_music(gold_qid):
     return None
 
 
-def role_label(rel, ans, gold_qid=None):
+FILM_PROD = ("film producer", "television producer", "executive producer", "movie producer")
+
+
+def answer_domain(c):
+    """'music' | 'film' | 'both' | None for a person who holds a producer occupation."""
+    d = c["desc"].lower()
+    film_occ = any(any(k in o for k in FILM_PROD) for o in c["occ"])
+    music_occ = any(("record producer" in o or "music producer" in o) for o in c["occ"])
+    music_desc = any(k in d for k in ("musician", "singer", "songwriter", "record producer", "composer", "guitarist", "rapper", "drummer")) and not any(k in d for k in ("film", "television", "tv ", "movie"))
+    if music_desc:
+        return "music"
+    if film_occ and music_occ:
+        return "both"
+    if film_occ:
+        return "film"
+    if music_occ:
+        return "music"
+    return None
+
+
+MUSIC_WORK = ("album", "song", "single", "ep ", " ep", "soundtrack", "music", "mixtape", "recording")
+SCREEN_WORK = ("film", "television", "tv ", "series", "miniseries", "anime", "documentary", "movie", "show")
+
+
+def work_is_music(subject_qid):
+    """True if the produced work (the question's subject) is a music release, False if a film/TV work, None if unknown."""
+    e = wd.entities([subject_qid])[subject_qid] if subject_qid else None
+    if not e:
+        return None
+    labs = [x.lower() + " " for x in wd.labels(e["claims"]["P31"] + e["claims"]["P279"]).values()]
+    m = any(any(k in l for k in MUSIC_WORK) for l in labs); f = any(any(k in l for k in SCREEN_WORK) for l in labs)
+    if m and not f:
+        return True
+    if f and not m:
+        return False
+    return None
+
+
+def role_label(rel, ans, gold_qid=None, subject_qid=None):
     if WORK.search(ans):
         return "2", "hi", "title with qualifier (work, not a person)"
     cs = wd.candidates(ans)
@@ -51,19 +89,24 @@ def role_label(rel, ans, gold_qid=None):
     if holders:
         best = max(holders, key=lambda c: c["sl"]); top = max(humans, key=lambda c: c["sl"])
         if rel == "producer":
-            ans_film = any(any(k in o for k in ("film producer", "television producer", "executive producer", "movie producer")) for o in best["occ"])
-            ans_music = any(("record producer" in o or "music producer" in o) for o in best["occ"])
-            gm = gold_is_music(gold_qid)
-            d = best["desc"].lower()
-            music_desc = any(k in d for k in ("musician", "singer", "songwriter", "record producer", "composer", "guitarist", "rapper", "drummer")) and not any(k in d for k in ("film", "television", "tv ", "movie"))
-            if gm is not True and music_desc:
-                return "1", "lo", "answer is described as a musician/record producer, gold is not music: " + ev(best)
-            if gm is True and not ans_music:
-                return "1", "lo", "gold is music, answer is a film producer: " + ev(best)
-            if gm is False and not ans_film:
-                return "1", "lo", "gold is film/TV, answer is only a record/music producer: " + ev(best)
-            if gm is None and not ans_film:
-                return "1", "lo", "only a record/music producer: " + ev(best)
+            ad = answer_domain(best)
+            gm = work_is_music(subject_qid)          # the produced work decides the field
+            if gm is None:
+                gm = gold_is_music(gold_qid)           # fall back to the gold entity
+            if gm is not None and ad is not None:
+                # policy A: same field (film/TV vs music) -> 1, different field -> 2
+                match = (ad == "both") or ((ad == "music") == gm)
+                if not match:
+                    return "2", "hi", f"different field: gold is {'music' if gm else 'film/TV'}, answer is {ad}: " + ev(best)
+            else:
+                ans_film = any(any(k in o for k in FILM_PROD) for o in best["occ"])
+                ans_music = any(("record producer" in o or "music producer" in o) for o in best["occ"])
+                if gm is None and ad == "music":
+                    return "1", "lo", "gold field unknown, answer is a music producer: " + ev(best)
+                if gm is None and not ans_film:
+                    return "1", "lo", "only a record/music producer: " + ev(best)
+                if gm is not None and ad is None and not ans_film and not ans_music:
+                    return "1", "lo", "answer's field unknown (generic producer): " + ev(best)
         if not any(k in best["desc"].lower() for k in CREATIVE):
             return "1", "lo", "holder's description is not a creative profession (possible wrong entity): " + ev(best)
         if best is top or best["sl"] >= 0.5 * top["sl"]:
@@ -248,9 +291,9 @@ def parent_label(gold_qid, gold_name, ans):
     return "2", ("lo" if many or top[0]["sl"] < 5 else "hi"), f"no family link; top {top[0]['label']} [{top[0]['desc'][:40]}]" + (" (several same-name people)" if many else "")
 
 
-def label_pair(rel, gold_qid, gold_name, ans):
+def label_pair(rel, gold_qid, gold_name, ans, subject_qid=None):
     if rel in ROLE:
-        return role_label(rel, ans, gold_qid)
+        return role_label(rel, ans, gold_qid, subject_qid)
     if rel == "genre":
         return genre_label(gold_qid, ans)
     if rel in PLACE_REL:

@@ -44,13 +44,13 @@ def variants(n):
     return list(dict.fromkeys([n, n.lower(), n[:1].upper() + n[1:].lower()]))
 
 
-def prefetch_names(names, batch=50, top=8):
+def prefetch_names(names, batch=25, top=8):
     names = [n for n in dict.fromkeys(names) if n not in _cache["names"]]
     if not names:
         return
     for b in range(0, len(names), batch):
         chunk = names[b:b + batch]
-        vals = " ".join('"%s"@en' % _esc(v) for n in chunk for v in variants(n))
+        vals = " ".join('"%s"@%s' % (_esc(v), lg) for n in chunk for v in variants(n) for lg in ("en", "mul"))
         rows = sparql(f"SELECT ?name ?item ?sl WHERE {{ VALUES ?name {{ {vals} }} ?item rdfs:label|skos:altLabel ?name . ?item wikibase:sitelinks ?sl . FILTER(?sl >= 1) }}")
         by = {}
         for r in rows:
@@ -73,9 +73,9 @@ def prefetch_ents(qids, batch=120):
         vals = " ".join("wd:" + q for q in chunk)
         rows = sparql(f"""SELECT ?item ?il ?d ?sl ?p ?v ?vl WHERE {{ VALUES ?item {{ {vals} }}
  OPTIONAL {{ ?item wikibase:sitelinks ?sl }}
- OPTIONAL {{ ?item rdfs:label ?il FILTER(LANG(?il)="en") }}
+ OPTIONAL {{ ?item rdfs:label ?il FILTER(LANG(?il) IN ("en", "mul")) }}
  OPTIONAL {{ ?item schema:description ?d FILTER(LANG(?d)="en") }}
- OPTIONAL {{ VALUES ?p {{ {pv} }} ?item ?p ?v . OPTIONAL {{ ?v rdfs:label ?vl FILTER(LANG(?vl)="en") }} }} }}""")
+ OPTIONAL {{ VALUES ?p {{ {pv} }} ?item ?p ?v . OPTIONAL {{ ?v rdfs:label ?vl FILTER(LANG(?vl) IN ("en", "mul")) }} }} }}""")
         ents = {q: {"label": "", "desc": "", "sitelinks": 0, "claims": {p: [] for p in PROPS}} for q in chunk}
         for r in rows:
             q = r["item"]["value"].rsplit("/", 1)[1]
