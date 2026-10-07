@@ -1,0 +1,2702 @@
+[
+{
+"rel": "director",
+"gold": "Shane Meadows",
+"ans": "John Hughes",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q311263 John Hughes [American filmmaker (1950–2009)] occ=['screenwriter', 'film producer', 'film director', 'writer'] sl=42"
+},
+{
+"rel": "director",
+"gold": "Steve Shill",
+"ans": "David Lynch",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q2071 David Lynch [American filmmaker (1946–2025)] occ=['film director', 'actor', 'composer', 'voice actor'] sl=105"
+},
+{
+"rel": "director",
+"gold": "George Seaton",
+"ans": "John Landis",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q51564 John Landis [American film director, screenwriter and producer] occ=['film director', 'screenwriter', 'film producer', 'actor'] sl=43"
+},
+{
+"rel": "director",
+"gold": "Robert Hamer",
+"ans": "John Boorman",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q55277 John Boorman [British film director, producer and screenwriter] occ=['screenwriter', 'film producer', 'film director', 'television director'] sl=43"
+},
+{
+"rel": "director",
+"gold": "Eric Schaeffer",
+"ans": "Michael Winterbottom",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q380237 Michael Winterbottom [British film director (born 1961)] occ=['film director', 'film editor', 'screenwriter', 'television director'] sl=33"
+},
+{
+"rel": "director",
+"gold": "Zhang Yimou",
+"ans": "John Lee Hancock",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q1361200 John Lee Hancock [American film director, writer and producer (born ] occ=['screenwriter', 'film director', 'film producer', 'lawyer'] sl=21"
+},
+{
+"rel": "director",
+"gold": "Randa Haines",
+"ans": "Christopher Nolan",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "director",
+"gold": "Joey Travolta",
+"ans": "Mel Gibson",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q42229 Mel Gibson [American actor, director, producer and screenwrite] occ=['film producer', 'film actor', 'film director', 'writer'] sl=119"
+},
+{
+"rel": "director",
+"gold": "Thikkurissy Sukumaran Nair",
+"ans": "John Waters",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q314926 John Waters [American filmmaker, actor, comedian and writer (bo] occ=['television actor', 'film actor', 'film director', 'screenwriter'] sl=44"
+},
+{
+"rel": "director",
+"gold": "Stephen Frears",
+"ans": "Liam Neeson",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "no holder; top human Q58444 Liam Neeson [actor from Northern Ireland (born 1952)] occ=['film actor', 'voice actor', 'stage actor', 'television actor'] sl=98"
+},
+{
+"rel": "director",
+"gold": "Elodie Keene",
+"ans": "David Nutter",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "director",
+"gold": "Howard Zieff",
+"ans": "John Badham",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q547485 John Badham [British-born American film director] occ=['film director', 'television director', 'director'] sl=27"
+},
+{
+"rel": "director",
+"gold": "Stuart Blumberg",
+"ans": "David Frankel",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q934964 David Frankel [American film director (born 1959)] occ=['film director', 'film editor', 'screenwriter', 'film producer'] sl=23"
+},
+{
+"rel": "director",
+"gold": "Manuel Romero",
+"ans": "John Sayles",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q2141212 John Sayles [American film director (born 1950)] occ=['film director', 'screenwriter', 'writer', 'film editor'] sl=21"
+},
+{
+"rel": "director",
+"gold": "Kang Woo-suk",
+"ans": "John L. Stoddard",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "director",
+"gold": "Abbas Kiarostami",
+"ans": "David Fincher",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q184903 David Fincher [American film director (born 1962)] occ=['film director', 'film producer', 'television producer', 'director'] sl=71"
+},
+{
+"rel": "director",
+"gold": "Larry Shaw",
+"ans": "Michael Winterbottom",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q380237 Michael Winterbottom [British film director (born 1961)] occ=['film director', 'film editor', 'screenwriter', 'television director'] sl=33"
+},
+{
+"rel": "director",
+"gold": "Bille August",
+"ans": "John Huston",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q51575 John Huston [American film director, screenwriter, and actor (1] occ=['actor', 'film actor', 'film director', 'screenwriter'] sl=70"
+},
+{
+"rel": "director",
+"gold": "Kei Fujiwara",
+"ans": "John Waters",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q314926 John Waters [American filmmaker, actor, comedian and writer (bo] occ=['television actor', 'film actor', 'film director', 'screenwriter'] sl=44"
+},
+{
+"rel": "director",
+"gold": "Beth Murphy",
+"ans": "David O. Russell",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q314342 David O. Russell [American film director, screenwriter and producer] occ=['film producer', 'film director', 'screenwriter', 'writer'] sl=46"
+},
+{
+"rel": "director",
+"gold": "Larry Fessenden",
+"ans": "John Landis",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q51564 John Landis [American film director, screenwriter and producer] occ=['film director', 'screenwriter', 'film producer', 'actor'] sl=43"
+},
+{
+"rel": "director",
+"gold": "Michalis Cacoyannis",
+"ans": "John Huston",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q51575 John Huston [American film director, screenwriter, and actor (1] occ=['actor', 'film actor', 'film director', 'screenwriter'] sl=70"
+},
+{
+"rel": "director",
+"gold": "Danny Cannon",
+"ans": "James Mangold",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q433893 James Mangold [American film director, screenwriter (born 1963)] occ=['film director', 'screenwriter', 'actor', 'film producer'] sl=49"
+},
+{
+"rel": "director",
+"gold": "Trey Parker",
+"ans": "Chuck Jones",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "director",
+"gold": "John Irvin",
+"ans": "John Huston",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q51575 John Huston [American film director, screenwriter, and actor (1] occ=['actor', 'film actor', 'film director', 'screenwriter'] sl=70"
+},
+{
+"rel": "producer",
+"gold": "Ramanand Sagar",
+"ans": "David O. Selznick",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q72291 David O. Selznick [American film producer (1902–1965)] occ=['film producer', 'screenwriter', 'entrepreneur', 'executive producer'] sl=51"
+},
+{
+"rel": "producer",
+"gold": "Hayao Miyazaki",
+"ans": "David S. Goyer",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q352010 David S. Goyer [American filmmaker, novelist, and comic book write] occ=['film director', 'screenwriter', 'cartoonist', 'film producer'] sl=35"
+},
+{
+"rel": "producer",
+"gold": "Benny Andersson",
+"ans": "David Foster",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q77112 David Foster [Canadian musician, record producer, songwriter] occ=['composer', 'songwriter', 'musicologist', 'actor'] sl=41"
+},
+{
+"rel": "producer",
+"gold": "John Grisham",
+"ans": "Mickey Rooney",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "producer",
+"gold": "DAR motion pictures",
+"ans": "David Foster",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q77112 David Foster [Canadian musician, record producer, songwriter] occ=['composer', 'songwriter', 'musicologist', 'actor'] sl=41"
+},
+{
+"rel": "producer",
+"gold": "Charlie Chaplin",
+"ans": "Michael Jackson",
+"cur": "2",
+"rule": "1",
+"conf": "hi",
+"ev": "Q2831 Michael Jackson [American singer, songwriter, record producer, and ] occ=['songwriter', 'musician', 'dancer', 'philanthropist'] sl=322"
+},
+{
+"rel": "producer",
+"gold": "Danny DeVito",
+"ans": "Mark Wahlberg",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q164119 Mark Wahlberg [American actor (born 1971)] occ=['film actor', 'actor', 'film producer', 'television actor'] sl=99"
+},
+{
+"rel": "producer",
+"gold": "Chen Kuo-Fu",
+"ans": "Michael Schultz",
+"cur": "2",
+"rule": "1",
+"conf": "hi",
+"ev": "Q1723945 Michael Schultz [American director] occ=['film director', 'film producer', 'theatre director', 'television producer'] sl=14"
+},
+{
+"rel": "producer",
+"gold": "Zhang Yimou",
+"ans": "John Powell",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "producer",
+"gold": "Spike Lee",
+"ans": "Michael Crichton",
+"cur": "2",
+"rule": "1",
+"conf": "hi",
+"ev": "Q172140 Michael Crichton [American author, screenwriter, film director (1942] occ=['screenwriter', 'film producer', 'film director', 'novelist'] sl=84"
+},
+{
+"rel": "producer",
+"gold": "Bob Minton",
+"ans": "Mark Burnett",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q3294019 Mark Burnett [British television and film producer and author (b] occ=['television producer', 'executive producer', 'film producer', 'film director'] sl=15"
+},
+{
+"rel": "producer",
+"gold": "Neil Young",
+"ans": "George Martin",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q181677 George R. R. Martin [American writer and television producer (born 1948] occ=['writer', 'novelist', 'fantasy author', 'science fiction writer'] sl=113"
+},
+{
+"rel": "producer",
+"gold": "Prachya Pinkaew",
+"ans": "The Beatles",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "producer",
+"gold": "Jennifer Love Hewitt",
+"ans": "David Foster",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q77112 David Foster [Canadian musician, record producer, songwriter] occ=['composer', 'songwriter', 'musicologist', 'actor'] sl=41"
+},
+{
+"rel": "producer",
+"gold": "Liam Howlett",
+"ans": "The Beatles",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "non-person Q1299 The Beatles [English pop rock band (1960–1970)]"
+},
+{
+"rel": "producer",
+"gold": "Tracey Edmonds",
+"ans": "David Foster",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q77112 David Foster [Canadian musician, record producer, songwriter] occ=['composer', 'songwriter', 'musicologist', 'actor'] sl=41"
+},
+{
+"rel": "producer",
+"gold": "Dodie Smith",
+"ans": "David E. Kelley",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q504720 David E. Kelley [American television producer, writer and attorney] occ=['film producer', 'screenwriter', 'lawyer', 'executive producer'] sl=22"
+},
+{
+"rel": "producer",
+"gold": "Rob Minkoff",
+"ans": "Jay Kogen",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q43322 Jay Kogen [American screenwriter] occ=['screenwriter', 'actor', 'television producer'] sl=11"
+},
+{
+"rel": "producer",
+"gold": "George Abbott",
+"ans": "David E. Kelley",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q504720 David E. Kelley [American television producer, writer and attorney] occ=['film producer', 'screenwriter', 'lawyer', 'executive producer'] sl=22"
+},
+{
+"rel": "producer",
+"gold": "Kim Ji-woon",
+"ans": "Sergio Leone",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q164562 Sergio Leone [Italian filmmaker (1929–1989)] occ=['film director', 'screenwriter', 'film producer', 'actor'] sl=89"
+},
+{
+"rel": "producer",
+"gold": "Frank Perry",
+"ans": "David S. Goyer",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q352010 David S. Goyer [American filmmaker, novelist, and comic book write] occ=['film director', 'screenwriter', 'cartoonist', 'film producer'] sl=35"
+},
+{
+"rel": "producer",
+"gold": "John Nathan-Turner",
+"ans": "David Foster",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q77112 David Foster [Canadian musician, record producer, songwriter] occ=['composer', 'songwriter', 'musicologist', 'actor'] sl=41"
+},
+{
+"rel": "producer",
+"gold": "Jūzō Itami",
+"ans": "George Martin",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q181677 George R. R. Martin [American writer and television producer (born 1948] occ=['writer', 'novelist', 'fantasy author', 'science fiction writer'] sl=113"
+},
+{
+"rel": "producer",
+"gold": "Walter Wanger",
+"ans": "David Foster",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q77112 David Foster [Canadian musician, record producer, songwriter] occ=['composer', 'songwriter', 'musicologist', 'actor'] sl=41"
+},
+{
+"rel": "producer",
+"gold": "Niko Bolas",
+"ans": "David Kahne",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "screenwriter",
+"gold": "Lee Jeong-beom",
+"ans": "David Benioff",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q503997 David Benioff [American writer and producer (born 1970)] occ=['screenwriter', 'film producer', 'novelist', 'television producer'] sl=41"
+},
+{
+"rel": "screenwriter",
+"gold": "Martin Short",
+"ans": "John Hughes",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q311263 John Hughes [American filmmaker (1950–2009)] occ=['screenwriter', 'film producer', 'film director', 'writer'] sl=42"
+},
+{
+"rel": "screenwriter",
+"gold": "David Benioff",
+"ans": "Michael Arndt",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q705156 Michael Arndt [American screenwriter] occ=['screenwriter', 'film screenwriter'] sl=28"
+},
+{
+"rel": "screenwriter",
+"gold": "Deepa Mehta",
+"ans": "David Hare",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q1174676 David Hare [British playwright, screenwriter and theatre and f] occ=['playwright', 'screenwriter', 'film director', 'theatre director'] sl=21"
+},
+{
+"rel": "screenwriter",
+"gold": "Gus Van Sant",
+"ans": "David Koepp",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q270178 David Koepp [American screenwriter and director (1963-)] occ=['film director', 'film producer', 'writer', 'film actor'] sl=37"
+},
+{
+"rel": "screenwriter",
+"gold": "Binka Zhelyazkova",
+"ans": "David S. Goyer",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q352010 David S. Goyer [American filmmaker, novelist, and comic book write] occ=['film director', 'screenwriter', 'cartoonist', 'film producer'] sl=35"
+},
+{
+"rel": "screenwriter",
+"gold": "Paddy Chayefsky",
+"ans": "John Milius",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "screenwriter",
+"gold": "Walter Reisch",
+"ans": "David Mamet",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q269927 David Mamet [American playwright, filmmaker and author (born 19] occ=['screenwriter', 'film director', 'playwright', 'film producer'] sl=41"
+},
+{
+"rel": "screenwriter",
+"gold": "Ernest Lehman",
+"ans": "Robert Benton",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q59085 Robert Benton [American screenwriter and film director (1932–2025] occ=['film director', 'screenwriter', 'writer', 'director'] sl=43"
+},
+{
+"rel": "screenwriter",
+"gold": "Howard Browne",
+"ans": "John M. Stahl",
+"cur": "2",
+"rule": "1",
+"conf": "hi",
+"ev": "Q1358863 John M. Stahl [American film director and producer (1886-1950)] occ=['film director', 'film producer', 'screenwriter', 'director'] sl=23"
+},
+{
+"rel": "screenwriter",
+"gold": "Tod Browning",
+"ans": "David Mamet",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q269927 David Mamet [American playwright, filmmaker and author (born 19] occ=['screenwriter', 'film director', 'playwright', 'film producer'] sl=41"
+},
+{
+"rel": "screenwriter",
+"gold": "Wang Xiaoshuai",
+"ans": "David E. Kelley",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q504720 David E. Kelley [American television producer, writer and attorney] occ=['film producer', 'screenwriter', 'lawyer', 'executive producer'] sl=22"
+},
+{
+"rel": "screenwriter",
+"gold": "Craig Ferguson",
+"ans": "John Hughes",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q311263 John Hughes [American filmmaker (1950–2009)] occ=['screenwriter', 'film producer', 'film director', 'writer'] sl=42"
+},
+{
+"rel": "screenwriter",
+"gold": "Wang Xiaoshuai",
+"ans": "John Patrick Shanley",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q1349456 John Patrick Shanley [American writer] occ=['screenwriter', 'playwright', 'dramaturge', 'film director'] sl=25"
+},
+{
+"rel": "screenwriter",
+"gold": "Claude Miller",
+"ans": "Julian Fellowes",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "screenwriter",
+"gold": "Ernesto Gastaldi",
+"ans": "Agatha Christie",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q35064 Agatha Christie [English mystery and detective writer (1890–1976)] occ=['writer', 'novelist', 'screenwriter', 'dramaturge'] sl=197"
+},
+{
+"rel": "screenwriter",
+"gold": "Mark Jackson",
+"ans": "David Koepp",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q270178 David Koepp [American screenwriter and director (1963-)] occ=['film director', 'film producer', 'writer', 'film actor'] sl=37"
+},
+{
+"rel": "screenwriter",
+"gold": "Art Wallace",
+"ans": "Daphne du Maurier",
+"cur": "2",
+"rule": "1",
+"conf": "hi",
+"ev": "Q193357 Daphne du Maurier [British writer (1907–1989)] occ=['novelist', 'writer', 'screenwriter', 'playwright'] sl=74"
+},
+{
+"rel": "screenwriter",
+"gold": "Kevin Falls",
+"ans": "John Hughes",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q311263 John Hughes [American filmmaker (1950–2009)] occ=['screenwriter', 'film producer', 'film director', 'writer'] sl=42"
+},
+{
+"rel": "screenwriter",
+"gold": "Rand Ravich",
+"ans": "David Koepp",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q270178 David Koepp [American screenwriter and director (1963-)] occ=['film director', 'film producer', 'writer', 'film actor'] sl=37"
+},
+{
+"rel": "screenwriter",
+"gold": "Jim Henson",
+"ans": "Robert Towne",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q721922 Robert Towne [American screenwriter, producer, director and acto] occ=['screenwriter', 'film director', 'actor'] sl=31"
+},
+{
+"rel": "screenwriter",
+"gold": "Oleksandr Dovzhenko",
+"ans": "David Koepp",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q270178 David Koepp [American screenwriter and director (1963-)] occ=['film director', 'film producer', 'writer', 'film actor'] sl=37"
+},
+{
+"rel": "screenwriter",
+"gold": "Michael Frayn",
+"ans": "David S. Ward",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "screenwriter",
+"gold": "Dennis Foon",
+"ans": "Terry Nation",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q628479 Terry Nation [Welsh television writer (1930–1997)] occ=['screenwriter', 'novelist', 'science fiction writer', 'writer'] sl=17"
+},
+{
+"rel": "screenwriter",
+"gold": "Franz Seitz Jr.",
+"ans": "John Hughes",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q311263 John Hughes [American filmmaker (1950–2009)] occ=['screenwriter', 'film producer', 'film director', 'writer'] sl=42"
+},
+{
+"rel": "composer",
+"gold": "Pink Floyd",
+"ans": "Richard Rodgers",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q269094 Richard Rodgers [American composer of songs and Broadway musicals (] occ=['composer', 'playwright', 'songwriter', 'librettist'] sl=47"
+},
+{
+"rel": "composer",
+"gold": "Alberto Ginastera",
+"ans": "Joseph Haydn",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q7349 Joseph Haydn [Austrian composer (1732–1809)] occ=['composer', 'conductor', 'musicologist', 'pianist'] sl=158"
+},
+{
+"rel": "composer",
+"gold": "Justin Furstenfeld",
+"ans": "Paul McCartney",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "composer",
+"gold": "Christophe Beck",
+"ans": "Danny Elfman",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q193338 Danny Elfman [American film composer (born 1953)] occ=['composer', 'record producer', 'film score composer', 'musician'] sl=60"
+},
+{
+"rel": "composer",
+"gold": "Arthur Darvill",
+"ans": "John Williams",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "composer",
+"gold": "Victor Herbert",
+"ans": "M. S. Subbulakshmi",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "no holder; top human Q465067 M. S. Subbulakshmi [Indian Carnatic classical vocalist (1916–2004)] occ=['singer', 'film actor'] sl=39"
+},
+{
+"rel": "composer",
+"gold": "Glen Hansard",
+"ans": "Stephen Sondheim",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q153579 Stephen Sondheim [American composer and lyricist (1930–2021)] occ=['dramaturge', 'songwriter', 'screenwriter', 'poet'] sl=46"
+},
+{
+"rel": "composer",
+"gold": "S. Thaman",
+"ans": "Claude Debussy",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "composer",
+"gold": "Dmitri Shostakovich",
+"ans": "John Tavener",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q317350 John Tavener [British composer (1944-2013)] occ=['composer', 'poet', 'recording artist', 'conductor'] sl=33"
+},
+{
+"rel": "composer",
+"gold": "Danny Elfman",
+"ans": "John Williams",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q131285 John Williams [American composer and conductor (born 1932)] occ=['conductor', 'composer', 'film score composer', 'music arranger'] sl=78"
+},
+{
+"rel": "composer",
+"gold": "Lennox Berkeley",
+"ans": "William Walton",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "composer",
+"gold": "William Billings",
+"ans": "Joseph Haydn",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q7349 Joseph Haydn [Austrian composer (1732–1809)] occ=['composer', 'conductor', 'musicologist', 'pianist'] sl=158"
+},
+{
+"rel": "composer",
+"gold": "Richard Rodgers",
+"ans": "George Gershwin",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q123829 George Gershwin [American composer and pianist (1898–1937)] occ=['composer', 'jazz pianist', 'songwriter', 'film score composer'] sl=85"
+},
+{
+"rel": "composer",
+"gold": "Ennio Morricone",
+"ans": "Claude Debussy",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "composer",
+"gold": "Jason Robert Brown",
+"ans": "Richard Wagner",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q1511 Richard Wagner [German composer (1813–1883)] occ=['composer', 'librettist', 'conductor', 'essayist'] sl=206"
+},
+{
+"rel": "composer",
+"gold": "Boris Blacher",
+"ans": "Richard Strauss",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q13894 Richard Strauss [German composer and orchestra director (1864–1949)] occ=['composer', 'conductor', 'librettist', 'musician'] sl=93"
+},
+{
+"rel": "composer",
+"gold": "50 Cent",
+"ans": "John Williams",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q131285 John Williams [American composer and conductor (born 1932)] occ=['conductor', 'composer', 'film score composer', 'music arranger'] sl=78"
+},
+{
+"rel": "composer",
+"gold": "Sylvester Levay",
+"ans": "George Frideric Handel",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q7302 George Frideric Handel [German-British Baroque composer (1685–1759)] occ=['composer', 'harpsichordist', 'organist', 'violinist'] sl=160"
+},
+{
+"rel": "composer",
+"gold": "Drake",
+"ans": "John Williams",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q131285 John Williams [American composer and conductor (born 1932)] occ=['conductor', 'composer', 'film score composer', 'music arranger'] sl=78"
+},
+{
+"rel": "composer",
+"gold": "Giorgio Gaslini",
+"ans": "Giacomo Puccini",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "composer",
+"gold": "Michel van der Aa",
+"ans": "Richard Rodgers",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q269094 Richard Rodgers [American composer of songs and Broadway musicals (] occ=['composer', 'playwright', 'songwriter', 'librettist'] sl=47"
+},
+{
+"rel": "composer",
+"gold": "Shirō Sagisu",
+"ans": "Isao Tomita",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q546592 Isao Tomita [Japanese musician (1932-2016)] occ=['composer', 'keyboardist', 'film score composer', 'recording artist'] sl=25"
+},
+{
+"rel": "composer",
+"gold": "Michael Gibbs",
+"ans": "David Foster",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q77112 David Foster [Canadian musician, record producer, songwriter] occ=['composer', 'songwriter', 'musicologist', 'actor'] sl=41"
+},
+{
+"rel": "composer",
+"gold": "John Carpenter",
+"ans": "Richard Wagner",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q1511 Richard Wagner [German composer (1813–1883)] occ=['composer', 'librettist', 'conductor', 'essayist'] sl=206"
+},
+{
+"rel": "composer",
+"gold": "Gustavo Santaolalla",
+"ans": "Howard Shore",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q207773 Howard Shore [Canadian film score composer (born 1946)] occ=['composer', 'conductor', 'film score composer', 'saxophonist'] sl=53"
+},
+{
+"rel": "author",
+"gold": "Aristotle",
+"ans": "George Orwell",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q3335 George Orwell [British writer and journalist (1903–1950)] occ=['writer', 'war correspondent', 'poet', 'essayist'] sl=212"
+},
+{
+"rel": "author",
+"gold": "Lionel Davidson",
+"ans": "Robert Louis Stevenson",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "author",
+"gold": "Ally Carter",
+"ans": "Agatha Christie",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q35064 Agatha Christie [English mystery and detective writer (1890–1976)] occ=['writer', 'novelist', 'screenwriter', 'dramaturge'] sl=197"
+},
+{
+"rel": "author",
+"gold": "John Norman",
+"ans": "Robert A. Heinlein",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q123078 Robert A. Heinlein [American author and aeronautical engineer (1907–19] occ=['writer', 'screenwriter', 'literary critic', 'naval officer'] sl=101"
+},
+{
+"rel": "author",
+"gold": "Hugh Whitemore",
+"ans": "William Shakespeare",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q692 William Shakespeare [English playwright and poet (1564–1616)] occ=['playwright', 'poet', 'stage actor', 'writer'] sl=336"
+},
+{
+"rel": "author",
+"gold": "Justin Richards",
+"ans": "Robert J. Sawyer",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q362742 Robert J. Sawyer [Canadian science fiction writer (born 1960)] occ=['science fiction writer', 'screenwriter', 'writer'] sl=26"
+},
+{
+"rel": "author",
+"gold": "Steve Gerber",
+"ans": "William Faulkner",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "author",
+"gold": "Linda Nagata",
+"ans": "John Kenneth Galbraith",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q186042 John Kenneth Galbraith [Canadian-American economist and diplomat (1908–200] occ=['economist', 'diplomat', 'politician', 'university teacher'] sl=75"
+},
+{
+"rel": "author",
+"gold": "Jackie Collins",
+"ans": "David Sedaris",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q1176577 David Sedaris [American author (born 1956)] occ=['writer', 'essayist', 'comedian'] sl=25"
+},
+{
+"rel": "author",
+"gold": "Jeff Abbott",
+"ans": "John Steinbeck",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q39212 John Steinbeck [American writer (1902–1968)] occ=['writer', 'screenwriter', 'war correspondent', 'novelist'] sl=148"
+},
+{
+"rel": "author",
+"gold": "Brion Gysin",
+"ans": "William Faulkner",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "author",
+"gold": "Otsuichi",
+"ans": "The Beatles",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "non-person Q1299 The Beatles [English pop rock band (1960–1970)]"
+},
+{
+"rel": "author",
+"gold": "Aurora Mardiganian",
+"ans": "William Saroyan",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q207356 William Saroyan [Armenian-American novelist, playwright, and short ] occ=['writer', 'playwright', 'screenwriter', 'novelist'] sl=73"
+},
+{
+"rel": "author",
+"gold": "Jed Mercurio",
+"ans": "David Foster Wallace",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q313246 David Foster Wallace [American fiction writer and essayist (1962–2008)] occ=['writer', 'novelist', 'essayist', 'university teacher'] sl=56"
+},
+{
+"rel": "author",
+"gold": "Jack the Ripper",
+"ans": "Arthur Conan Doyle",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q35610 Arthur Conan Doyle [British writer and physician (1859–1930)] occ=['physician', 'physician writer', 'novelist', 'essayist'] sl=183"
+},
+{
+"rel": "author",
+"gold": "Jamie Smart",
+"ans": "A.A. Milne",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "author",
+"gold": "Shane Maloney",
+"ans": "John Hodgman",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q329372 John Hodgman [American author and humorist] occ=['writer', 'comedian', 'television actor', 'film actor'] sl=17"
+},
+{
+"rel": "author",
+"gold": "Afsaneh Najmabadi",
+"ans": "Mirza Abu'l-Fadl Gulpaygani",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "no wikidata candidate"
+},
+{
+"rel": "author",
+"gold": "Thomas Ligotti",
+"ans": "John Lennon",
+"cur": "2",
+"rule": "1",
+"conf": "hi",
+"ev": "Q1203 John Lennon [British musician (1940–1980)] occ=['writer', 'actor', 'singer-songwriter', 'guitarist'] sl=185"
+},
+{
+"rel": "author",
+"gold": "Orson Scott Card",
+"ans": "John D. MacDonald",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q558425 John D. MacDonald [American writer (1916–1986)] occ=['short story writer', 'novelist', 'screenwriter', 'writer'] sl=33"
+},
+{
+"rel": "author",
+"gold": "Chester Brown",
+"ans": "Jules Verne",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "author",
+"gold": "Victoria Hislop",
+"ans": "William Golding",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q44183 William Golding [British novelist, poet, playwright and Nobel Prize] occ=['writer', 'poet', 'novelist', 'screenwriter'] sl=119"
+},
+{
+"rel": "author",
+"gold": "Fuyumi Soryo",
+"ans": "John von Neumann",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "no holder; top human Q17455 John von Neumann [Hungarian and American mathematician and physicist] occ=['mathematician', 'computer scientist', 'physicist', 'economist'] sl=122"
+},
+{
+"rel": "author",
+"gold": "Piers Anthony",
+"ans": "Jean Cocteau",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "Q83158 Jean Cocteau [French writer and film director (1889–1963)] occ=['painter', 'playwright', 'film director', 'poet'] sl=121"
+},
+{
+"rel": "author",
+"gold": "Ali Smith",
+"ans": "Charles Dickens",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "genre",
+"gold": "telenovela",
+"ans": "rock",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold ['screen'] vs ans rock music ['music']"
+},
+{
+"rel": "genre",
+"gold": "death metal",
+"ans": "Indie rock",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "gold ['music'] vs ans indie rock ['music']"
+},
+{
+"rel": "genre",
+"gold": "real-time tactics",
+"ans": "science fiction",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "genre",
+"gold": "technical death metal",
+"ans": "Romance",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold ['music'] vs ans romance film ['screen']"
+},
+{
+"rel": "genre",
+"gold": "reality television",
+"ans": "drama",
+"cur": "1",
+"rule": "2",
+"conf": "hi",
+"ev": "gold ['screen'] vs ans play ['literary']"
+},
+{
+"rel": "genre",
+"gold": "short story",
+"ans": "science fiction",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "genre",
+"gold": "art rock",
+"ans": "Abstract Expressionism",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "no genre candidate; gold domains=['music']"
+},
+{
+"rel": "genre",
+"gold": "country music",
+"ans": "Thrash metal",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "gold ['music'] vs ans thrash metal ['music']"
+},
+{
+"rel": "genre",
+"gold": "documentary film",
+"ans": "jazz",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "genre",
+"gold": "rock music",
+"ans": "sports",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "no genre candidate; gold domains=['music']"
+},
+{
+"rel": "genre",
+"gold": "indie rock",
+"ans": "crime drama",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold ['music'] vs ans crime drama film ['screen']"
+},
+{
+"rel": "genre",
+"gold": "documentary film",
+"ans": "painting",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "no genre candidate; gold domains=['screen']"
+},
+{
+"rel": "genre",
+"gold": "gothic metal",
+"ans": "science fiction",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "genre",
+"gold": "action film",
+"ans": "pop",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold ['screen'] vs ans pop music ['music']"
+},
+{
+"rel": "genre",
+"gold": "progressive rock",
+"ans": "food",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "no genre candidate; gold domains=['music']"
+},
+{
+"rel": "genre",
+"gold": "interactive fiction",
+"ans": "Punk rock",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "genre",
+"gold": "progressive rock",
+"ans": "action-adventure",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold ['music'] vs ans action-adventure game ['game']"
+},
+{
+"rel": "genre",
+"gold": "thrash metal",
+"ans": "crime",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold ['music'] vs ans crime film ['screen']"
+},
+{
+"rel": "genre",
+"gold": "documentary film",
+"ans": "Progressive rock",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold ['screen'] vs ans progressive rock ['music']"
+},
+{
+"rel": "genre",
+"gold": "opera",
+"ans": "jazz",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "genre",
+"gold": "pop music",
+"ans": "electronic",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "gold ['music'] vs ans electronic music ['music']"
+},
+{
+"rel": "genre",
+"gold": "black metal",
+"ans": "Death metal",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "gold ['music'] vs ans death metal ['music']"
+},
+{
+"rel": "genre",
+"gold": "J-pop",
+"ans": "rock",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "gold ['music'] vs ans rock music ['music']"
+},
+{
+"rel": "genre",
+"gold": "death metal",
+"ans": "indie rock",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "gold ['music'] vs ans indie rock ['music']"
+},
+{
+"rel": "genre",
+"gold": "rock music",
+"ans": "action",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "place of birth",
+"gold": "Floyd County",
+"ans": "New York City",
+"cur": "2",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['United States'] (New York City)"
+},
+{
+"rel": "place of birth",
+"gold": "Toronto",
+"ans": "London",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Canada'] vs ans London ['Kingdom of Wessex', 'Kingdom of Essex', 'United Kingdom of Great Britain and Ireland', 'United Kingdom', 'Kingdom of Mercia', 'Kingdom of Great Britain', 'Roman Empire', 'Kingdom of England']"
+},
+{
+"rel": "place of birth",
+"gold": "Monterrey",
+"ans": "Mexico City",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "place of birth",
+"gold": "Bromsgrove",
+"ans": "Birmingham",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['United Kingdom'] (Birmingham)"
+},
+{
+"rel": "place of birth",
+"gold": "Leverkusen",
+"ans": "Nuremberg",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['Germany'] (Nuremberg)"
+},
+{
+"rel": "place of birth",
+"gold": "Rathmore, County Kerry",
+"ans": "Dublin",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "place of birth",
+"gold": "Autun",
+"ans": "Paris",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['France'] (Paris)"
+},
+{
+"rel": "place of birth",
+"gold": "Briey",
+"ans": "The Hague",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['France'] vs ans The Hague ['Kingdom of Holland', 'First French Empire', 'Spanish Empire', 'Batavian Republic', 'Netherlands', 'Dutch Republic', 'County of Holland', 'Habsburg Netherlands']"
+},
+{
+"rel": "place of birth",
+"gold": "Manchester",
+"ans": "Atlanta",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "place of birth",
+"gold": "Paramaribo",
+"ans": "Delhi",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Suriname'] vs ans Delhi ['India', 'British Raj', 'Ghurid Empire', 'Chahamanas of Shakambhari', 'Tomaras of Delhi', 'Delhi Sultanate', 'Mughal Empire', 'Sur Empire']"
+},
+{
+"rel": "place of birth",
+"gold": "Basutoland",
+"ans": "Paris",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['British Empire', 'Basutoland'] vs ans Paris ['First French Empire', 'Kingdom of France', 'Franciaf', 'France', 'German military administration in occupied France during World War II', 'French First Republic']"
+},
+{
+"rel": "place of birth",
+"gold": "Wilmington",
+"ans": "Denver, Colorado",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "place of birth",
+"gold": "Theresa",
+"ans": "Kansas City",
+"cur": "2",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['United States'] (Kansas City)"
+},
+{
+"rel": "place of birth",
+"gold": "Antwerp",
+"ans": "New York City",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Belgium', 'Spanish Netherlands', 'Austrian Netherlands', 'Habsburg Netherlands'] vs ans New York City ['United States']"
+},
+{
+"rel": "place of birth",
+"gold": "Dakar",
+"ans": "Paris",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Senegal'] vs ans Paris ['First French Empire', 'Kingdom of France', 'Franciaf', 'France', 'German military administration in occupied France during World War II', 'French First Republic']"
+},
+{
+"rel": "place of birth",
+"gold": "Stamford",
+"ans": "New York City",
+"cur": "2",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['United States'] (New York City)"
+},
+{
+"rel": "place of birth",
+"gold": "Vienna",
+"ans": "Salzburg",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "place of birth",
+"gold": "Sanaa",
+"ans": "Baghdad",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Yemen'] vs ans Baghdad ['Mandatory Iraq', 'Qara Qoyunlu', 'Ottoman Empire', 'Aq Qoyunlu', 'Safavid Iran', 'Iraq', 'Buyid dynasty', 'Ilkhanate', 'Sasanian Empire', 'Kingdom of Iraq', 'Abbasid Caliphate', 'Jalayirid Sultanate']"
+},
+{
+"rel": "place of birth",
+"gold": "Chicago",
+"ans": "New York City",
+"cur": "2",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['United States'] (New York City)"
+},
+{
+"rel": "place of birth",
+"gold": "Brighton",
+"ans": "London",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['United Kingdom of Great Britain and Ireland', 'United Kingdom'] (London)"
+},
+{
+"rel": "place of birth",
+"gold": "Mexico City",
+"ans": "New York City",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "place of birth",
+"gold": "United States of America",
+"ans": "New York City",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['United States'] (New York City)"
+},
+{
+"rel": "place of birth",
+"gold": "Prague",
+"ans": "Berlin",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Protectorate of Bohemia and Moravia', 'Duchy of Bohemia', 'Bohemia', 'Austrian Empire', 'Holy Roman Empire', 'Kingdom of Bohemia', 'Austria–Hungary', 'Czechoslovakia', 'Czech Republic'] vs ans Berlin ['Brandenburg-Prussia', 'Kingdom of Prussia', 'German Empire', 'East Germany', 'Nazi Germany', 'Margraviate of Brandenburg', 'North German Confederation', 'Germany', 'Soviet occupation zone of Germany', 'West Germany', 'Weimar Republic']"
+},
+{
+"rel": "place of birth",
+"gold": "Canons Park",
+"ans": "New York City",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['United Kingdom'] vs ans New York City ['United States']"
+},
+{
+"rel": "place of birth",
+"gold": "Denmark",
+"ans": "Mohenjo-daro",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "capital",
+"gold": "Saint-Doulchard",
+"ans": "Neuchâtel",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['France'] vs ans Canton of Neuchâtel ['Switzerland']"
+},
+{
+"rel": "capital",
+"gold": "Kribi",
+"ans": "Saint-Pierre",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Cameroon'] vs ans Saint-Pierre ['France']"
+},
+{
+"rel": "capital",
+"gold": "Maymana",
+"ans": "Mazar-e Sharif",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "capital",
+"gold": "Molde",
+"ans": "Ålesund",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['Norway'] (Ålesund Municipality)"
+},
+{
+"rel": "capital",
+"gold": "London",
+"ans": "Dublin",
+"cur": "2",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['United Kingdom of Great Britain and Ireland'] (Dublin)"
+},
+{
+"rel": "capital",
+"gold": "Downpatrick",
+"ans": "Belfast",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "capital",
+"gold": "Vielha e Mijaran",
+"ans": "Llagostera",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['Spain'] (Llagostera)"
+},
+{
+"rel": "capital",
+"gold": "Racine",
+"ans": "Kenosha",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['United States'] (Kenosha)"
+},
+{
+"rel": "capital",
+"gold": "Bolgatanga",
+"ans": "Tamale",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "capital",
+"gold": "Mathoura",
+"ans": "Echuca",
+"cur": "2",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['Australia'] (Echuca)"
+},
+{
+"rel": "capital",
+"gold": "Athens",
+"ans": "Cairo",
+"cur": "2",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['Ottoman Empire'] (Cairo)"
+},
+{
+"rel": "capital",
+"gold": "Katsina",
+"ans": "Daura",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "capital",
+"gold": "Lawrenceburg",
+"ans": "Central City",
+"cur": "2",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['United States'] (Central City)"
+},
+{
+"rel": "capital",
+"gold": "Adado",
+"ans": "Shimla",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Somalia'] vs ans Shimla ['India']"
+},
+{
+"rel": "capital",
+"gold": "Tarusa",
+"ans": "Krasnoyarsk",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "capital",
+"gold": "Polkowice",
+"ans": "Szczecin",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['Poland'] (Szczecin)"
+},
+{
+"rel": "capital",
+"gold": "Yalutorovsk",
+"ans": "Yaroslavl",
+"cur": "2",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['Russia', 'Soviet Union'] (Yaroslavl Oblast)"
+},
+{
+"rel": "capital",
+"gold": "Big Timber",
+"ans": "Crow Agency",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "capital",
+"gold": "Port Lavaca",
+"ans": "Battle Creek",
+"cur": "2",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['United States'] (Battle Creek)"
+},
+{
+"rel": "capital",
+"gold": "Sensuntepeque",
+"ans": "San Salvador",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['El Salvador'] (San Salvador)"
+},
+{
+"rel": "capital",
+"gold": "Seymchan",
+"ans": "Komsomolsk-on-Amur",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "capital",
+"gold": "Mobaye",
+"ans": "Maroua",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Central African Republic'] vs ans Marouane Fellaini ['Belgium']"
+},
+{
+"rel": "capital",
+"gold": "Buea",
+"ans": "Austin",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Cameroon'] vs ans Austin ['United States']"
+},
+{
+"rel": "capital",
+"gold": "Tarnogsky Gorodok",
+"ans": "Kremenchuk",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "capital",
+"gold": "Libode",
+"ans": "Port Elizabeth",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['South Africa'] (Gqeberha)"
+},
+{
+"rel": "country",
+"gold": "Croatia",
+"ans": "Netherlands",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Croatia'] vs ans Netherlands ['Netherlands', 'Kingdom of the Netherlands']"
+},
+{
+"rel": "country",
+"gold": "France",
+"ans": "Philippines",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "country",
+"gold": "Slovenia",
+"ans": "United States",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Slovenia'] vs ans United States ['United States']"
+},
+{
+"rel": "country",
+"gold": "Iran",
+"ans": "Denmark",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Iran'] vs ans Denmark ['Kingdom of Denmark', 'Denmark']"
+},
+{
+"rel": "country",
+"gold": "Finland",
+"ans": "Russia",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "country",
+"gold": "Norway",
+"ans": "Argentina",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Norway'] vs ans Argentina ['Argentina']"
+},
+{
+"rel": "country",
+"gold": "France",
+"ans": "New York City",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['France'] vs ans New York City ['United States']"
+},
+{
+"rel": "country",
+"gold": "United States of America",
+"ans": "Ireland",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['United States'] vs ans Ireland ['Ireland']"
+},
+{
+"rel": "country",
+"gold": "Czech Republic",
+"ans": "Peru",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "country",
+"gold": "Sweden",
+"ans": "United States",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Sweden'] vs ans United States ['United States']"
+},
+{
+"rel": "country",
+"gold": "Iran",
+"ans": "United States",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Iran'] vs ans United States ['United States']"
+},
+{
+"rel": "country",
+"gold": "Iran",
+"ans": "Russia",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Iran'] vs ans Russia ['Russia']"
+},
+{
+"rel": "country",
+"gold": "Australia",
+"ans": "United Kingdom",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Australia'] vs ans United Kingdom ['United Kingdom']"
+},
+{
+"rel": "country",
+"gold": "Canada",
+"ans": "United Kingdom",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Canada'] vs ans United Kingdom ['United Kingdom']"
+},
+{
+"rel": "country",
+"gold": "India",
+"ans": "Brazil",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "country",
+"gold": "United States of America",
+"ans": "Vatican City",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['United States'] vs ans Vatican City ['Vatican City']"
+},
+{
+"rel": "country",
+"gold": "United States of America",
+"ans": "Switzerland",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['United States'] vs ans Switzerland ['Switzerland']"
+},
+{
+"rel": "country",
+"gold": "Brazil",
+"ans": "Germany",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "country",
+"gold": "United States of America",
+"ans": "California",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['United States'] (California)"
+},
+{
+"rel": "country",
+"gold": "United States of America",
+"ans": "Los Angeles",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['United States'] (Los Angeles)"
+},
+{
+"rel": "country",
+"gold": "Czech Republic",
+"ans": "Croatia",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Czech Republic'] vs ans Croatia ['Croatia']"
+},
+{
+"rel": "country",
+"gold": "North Korea",
+"ans": "South Korea",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "country",
+"gold": "Indonesia",
+"ans": "Ecuador",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Indonesia'] vs ans Ecuador ['Ecuador']"
+},
+{
+"rel": "country",
+"gold": "Nigeria",
+"ans": "Vietnam",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Nigeria'] vs ans Vietnam ['Vietnam']"
+},
+{
+"rel": "country",
+"gold": "Namibia",
+"ans": "United States",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "capital of",
+"gold": "Yokohama",
+"ans": "Kansai",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['Japan'] (Kansai region)"
+},
+{
+"rel": "capital of",
+"gold": "Osona",
+"ans": "Australia",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "capital of",
+"gold": "Sala Municipality",
+"ans": "Republic of Macedonia",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Sweden'] vs ans North Macedonia ['North Macedonia']"
+},
+{
+"rel": "capital of",
+"gold": "Dorchester County",
+"ans": "England",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['United States'] vs ans England ['United Kingdom', 'Kingdom of Great Britain', 'England', 'United Kingdom of Great Britain and Ireland', 'Kingdom of England']"
+},
+{
+"rel": "capital of",
+"gold": "Maranoa Region",
+"ans": "Republic of Macedonia",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "capital of",
+"gold": "Christmas Island",
+"ans": "Ascension Island",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Australia'] vs ans Ascension Island ['realm of the United Kingdom']"
+},
+{
+"rel": "capital of",
+"gold": "Harper County",
+"ans": "Albany",
+"cur": "2",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['United States'] (Albany)"
+},
+{
+"rel": "capital of",
+"gold": "Northern Wei",
+"ans": "Kingdom of Wei",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "capital of",
+"gold": "Hand County",
+"ans": "El Paso County",
+"cur": "2",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['United States'] (El Paso County)"
+},
+{
+"rel": "capital of",
+"gold": "City of Hawkesbury",
+"ans": "Canada",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Australia'] vs ans Canada ['Canada']"
+},
+{
+"rel": "capital of",
+"gold": "Osona",
+"ans": "Belize",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "capital of",
+"gold": "Hainaut",
+"ans": "Province of Namur",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['Belgium'] (Province of Namur)"
+},
+{
+"rel": "capital of",
+"gold": "Teleorman County",
+"ans": "Egypt",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Romania'] vs ans Egypt ['Egypt']"
+},
+{
+"rel": "capital of",
+"gold": "Northern Wei",
+"ans": "Japan",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "capital of",
+"gold": "City of Brimbank",
+"ans": "Republic of the Philippines",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Australia'] vs ans Philippines ['Philippines']"
+},
+{
+"rel": "capital of",
+"gold": "City of Hawkesbury",
+"ans": "Windsor Castle",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Australia'] vs ans Windsor Castle ['Windsor Castle', 'United Kingdom']"
+},
+{
+"rel": "capital of",
+"gold": "City of Brimbank",
+"ans": "Sunshine Coast",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "capital of",
+"gold": "Shire of Southern Grampians",
+"ans": "New Zealand",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "neighbor country ['New Zealand']"
+},
+{
+"rel": "capital of",
+"gold": "Delaware County",
+"ans": "New York",
+"cur": "2",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['United States'] (New York City)"
+},
+{
+"rel": "capital of",
+"gold": "Sala Municipality",
+"ans": "Province of Salamanca",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "capital of",
+"gold": "City of Brimbank",
+"ans": "South Africa",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "gold country ['Australia'] vs ans South Africa ['South Africa']"
+},
+{
+"rel": "capital of",
+"gold": "Vaxholm Municipality",
+"ans": "Uppland",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['Sweden'] (Uppland)"
+},
+{
+"rel": "capital of",
+"gold": "Harper County",
+"ans": "New York",
+"cur": "2",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['United States'] (New York City)"
+},
+{
+"rel": "capital of",
+"gold": "Tsu Domain",
+"ans": "Shikoku",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "capital of",
+"gold": "Ozaukee County",
+"ans": "New York",
+"cur": "2",
+"rule": "1",
+"conf": "hi",
+"ev": "same country ['United States'] (New York City)"
+},
+{
+"rel": "father",
+"gold": "Ptolemy I Soter",
+"ans": "Atalanta",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "no human candidate"
+},
+{
+"rel": "father",
+"gold": "Frederick II of Legnica",
+"ans": "Frederick I of Prussia",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "no family link; top Frederick I of Prussia [1657 – 1713, Elector of Brandenburg and ]"
+},
+{
+"rel": "father",
+"gold": "Tantieme",
+"ans": "John Morrison",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "father",
+"gold": "Gustaf V of Sweden",
+"ans": "Charles IX of Sweden",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same family name"
+},
+{
+"rel": "father",
+"gold": "War Admiral",
+"ans": "Peter Purves",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "no family link; top Peter Purves [English actor and television presenter]"
+},
+{
+"rel": "father",
+"gold": "Hail To Reason",
+"ans": "Sir Gaylord",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "no human candidate"
+},
+{
+"rel": "father",
+"gold": "Samuel Frederick Gray",
+"ans": "George Gray",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same family name"
+},
+{
+"rel": "father",
+"gold": "Emperor Zhang of Han",
+"ans": "Emperor Xuan of Han",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "father",
+"gold": "Mehmed the Conqueror",
+"ans": "Sultan Alp Arslan",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "no human candidate"
+},
+{
+"rel": "father",
+"gold": "Bethuel",
+"ans": "John",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "no family link; top John Lindley [English botanist, gardener, orchidologis]"
+},
+{
+"rel": "father",
+"gold": "Devapala",
+"ans": "King Jayavarman VII",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "no human candidate"
+},
+{
+"rel": "father",
+"gold": "James II of England",
+"ans": "George III",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "father",
+"gold": "Loki",
+"ans": "Odin",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "no human candidate"
+},
+{
+"rel": "father",
+"gold": "Andrew II of Hungary",
+"ans": "Stephen V",
+"cur": "1",
+"rule": "2",
+"conf": "hi",
+"ev": "no family link; top Stephen V [pope]"
+},
+{
+"rel": "father",
+"gold": "Jack Palance",
+"ans": "John Wayne",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "father",
+"gold": "Andrew I of Hungary",
+"ans": "John Lithgow",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "no family link; top John Lithgow [American actor (born 1945)]"
+},
+{
+"rel": "father",
+"gold": "Errol Flynn",
+"ans": "Frank Sinatra",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "no family link; top Frank Sinatra [American singer and actor (1915–1998)]"
+},
+{
+"rel": "father",
+"gold": "Abbas Mirza",
+"ans": "Fath-Ali Shah Qajar",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "father",
+"gold": "Wenceslaus I of Zator",
+"ans": "Jan III",
+"cur": "1",
+"rule": "2",
+"conf": "hi",
+"ev": "no family link; top John III Sobieski [King of Poland and Grand Duke of Lithuan]"
+},
+{
+"rel": "father",
+"gold": "V. Shantaram",
+"ans": "Rajesh Khanna",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "no family link; top Rajesh Khanna [Indian actor and film producer (1942–201]"
+},
+{
+"rel": "father",
+"gold": "Amun",
+"ans": "Horus",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "father",
+"gold": "Bull Lea",
+"ans": "John D. Rockefeller",
+"cur": "1",
+"rule": "2",
+"conf": "hi",
+"ev": "no family link; top John D. Rockefeller [American industrialist and philanthropis]"
+},
+{
+"rel": "father",
+"gold": "Dick Cheney",
+"ans": "Tom Cheney",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same family name"
+},
+{
+"rel": "father",
+"gold": "Michael I Apafi",
+"ans": "John Zápolya",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "no family link; top John Zápolya [King of Hungary, Prince of Transylvania]"
+},
+{
+"rel": "father",
+"gold": "Charles August Lindbergh",
+"ans": "Richard Charles Lindbergh",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same family name"
+},
+{
+"rel": "mother",
+"gold": "Adela of Normandy",
+"ans": "Theobald I of Champagne",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "mother",
+"gold": "Empress Xiaoyichun",
+"ans": "Li Xiangjun",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "no family link; top Li Xiangjun [courtesan, singer, and musician during t]"
+},
+{
+"rel": "mother",
+"gold": "Italia Coppola",
+"ans": "Talia Shire",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "relative Q108622 Talia Shire"
+},
+{
+"rel": "mother",
+"gold": "Anna DiMera",
+"ans": "Margaret Brady",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "mother",
+"gold": "Cynethryth",
+"ans": "King Æthelwulf",
+"cur": "1",
+"rule": "2",
+"conf": "hi",
+"ev": "no family link; top Æthelwulf [King of Wessex]"
+},
+{
+"rel": "mother",
+"gold": "Styx",
+"ans": "Leda",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "no human candidate"
+},
+{
+"rel": "mother",
+"gold": "Ninlil",
+"ans": "Sumerians",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "mother",
+"gold": "Marie Eleonore of Cleves",
+"ans": "Princess Louise of Hesse",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "no family link; top Princess Louise of Hesse-Darmstadt [German salonnière, daughter of Landgrave]"
+},
+{
+"rel": "mother",
+"gold": "Princess Zorka of Montenegro",
+"ans": "Jelena Njegoš",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "no human candidate"
+},
+{
+"rel": "mother",
+"gold": "Maria Theresa of Austria",
+"ans": "Maria Josepha of Bavaria",
+"cur": "1",
+"rule": "2",
+"conf": "hi",
+"ev": "no family link; top Maria Josepha of Bavaria [Holy Roman empress (1739-1767); died you]"
+},
+{
+"rel": "mother",
+"gold": "Princess Zorka of Montenegro",
+"ans": "Queen Draga",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "mother",
+"gold": "Edith Roosevelt",
+"ans": "Eleanor Roosevelt",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same family name"
+},
+{
+"rel": "mother",
+"gold": "Eleanor of Castile",
+"ans": "Matilda of Flanders",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "no family link; top Matilda of Flanders [Duchess of Brabant]"
+},
+{
+"rel": "mother",
+"gold": "Yang Kaihui",
+"ans": "Mao Yichang",
+"cur": "1",
+"rule": "2",
+"conf": "hi",
+"ev": "no family link; top Mao Yichang [father of Mao Zedong (1870–1920)]"
+},
+{
+"rel": "mother",
+"gold": "Ethel Skakel Kennedy",
+"ans": "Maxine Kennedy",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same family name"
+},
+{
+"rel": "mother",
+"gold": "Lanassa",
+"ans": "Eudokia Doukaina",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "mother",
+"gold": "Edith Roosevelt",
+"ans": "Anna Eleanor Roosevelt",
+"cur": "1",
+"rule": "1",
+"conf": "hi",
+"ev": "same family name"
+},
+{
+"rel": "mother",
+"gold": "Ingund",
+"ans": "Gerberga of Saxony",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "no family link; top Gerberga of Saxony [oldest daughter of King Henry of Saxony,]"
+},
+{
+"rel": "mother",
+"gold": "Katharine Russell, Viscountess Amberley",
+"ans": "Constance Murray",
+"cur": "2",
+"rule": "2",
+"conf": "lo",
+"ev": "no family link; top Constance Margaret Murray [(born 1922)]"
+},
+{
+"rel": "mother",
+"gold": "Jane Stanhope, Countess of Harrington",
+"ans": "Queen Victoria",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "no family link; top Victoria [Queen of the United Kingdom from 1837 to]"
+},
+{
+"rel": "mother",
+"gold": "Ernmas",
+"ans": "Ériu",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+},
+{
+"rel": "mother",
+"gold": "Empress Xiaoyichun",
+"ans": "Mrs. Wang",
+"cur": "2",
+"rule": "?",
+"conf": "lo",
+"ev": "no human candidate"
+},
+{
+"rel": "mother",
+"gold": "Cäcilia Weber",
+"ans": "Maria Anna Mozart",
+"cur": "1",
+"rule": "2",
+"conf": "hi",
+"ev": "no family link; top Maria Anna Mozart [Austrian musician]"
+},
+{
+"rel": "mother",
+"gold": "Maria Miloslavskaya",
+"ans": "Catherine the Great",
+"cur": "2",
+"rule": "2",
+"conf": "hi",
+"ev": "no family link; top Catherine II of Russia [eighth Emperor of Russia, called the Gre]"
+},
+{
+"rel": "mother",
+"gold": "Lanassa",
+"ans": "Helen of Epirus",
+"cur": "1",
+"rule": "?",
+"conf": "lo",
+"ev": "error RuntimeError"
+}
+]
