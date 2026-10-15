@@ -12,3 +12,7 @@ sae_analysis/results*/
 sae_analysis/logs/
 sae_analysis/*.json
 sae_analysis/*.md
+.env
+grounded_dream/*.json
+grounded_dream/*.jsonl
+grounded_dream/*.tsv

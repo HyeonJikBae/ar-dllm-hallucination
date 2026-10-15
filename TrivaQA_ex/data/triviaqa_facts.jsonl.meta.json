@@ -1,0 +1,43 @@
+{
+  "available_facts": 9961,
+  "created_at_utc": "2026-08-31T06:29:00.473720+00:00",
+  "duplicate_question_ids": {
+    "bb_956": 2
+  },
+  "excluded_all_aliases_exposed_count": 2,
+  "excluded_all_aliases_exposed_fact_ids": [
+    "qz_2718__c8b945635497",
+    "qf_3452__c3dd075a139f"
+  ],
+  "fact_id_rule": "question_id + '__' + sha256(question)[:12]",
+  "requested_num_facts": 100,
+  "schema_version": 1,
+  "seed": 42,
+  "selected_facts": 100,
+  "source_batches": [
+    "batch_0.json",
+    "batch_1.json",
+    "batch_10.json",
+    "batch_11.json",
+    "batch_12.json",
+    "batch_13.json",
+    "batch_14.json",
+    "batch_15.json",
+    "batch_16.json",
+    "batch_17.json",
+    "batch_18.json",
+    "batch_19.json",
+    "batch_2.json",
+    "batch_3.json",
+    "batch_4.json",
+    "batch_5.json",
+    "batch_6.json",
+    "batch_7.json",
+    "batch_8.json",
+    "batch_9.json"
+  ],
+  "source_dir": "/NAS/minyeol/sae_entities/dataset/processed/triviaqa/gemma-2b-it",
+  "split_counts": {
+    "validation": 9961
+  }
+}

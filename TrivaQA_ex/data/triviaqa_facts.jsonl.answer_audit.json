@@ -1,0 +1,13 @@
+{
+  "canonical_field": "answer.value",
+  "config": "rc.nocontext",
+  "created_at_utc": "2026-08-31T07:15:13.296465+00:00",
+  "dataset": "mandarjoshi/trivia_qa",
+  "fact_count": 100,
+  "official_alias_count_max": 182,
+  "official_alias_count_min": 1,
+  "official_alias_count_total": 1677,
+  "official_alias_field": "answer.aliases",
+  "revision": "0f7faf33a3908546c6fd5b73a660e0f8ff173c2f",
+  "split": "validation"
+}

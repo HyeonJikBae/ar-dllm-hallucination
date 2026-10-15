@@ -1,0 +1,17 @@
+{
+  "fact_count": 100,
+  "repair_notes": {
+    "odql_3280__0f3c67297533": "Corrected inverted east/west relational wording.",
+    "qb_3702__8d8cf76caf05": "Made the objects/products, rather than the phrase itself, the answer target.",
+    "qb_590__b3a587265ac2": "Restored the musician, rather than age, as the answer target.",
+    "qb_7132__01d756cb549c": "Made the missing title word, rather than the full album title, the answer target.",
+    "qw_13355__256e8e0fdab6": "Made the playing surface, rather than a geographic location, the answer target.",
+    "qw_15839__d37c3243bbf5": "Removed publisher-person versus publishing-company ambiguity.",
+    "qw_9494__36c2e0eb46a5": "Removed a country/capital inversion.",
+    "sfq_19011__697b024818fc": "Kept the general dog type as the answer target."
+  },
+  "repaired_fact_count": 8,
+  "repaired_variant_count": 19,
+  "reviewed_at_utc": "2026-08-31T07:15:13.664393+00:00",
+  "reviewer": "codex_agent_manual_review"
+}

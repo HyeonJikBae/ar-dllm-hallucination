@@ -1,0 +1,10 @@
+# Install the CUDA-matched PyTorch wheel for the server before this file.
+torch==2.6.0
+transformers==4.49.0
+accelerate==1.4.0
+huggingface-hub==0.29.2
+safetensors>=0.5.3
+numpy==1.26.4
+openai>=1.68.0,<2
+python-dotenv>=1.0.0
+datasets==3.3.2
