@@ -31,3 +31,10 @@ analysis/2_know_but_wrong/  안다 / 아는데 틀린다 / 모른다 구분
 
 유형: 1 관련 개체, 2 무관한 개체, 3 질문 베낌, 4 맞은 뒤 틀림, 5 지어낸 이름, 6 붕괴, abstain 거절. 3이 5보다 먼저 배정된다(답의 내용어가 전부 질문에 있으면 3).
 `type3`: entity(1, 2, 4), broken(3, 5, 6), abstain.
+
+## 은닉 상태 받기 (git에 없음)
+`data/1_raw/dream_hidden_steps/`(65GB)와 `data/1_raw/qwen_hidden/`(0.3GB)는 NAS에 있다.
+```
+rsync -a --partial --info=progress2 /NAS/hyeonjik/hidden_states/ <repo>/hyeonjik/data/1_raw/
+```
+받은 뒤 분석은 repo 루트에서 `python3 hyeonjik/analysis/1_signal_search/signal_search.py dream|qwen`, `python3 hyeonjik/analysis/2_know_but_wrong/three_states.py dream|qwen broken|entity`로 실행한다. SAE 불러오는 코드(`sae_analysis/dream_sae_compare.py`, `extract_qwen_features.py`)와 SAE 가중치(`sae/`)는 repo에 있어야 한다.
