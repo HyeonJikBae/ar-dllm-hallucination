@@ -1,0 +1,184 @@
+<title>PopQA 최종 채점 보고서</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: single reading column, tables scroll inside their own wrapper */
+:root{--bg:#f6f7f5;--fg:#1d2321;--mute:#5c6663;--line:#d8dcd8;--panel:#ffffff;--accent:#1f6f5c;--accent2:#b5532a;--soft:#e6efeb;
+--sans:"IBM Plex Sans KR",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141917;--fg:#e4e8e5;--mute:#98a39f;--line:#2e3935;--panel:#1b221f;--accent:#58b9a0;--accent2:#e08a5e;--soft:#22302b;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141917;--fg:#e4e8e5;--mute:#98a39f;--line:#2e3935;--panel:#1b221f;--accent:#58b9a0;--accent2:#e08a5e;--soft:#22302b;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.7;padding-block:32px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+main{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:28px;min-width:0}
+h1{font-size:28px;line-height:1.3;margin:0;text-wrap:balance}
+h2{font-size:20px;margin:0 0 10px;padding-top:6px;border-top:2px solid var(--accent);text-wrap:balance}
+h3{font-size:16px;margin:18px 0 6px}
+p{margin:0 0 10px}
+.sub{color:var(--mute);margin:6px 0 0}
+section{min-width:0}
+.tw{overflow-x:auto;margin:10px 0}
+table{border-collapse:collapse;width:100%;font-size:13.5px;font-variant-numeric:tabular-nums}
+th,td{border-bottom:1px solid var(--line);padding:6px 10px;text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+th{background:var(--soft);font-weight:500}
+td.l,th.l{text-align:left;white-space:normal}
+code,.m{font-family:var(--mono);font-size:12.5px}
+pre{background:var(--panel);border:1px solid var(--line);padding:12px;overflow-x:auto;font-family:var(--mono);font-size:12.5px;line-height:1.55;margin:10px 0}
+.box{background:var(--panel);border:1px solid var(--line);padding:12px 16px;margin:10px 0}
+.warn{border-left:4px solid var(--accent2)}
+.big{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.big div{background:var(--panel);border:1px solid var(--line);padding:12px 16px}
+.big b{display:block;font-size:24px;font-variant-numeric:tabular-nums}
+.big span{color:var(--mute);font-size:13px}
+ul,ol{margin:0 0 10px;padding-left:22px}
+li{margin-bottom:4px}
+.bar{display:flex;height:14px;border:1px solid var(--line);min-width:160px}
+.bar i{display:block;height:100%}
+</style>
+
+<main>
+<header>
+<h1>PopQA 최종 채점 보고서: Qwen2.5-7B와 Dream-v0-Base-7B</h1>
+<p class="sub">대상: 이 프로젝트의 공동 연구자. 두 모델의 정답/오답 수, 오답 유형, 0/5~5/5 분포와 채점·분류 방법 전체.</p>
+</header>
+
+<section>
+<h2>1. 데이터</h2>
+<p>PopQA 사실 11,045개에 대해 질문을 5가지 표현으로 바꿔 모델에 물었다. 한 모델당 11,045 × 5 = 55,225개 답변이다. Dream은 32 step, topk_margin 디코딩으로 생성했다. 두 모델 모두 같은 규칙으로 채점하고 같은 정책으로 오답을 분류했다.</p>
+<div class="tw"><table>
+<tr><th></th><th>전체 답변</th><th>정답</th><th>오답</th><th>정답률</th></tr>
+<tr><td>Qwen2.5-7B</td><td>55,225</td><td>10,028</td><td>45,197</td><td>18.2%</td></tr>
+<tr><td>Dream-v0-Base-7B</td><td>55,225</td><td>7,781</td><td>47,444</td><td>14.1%</td></tr>
+</table></div>
+<p>제외하는 행은 없다. 모든 행이 정답 또는 오답이고, 모든 오답에는 유형이 하나씩 붙어 있다.</p>
+</section>
+
+<section>
+<h2>2. 0/5 ~ 5/5 (사실 단위)</h2>
+<p>한 사실의 5개 표현 중 몇 개를 맞혔는지로 묶은 것이다. 표의 수는 사실 개수다.</p>
+<div class="tw"><table>
+<tr><th></th><th>0/5</th><th>1/5</th><th>2/5</th><th>3/5</th><th>4/5</th><th>5/5</th><th>합계</th></tr>
+<tr><td>Qwen2.5-7B</td><td>8,438</td><td>341</td><td>247</td><td>276</td><td>350</td><td>1,393</td><td>11,045</td></tr>
+<tr><td>Dream-v0-Base-7B</td><td>8,833</td><td>396</td><td>260</td><td>264</td><td>387</td><td>905</td><td>11,045</td></tr>
+</table></div>
+<p>1/5~4/5는 모델이 사실을 "아는 듯한데 표현에 따라 틀리는" 구간이다. Qwen은 1,214개, Dream은 1,307개다. Dream은 5/5가 Qwen보다 488개 적고, 0/5가 395개 많다.</p>
+
+<h3>오답 행을 사실 그룹별로 나눈 유형 분포 (행 수)</h3>
+<div class="tw"><table>
+<tr><th>Qwen</th><th>entity</th><th>broken</th><th>abstain</th><th>broken 비율</th></tr>
+<tr><td>0/5</td><td>39,850</td><td>2,028</td><td>312</td><td>4.8%</td></tr>
+<tr><td>1/5</td><td>1,284</td><td>73</td><td>7</td><td>5.4%</td></tr>
+<tr><td>2/5</td><td>700</td><td>38</td><td>3</td><td>5.1%</td></tr>
+<tr><td>3/5</td><td>511</td><td>40</td><td>1</td><td>7.2%</td></tr>
+<tr><td>4/5</td><td>327</td><td>23</td><td>0</td><td>6.6%</td></tr>
+</table></div>
+<div class="tw"><table>
+<tr><th>Dream</th><th>entity</th><th>broken</th><th>abstain</th><th>broken 비율</th></tr>
+<tr><td>0/5</td><td>36,235</td><td>7,494</td><td>436</td><td>17.0%</td></tr>
+<tr><td>1/5</td><td>1,337</td><td>238</td><td>9</td><td>15.0%</td></tr>
+<tr><td>2/5</td><td>576</td><td>202</td><td>2</td><td>25.9%</td></tr>
+<tr><td>3/5</td><td>360</td><td>167</td><td>1</td><td>31.6%</td></tr>
+<tr><td>4/5</td><td>236</td><td>151</td><td>0</td><td>39.0%</td></tr>
+</table></div>
+<p>5/5 사실에는 오답이 없으므로 표에 없다. Qwen은 사실을 얼마나 아는지와 상관없이 broken 비율이 5~7%로 비슷하다. Dream은 사실을 많이 알수록(4/5) 오답 중 broken 비율이 39%까지 올라간다. 4/5 그룹은 표본이 작다(Dream 387행, Qwen 350행).</p>
+</section>
+
+<section>
+<h2>3. 오답 유형 분포</h2>
+<p>오답은 세 유형으로 나눈다. 분류 결과는 <code>type3</code> 열에 들어 있다 (값: entity, broken, abstain, 정답은 correct).</p>
+<div class="tw"><table>
+<tr><th>유형</th><th class="l">뜻</th><th>Qwen</th><th>%</th><th>Dream</th><th>%</th></tr>
+<tr><td>entity</td><td class="l">골드가 아닌 다른 실재 개체를 답함</td><td>42,672</td><td>94.4</td><td>38,744</td><td>81.7</td></tr>
+<tr><td>broken</td><td class="l">생성이 망가진 답: 질문 베낌, 지어낸 이름, 붕괴</td><td>2,202</td><td>4.9</td><td>8,252</td><td>17.4</td></tr>
+<tr><td>abstain</td><td class="l">모르겠다고 거절</td><td>323</td><td>0.7</td><td>448</td><td>0.9</td></tr>
+<tr><td><b>합계</b></td><td></td><td><b>45,197</b></td><td></td><td><b>47,444</b></td><td></td></tr>
+</table></div>
+<p>Dream은 broken이 Qwen의 3.7배다(8,252행 대 2,202행). 이 차이가 두 모델의 가장 큰 차이다.</p>
+<h3>entity의 세부</h3>
+<div class="tw"><table>
+<tr><th></th><th>1 관련 개체</th><th>2 무관한 개체</th><th>4 맞은 뒤 틀림</th></tr>
+<tr><td>Qwen</td><td>32,065</td><td>10,604</td><td>3</td></tr>
+<tr><td>Dream</td><td>22,730</td><td>16,009</td><td>5</td></tr>
+</table></div>
+<h3>broken의 세부</h3>
+<div class="tw"><table>
+<tr><th></th><th>질문 베낌</th><th>지어낸 이름</th><th>붕괴</th></tr>
+<tr><td>Qwen</td><td>1,361</td><td>89</td><td>752</td></tr>
+<tr><td>Dream</td><td>5,165</td><td>386</td><td>2,701</td></tr>
+</table></div>
+<p>세부 유형은 <code>final_label</code>(entity는 1, 2, 4, broken은 3, 5, 6)에 있다.</p>
+</section>
+
+<section>
+<h2>4. 정답/오답 채점 방법</h2>
+<p>이분법이다. 모든 답변은 정답 또는 오답 둘 중 하나이고, 애매한 행을 따로 빼지 않는다. 구현은 <code>grounded_dream/paper_grade.py</code>이고 두 모델에 똑같이 적용한다.</p>
+<ol>
+<li><b>답변 정리.</b> 모델 출력에서 첫 줄/첫 문장만 쓴다. 뒤에 붙은 웹 잔해("Take the 2-minute tour" 등)와 "The film was directed by …" 같은 틀을 걷어 내고, 핵심 개체 구절만 남긴다. 정리 전 문자열과 정리 후 문자열 둘 다 후보로 쓴다.</li>
+<li><b>정규화.</b> 소문자화, 구두점·관사 제거, 공백 정리.</li>
+<li><b>비교 대상.</b> 골드 값과 골드의 모든 별칭(Wikidata alias).</li>
+<li><b>로마 숫자 검사.</b> 군주·속편 등에 붙는 I~XII는 답변과 골드가 같아야 한다. 다르면 문자열이 비슷해도 오답이다 (예: Henry II와 Henry III).</li>
+<li><b>유사도.</b> 정규화한 두 문자열이 같거나, difflib 비율 또는 토큰 정렬 비율 중 큰 값이 90 이상이면 정답.</li>
+<li>후보 중 하나라도 조건을 만족하면 정답, 아니면 오답.</li>
+</ol>
+<pre>TH = 90
+def is_correct(r):
+    cands = [norm(a), norm(core(a))]           # 정리 전/후
+    golds = [norm(gold)] + [norm(x) for x in aliases]
+    for c in cands:
+        for g in golds:
+            if roman(c) != roman(g): continue  # I~XII 불일치면 건너뜀
+            if c == g or max(ratio(c, g), token_sort_ratio(c, g)) >= 90:
+                return True
+    return False</pre>
+
+<h3>Ferrando et al. 2025 (arXiv 2411.14257)와의 관계</h3>
+<ul>
+<li>논문은 thefuzz의 <code>token_set_ratio &gt; 90</code>을 쓰고, 사실을 "알고 있음"(속성 2개 이상 정답)과 "모름"(전부 오답)으로 나누고 중간은 버린다. 우리는 이분법을 쓰고 아무것도 버리지 않는다. 그 점에서 논문과 같은 방향이다.</li>
+<li><code>token_set_ratio</code>는 한쪽 토큰이 다른 쪽에 포함되기만 해도 100이 나온다. 그래서 짧은 골드가 긴 오답 안에 들어 있으면 정답이 된다. 우리는 이 함수를 쓰지 않고 위의 더 엄격한 두 비율을 쓴다.</li>
+</ul>
+
+<div class="box warn">
+<b>알려진 한계</b>
+<ul>
+<li>철자가 많이 달라진 같은 개체 표기(음역, 약칭 등)와, 골드의 상·하위 개념("Catholic"과 "Catholic Church")은 유사도가 90 미만이라 오답으로 판정된다.</li>
+<li>골드 자체에 문제가 있는 사실(gold_issue 2,932행)도 제외하지 않았다. 두 모델 모두 같은 행에 표시만 되어 있다.</li>
+</ul></div>
+</section>
+
+<section>
+<h2>5. 오답 유형 분류 방법</h2>
+<p>정답이 아닌 모든 행에 유형을 붙인다. 최종 유형(<code>type3</code>)은 entity, broken, abstain 세 가지이고, 세부 라벨 <code>final_label</code>(1, 2, 3, 4, 5, 6, abstain)에서 정해진다. 판단 기준은 <code>analysis/graded/7. final/classification_policy.md</code>와 에이전트 프롬프트 <code>agent_prompt_en.md</code>에 있다. 아래 단계를 순서대로 적용하고, 앞 단계에서 확신 있게 정해진 행은 뒤 단계로 넘기지 않는다.</p>
+
+<h3>5.1 유형 정의</h3>
+<ul>
+<li><b>entity</b>: 골드가 아닌 다른 실재 개체를 답한 경우다. 세부 라벨은 세 가지다.
+<ul>
+<li>1 관련 개체: 골드와 같은 범주이고 연결이 있다. 같은 나라·도시 안의 다른 장소, 같은 장르/직업군, 같은 작품에 참여한 다른 사람이 해당한다. 사람 이름 관계(director, producer, screenwriter, composer, author)는 질문 속 작품과 실제로 연결된 사람이면 1이다.</li>
+<li>2 무관한 개체: 실재 개체이지만 골드와 연결이 없다. 처음 보는 이름이라 확인이 안 되면 2로 두고 <code>unverified</code>를 켠다.</li>
+<li>4 맞은 뒤 틀림: 정답 개체를 말한 뒤 틀린 내용을 이어 붙인다.</li>
+</ul></li>
+<li><b>broken</b>: 생성이 망가진 답이다. 세부 라벨은 세 가지이고, 3, 5, 6 순서로 배정한다.
+<ul>
+<li>3 질문 베낌: 답의 내용어(관사·호칭 제외)가 전부 질문에 있는 단어이거나, 질문에 나온 단어나 개체(주로 주어)를 그대로 되풀이한다.</li>
+<li>5 지어낸 이름: 서로 다른 개체의 이름 조각을 섞어 존재하지 않는 개체를 만든다. 질문에 없는 새 단어가 하나라도 있는 경우에만 5다. 예: "Producer Brandish"(질문 단어만)는 3, "John Hampton"(질문은 "father of Hampton")은 5.</li>
+<li>6 붕괴: 같은 구절의 반복, 의미 없는 열거, 문장이 깨진 출력. 반복 판정은 두 단어(bigram)가 3번 이상, 또는 불용어가 아닌 토큰이 4번 이상 나오는 경우다.</li>
+</ul></li>
+<li><b>abstain</b>: "모른다", "정보 없음" 같은 거절이다. 환각이 아니므로 따로 센다.</li>
+</ul>
+
+<h3>5.2 단계</h3>
+<ol>
+<li><b>문자열 규칙.</b> 거절 정규식, 붕괴(반복) 규칙, 질문 단어 포함 여부(베낌)를 먼저 적용한다. (label_source: string-rule)</li>
+<li><b>Wikidata 규칙.</b> 골드와 답변 이름을 Wikidata 개체로 찾아 SPARQL로 관계를 본다 (@en/@mul 라벨, 캐시 <code>wd_cache.json</code>). 나라·지역·직업·작품 참여 같은 속성 연결이 있으면 1, 후보는 있는데 연결이 없으면 2. 큰 나라는 같은 나라 안이면 1이다. (wikidata-rule)</li>
+<li><b>그룹 규칙.</b> 관계별로 정의한 범주 그룹(예: 장르군, 언어군)으로 판정한다. (group-rule)</li>
+<li><b>에이전트 판정.</b> 위 단계에서 확신이 없는 행은 정책 문서를 읽은 에이전트가 판정한다. Wikidata 결과를 힌트 열로 함께 주기도 한다. (agent+hint, agent+wikidata-hint)</li>
+<li><b>교정 단계.</b>
+<ul>
+<li>지어낸 이름(5)은 질문 문장을 주고 다시 확인한다.</li>
+<li>처음 보는 이름 → 2 + <code>unverified</code>.</li>
+<li>이름 변형(E.M. Forster → E. M. Forster, 중간 이니셜 제거, 중복 단어 제거)으로 Wikidata를 다시 조회한다. (wikidata-rule-altname)</li>
+<li>동명이인이 많은 흔한 이름(같은 이름의 인물이 4명 이상이고 가장 유명한 사람의 sitelinks가 2위의 2.5배 미만)은 1에서 2 + <code>unverified</code>로 내린다.</li>
+<li>애매한 행은 여러 번 독립 판정해 다수결로 정한다. (vote3, unify-vote)</li>
+</ul></li>
+</ol>
+</section>
+</main>

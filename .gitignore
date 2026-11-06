@@ -16,3 +16,9 @@ sae_analysis/*.md
 grounded_dream/*.json
 grounded_dream/*.jsonl
 grounded_dream/*.tsv
+
+# large hidden-state files and the symlink to them
+hyeonjik/data/1_raw/dream_hidden_steps/
+sae_analysis/features_dream_steps
+hyeonjik/data/1_raw/qwen_hidden/
+sae_analysis/features_qwen_type
