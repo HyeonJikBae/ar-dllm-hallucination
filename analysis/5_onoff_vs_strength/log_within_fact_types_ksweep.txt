@@ -1,0 +1,78 @@
+
+=== correct vs entity-wrong  (label 1 = correct, 0 = entity)   within-fact AUROC on test facts; columns = number of latents per side
+  -- facts 4/5 (test facts with both kinds: 139)
+     SAE on/off, step 0     K=1: 0.592  K=5: 0.647  K=20: 0.662  K=100: 0.676
+     SAE strength, step 0   K=1: 0.656  K=5: 0.691  K=20: 0.660  K=100: 0.656
+     SAE on/off, step 8     K=1: 0.678  K=5: 0.720  K=20: 0.722  K=100: 0.755
+     SAE strength, step 8   K=1: 0.763  K=5: 0.779  K=20: 0.784  K=100: 0.800
+  -- facts 3/5 (test facts with both kinds: 126)
+     SAE on/off, step 0     K=1: 0.543  K=5: 0.560  K=20: 0.607  K=100: 0.641
+     SAE strength, step 0   K=1: 0.608  K=5: 0.653  K=20: 0.647  K=100: 0.652
+     SAE on/off, step 8     K=1: 0.595  K=5: 0.620  K=20: 0.647  K=100: 0.766
+     SAE strength, step 8   K=1: 0.728  K=5: 0.778  K=20: 0.787  K=100: 0.771
+  -- facts 2/5 (test facts with both kinds: 109)
+     SAE on/off, step 0     K=1: 0.534  K=5: 0.581  K=20: 0.631  K=100: 0.616
+     SAE strength, step 0   K=1: 0.571  K=5: 0.635  K=20: 0.639  K=100: 0.628
+     SAE on/off, step 8     K=1: 0.522  K=5: 0.531  K=20: 0.587  K=100: 0.644
+     SAE strength, step 8   K=1: 0.681  K=5: 0.681  K=20: 0.688  K=100: 0.662
+  -- facts 1/5 (test facts with both kinds: 180)
+     SAE on/off, step 0     K=1: 0.536  K=5: 0.549  K=20: 0.516  K=100: 0.518
+     SAE strength, step 0   K=1: 0.505  K=5: 0.518  K=20: 0.553  K=100: 0.540
+     SAE on/off, step 8     K=1: 0.537  K=5: 0.553  K=20: 0.538  K=100: 0.571
+     SAE strength, step 8   K=1: 0.569  K=5: 0.575  K=20: 0.579  K=100: 0.579
+  -- facts 1-4/5 (test facts with both kinds: 554)
+     SAE on/off, step 0     K=1: 0.551  K=5: 0.583  K=20: 0.596  K=100: 0.605
+     SAE strength, step 0   K=1: 0.579  K=5: 0.615  K=20: 0.618  K=100: 0.612
+     SAE on/off, step 8     K=1: 0.583  K=5: 0.606  K=20: 0.619  K=100: 0.676
+     SAE strength, step 8   K=1: 0.676  K=5: 0.693  K=20: 0.699  K=100: 0.694
+
+=== correct vs broken  (label 1 = correct, 0 = broken)   within-fact AUROC on test facts; columns = number of latents per side
+  -- facts 4/5 (test facts with both kinds: 23)
+     SAE on/off, step 0     K=1: 0.690  K=5: 0.891  K=20: 0.902  K=100: 0.940
+     SAE strength, step 0   K=1: 0.739  K=5: 0.859  K=20: 0.935  K=100: 0.913
+     SAE on/off, step 8     K=1: 0.832  K=5: 0.924  K=20: 0.886  K=100: 0.870
+     SAE strength, step 8   K=1: 0.848  K=5: 0.902  K=20: 0.924  K=100: 0.902
+  -- facts 3/5 (test facts with both kinds: 29)
+     SAE on/off, step 0     K=1: 0.537  K=5: 0.710  K=20: 0.716  K=100: 0.718
+     SAE strength, step 0   K=1: 0.678  K=5: 0.713  K=20: 0.770  K=100: 0.753
+     SAE on/off, step 8     K=1: 0.828  K=5: 0.943  K=20: 0.902  K=100: 0.914
+     SAE strength, step 8   K=1: 0.724  K=5: 0.925  K=20: 0.908  K=100: 0.937
+  -- facts 2/5 (test facts with both kinds: 28)
+     SAE on/off, step 0     K=1: 0.586  K=5: 0.689  K=20: 0.734  K=100: 0.774
+     SAE strength, step 0   K=1: 0.756  K=5: 0.762  K=20: 0.836  K=100: 0.744
+     SAE on/off, step 8     K=1: 0.652  K=5: 0.772  K=20: 0.783  K=100: 0.768
+     SAE strength, step 8   K=1: 0.649  K=5: 0.744  K=20: 0.801  K=100: 0.830
+  -- facts 1/5 (test facts with both kinds: 33)
+     SAE on/off, step 0     K=1: 0.622  K=5: 0.597  K=20: 0.659  K=100: 0.723
+     SAE strength, step 0   K=1: 0.672  K=5: 0.634  K=20: 0.682  K=100: 0.682
+     SAE on/off, step 8     K=1: 0.640  K=5: 0.746  K=20: 0.770  K=100: 0.678
+     SAE strength, step 8   K=1: 0.659  K=5: 0.720  K=20: 0.826  K=100: 0.795
+  -- facts 1-4/5 (test facts with both kinds: 113)
+     SAE on/off, step 0     K=1: 0.605  K=5: 0.709  K=20: 0.742  K=100: 0.779
+     SAE strength, step 0   K=1: 0.708  K=5: 0.732  K=20: 0.794  K=100: 0.763
+     SAE on/off, step 8     K=1: 0.730  K=5: 0.839  K=20: 0.831  K=100: 0.800
+     SAE strength, step 8   K=1: 0.712  K=5: 0.816  K=20: 0.861  K=100: 0.862
+
+=== entity-wrong vs broken (both wrong)  (label 1 = broken, 0 = entity)   within-fact AUROC on test facts; columns = number of latents per side
+  -- facts 4/5 (test facts with both kinds: 0)
+     (too few facts)
+  -- facts 3/5 (test facts with both kinds: 23)
+     SAE on/off, step 0     K=1: 0.500  K=5: 0.478  K=20: 0.565  K=100: 0.500
+     SAE strength, step 0   K=1: 0.500  K=5: 0.522  K=20: 0.609  K=100: 0.478
+     SAE on/off, step 8     K=1: 0.674  K=5: 0.674  K=20: 0.652  K=100: 0.609
+     SAE strength, step 8   K=1: 0.543  K=5: 0.739  K=20: 0.652  K=100: 0.609
+  -- facts 2/5 (test facts with both kinds: 23)
+     SAE on/off, step 0     K=1: 0.620  K=5: 0.609  K=20: 0.641  K=100: 0.565
+     SAE strength, step 0   K=1: 0.554  K=5: 0.696  K=20: 0.587  K=100: 0.565
+     SAE on/off, step 8     K=1: 0.554  K=5: 0.478  K=20: 0.500  K=100: 0.543
+     SAE strength, step 8   K=1: 0.576  K=5: 0.576  K=20: 0.500  K=100: 0.609
+  -- facts 1/5 (test facts with both kinds: 26)
+     SAE on/off, step 0     K=1: 0.519  K=5: 0.619  K=20: 0.649  K=100: 0.646
+     SAE strength, step 0   K=1: 0.665  K=5: 0.660  K=20: 0.679  K=100: 0.628
+     SAE on/off, step 8     K=1: 0.612  K=5: 0.607  K=20: 0.619  K=100: 0.671
+     SAE strength, step 8   K=1: 0.702  K=5: 0.699  K=20: 0.708  K=100: 0.696
+  -- facts 1-4/5 (test facts with both kinds: 72)
+     SAE on/off, step 0     K=1: 0.545  K=5: 0.571  K=20: 0.620  K=100: 0.573
+     SAE strength, step 0   K=1: 0.577  K=5: 0.627  K=20: 0.627  K=100: 0.560
+     SAE on/off, step 8     K=1: 0.613  K=5: 0.587  K=20: 0.591  K=100: 0.611
+     SAE strength, step 8   K=1: 0.611  K=5: 0.672  K=20: 0.624  K=100: 0.640

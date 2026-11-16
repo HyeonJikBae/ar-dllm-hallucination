@@ -1,0 +1,66 @@
+{'broken 1-4/5 (main)': 157, 'broken 0/5': 150, 'correct 1-4/5': 100, 'entity 1-4/5': 100}
+dev rows 1530 (correct 1377, broken 153); gate threshold (score > 8): dev false-alarm rate 0.090, dev detection rate of broken 0.464
+mean component along d: correct rows 6.65, broken rows 9.67
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 152.00it/s]
+[base] done in 247s (total 247s)
+[proj d, always] done in 243s (total 490s)
+[proj d, gated] done in 247s (total 737s)
+[meanset d, always] done in 238s (total 975s)
+[meanset d, gated] done in 197s (total 1172s)
+[proj Q20, always] done in 200s (total 1372s)
+[proj Q20, gated] done in 196s (total 1568s)
+[random proj d, always] done in 196s (total 1764s)
+[random proj Q20, always] done in 196s (total 1960s)
+[random proj d, gated] done in 196s (total 2155s)
+
+gate fire rate by group (test rows): {'broken 1-4/5 (main)': 0.325, 'broken 0/5': 0.587, 'correct 1-4/5': 0.12, 'entity 1-4/5': 0.11}
+
+new answer types by group and condition: correct / entity / broken / abstain (share of the group); 'same' = answer identical to the base run
+
+== broken 1-4/5 (main) (n=157)
+  base                       correct 0.032 | entity 0.096 | broken 0.873 | abstain 0.000 | same as base 1.00
+  proj d, always             correct 0.076 | entity 0.083 | broken 0.841 | abstain 0.000 | same as base 0.90
+  proj d, gated              correct 0.064 | entity 0.089 | broken 0.847 | abstain 0.000 | same as base 0.94
+  meanset d, always          correct 0.051 | entity 0.076 | broken 0.873 | abstain 0.000 | same as base 0.92
+  meanset d, gated           correct 0.032 | entity 0.096 | broken 0.873 | abstain 0.000 | same as base 0.97
+  proj Q20, always           correct 0.248 | entity 0.197 | broken 0.554 | abstain 0.000 | same as base 0.58
+  proj Q20, gated            correct 0.115 | entity 0.134 | broken 0.752 | abstain 0.000 | same as base 0.83
+  random proj d, always      correct 0.038 | entity 0.102 | broken 0.860 | abstain 0.000 | same as base 0.92
+  random proj Q20, always    correct 0.057 | entity 0.096 | broken 0.847 | abstain 0.000 | same as base 0.92
+  random proj d, gated       correct 0.032 | entity 0.102 | broken 0.866 | abstain 0.000 | same as base 0.97
+
+== broken 0/5 (n=150)
+  base                       correct 0.000 | entity 0.153 | broken 0.847 | abstain 0.000 | same as base 1.00
+  proj d, always             correct 0.000 | entity 0.187 | broken 0.807 | abstain 0.007 | same as base 0.83
+  proj d, gated              correct 0.000 | entity 0.160 | broken 0.833 | abstain 0.007 | same as base 0.90
+  meanset d, always          correct 0.000 | entity 0.160 | broken 0.833 | abstain 0.007 | same as base 0.88
+  meanset d, gated           correct 0.000 | entity 0.153 | broken 0.840 | abstain 0.007 | same as base 0.92
+  proj Q20, always           correct 0.000 | entity 0.273 | broken 0.713 | abstain 0.013 | same as base 0.64
+  proj Q20, gated            correct 0.000 | entity 0.207 | broken 0.780 | abstain 0.013 | same as base 0.77
+  random proj d, always      correct 0.000 | entity 0.120 | broken 0.880 | abstain 0.000 | same as base 0.87
+  random proj Q20, always    correct 0.000 | entity 0.167 | broken 0.833 | abstain 0.000 | same as base 0.87
+  random proj d, gated       correct 0.000 | entity 0.120 | broken 0.880 | abstain 0.000 | same as base 0.93
+
+== correct 1-4/5 (n=100)
+  base                       correct 0.930 | entity 0.060 | broken 0.010 | abstain 0.000 | same as base 1.00
+  proj d, always             correct 0.860 | entity 0.120 | broken 0.020 | abstain 0.000 | same as base 0.93
+  proj d, gated              correct 0.900 | entity 0.080 | broken 0.020 | abstain 0.000 | same as base 0.97
+  meanset d, always          correct 0.910 | entity 0.070 | broken 0.020 | abstain 0.000 | same as base 0.98
+  meanset d, gated           correct 0.920 | entity 0.060 | broken 0.020 | abstain 0.000 | same as base 0.99
+  proj Q20, always           correct 0.830 | entity 0.110 | broken 0.060 | abstain 0.000 | same as base 0.73
+  proj Q20, gated            correct 0.920 | entity 0.060 | broken 0.020 | abstain 0.000 | same as base 0.95
+  random proj d, always      correct 0.930 | entity 0.060 | broken 0.010 | abstain 0.000 | same as base 0.96
+  random proj Q20, always    correct 0.920 | entity 0.070 | broken 0.010 | abstain 0.000 | same as base 0.96
+  random proj d, gated       correct 0.940 | entity 0.050 | broken 0.010 | abstain 0.000 | same as base 0.99
+
+== entity 1-4/5 (n=100)
+  base                       correct 0.030 | entity 0.970 | broken 0.000 | abstain 0.000 | same as base 1.00
+  proj d, always             correct 0.110 | entity 0.890 | broken 0.000 | abstain 0.000 | same as base 0.83
+  proj d, gated              correct 0.060 | entity 0.940 | broken 0.000 | abstain 0.000 | same as base 0.96
+  meanset d, always          correct 0.080 | entity 0.920 | broken 0.000 | abstain 0.000 | same as base 0.89
+  meanset d, gated           correct 0.040 | entity 0.960 | broken 0.000 | abstain 0.000 | same as base 0.98
+  proj Q20, always           correct 0.190 | entity 0.770 | broken 0.040 | abstain 0.000 | same as base 0.58
+  proj Q20, gated            correct 0.040 | entity 0.960 | broken 0.000 | abstain 0.000 | same as base 0.94
+  random proj d, always      correct 0.090 | entity 0.900 | broken 0.010 | abstain 0.000 | same as base 0.89
+  random proj Q20, always    correct 0.090 | entity 0.910 | broken 0.000 | abstain 0.000 | same as base 0.89
+  random proj d, gated       correct 0.040 | entity 0.950 | broken 0.010 | abstain 0.000 | same as base 0.97

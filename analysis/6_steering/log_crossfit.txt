@@ -1,0 +1,64 @@
+
+[A: signal from half 1, steer half 2] facts per group {1: 40, 2: 25, 3: 25, 4: 19}, entity-broken facts 77, correct-entity facts 540; best MaxMin score correct 0.100, broken 0.153
+   held-out within-fact AUROC, score vs correct-broken (104 facts): 0.715
+   held-out within-fact AUROC, score vs entity-broken (65 facts): 0.552
+   held-out within-fact AUROC, score vs correct-entity (578 facts): 0.567
+
+[B: signal from half 2, steer half 1] facts per group {1: 35, 2: 25, 3: 24, 4: 20}, entity-broken facts 65, correct-entity facts 578; best MaxMin score correct 0.051, broken 0.156
+   held-out within-fact AUROC, score vs correct-broken (109 facts): 0.763
+   held-out within-fact AUROC, score vs entity-broken (77 facts): 0.577
+   held-out within-fact AUROC, score vs correct-entity (540 facts): 0.592
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 146.93it/s]
+  [A] base: 73s
+  [A] base batch 8 (noise): 76s
+  [A] remove BROKEN signal: 65s
+  [A] add BROKEN signal a0.5: 69s
+  [A] add BROKEN signal a1: 67s
+  [A] remove CORRECT signal: 68s
+  [A] add CORRECT signal a0.5: 67s
+  [A] add CORRECT signal a1: 69s
+  [A] remove random latents #0: 69s
+  [A] remove random latents #1: 67s
+  [A] remove random latents #2: 67s
+  [A] remove random latents #3: 69s
+  [A] remove random latents #4: 68s
+  [A] remove random latents #5: 67s
+  [A] remove random latents #6: 67s
+  [A] remove random latents #7: 71s
+  [B] base: 66s
+  [B] base batch 8 (noise): 69s
+  [B] remove BROKEN signal: 64s
+  [B] add BROKEN signal a0.5: 65s
+  [B] add BROKEN signal a1: 67s
+  [B] remove CORRECT signal: 67s
+  [B] add CORRECT signal a0.5: 71s
+  [B] add CORRECT signal a1: 69s
+  [B] remove random latents #0: 68s
+  [B] remove random latents #1: 73s
+  [B] remove random latents #2: 67s
+  [B] remove random latents #3: 65s
+  [B] remove random latents #4: 67s
+  [B] remove random latents #5: 67s
+  [B] remove random latents #6: 71s
+  [B] remove random latents #7: 69s
+
+==== pooled over both folds: the BROKEN rows (facts 1/5..4/5) -> new answer type
+  base                             correct 0.048 | entity 0.087 | broken 0.865 | abstain 0.000
+  base batch 8 (noise)             correct 0.055 | entity 0.103 | broken 0.842 | abstain 0.000
+  remove BROKEN signal             correct 0.094 | entity 0.113 | broken 0.794 | abstain 0.000
+  add BROKEN signal a0.5           correct 0.058 | entity 0.177 | broken 0.765 | abstain 0.000
+  add BROKEN signal a1             correct 0.081 | entity 0.223 | broken 0.694 | abstain 0.003
+  remove CORRECT signal            correct 0.058 | entity 0.135 | broken 0.806 | abstain 0.000
+  add CORRECT signal a0.5          correct 0.077 | entity 0.165 | broken 0.758 | abstain 0.000
+  add CORRECT signal a1            correct 0.106 | entity 0.206 | broken 0.681 | abstain 0.006
+  remove random latents #0         correct 0.077 | entity 0.139 | broken 0.781 | abstain 0.003
+  remove random latents #1         correct 0.087 | entity 0.142 | broken 0.768 | abstain 0.003
+  remove random latents #2         correct 0.123 | entity 0.139 | broken 0.739 | abstain 0.000
+  remove random latents #3         correct 0.097 | entity 0.184 | broken 0.716 | abstain 0.003
+  remove random latents #4         correct 0.068 | entity 0.139 | broken 0.794 | abstain 0.000
+  remove random latents #5         correct 0.071 | entity 0.139 | broken 0.790 | abstain 0.000
+  remove random latents #6         correct 0.055 | entity 0.110 | broken 0.835 | abstain 0.000
+  remove random latents #7         correct 0.087 | entity 0.126 | broken 0.787 | abstain 0.000
+
+random-latent controls: broken rate mean 0.776, min 0.716, max 0.835 (n draws per fold 8, pooled over folds)
+n broken rows: 310

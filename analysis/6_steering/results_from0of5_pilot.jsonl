@@ -1,0 +1,72 @@
+{"cond": "base", "row": 522, "k": 1, "rule": "broken-copy", "answer": "Switch does work.", "new_type": "broken"}
+{"cond": "base", "row": 524, "k": 1, "rule": "broken-copy", "answer": "Switching", "new_type": "entity"}
+{"cond": "base", "row": 1059, "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity"}
+{"cond": "base", "row": 976, "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"cond": "base", "row": 509, "k": 1, "rule": "broken-invalid", "answer": "1", "new_type": "broken"}
+{"cond": "base", "row": 1593, "k": 4, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"cond": "base batch 8 (noise)", "row": 522, "k": 1, "rule": "broken-copy", "answer": "Switch does work.", "new_type": "broken"}
+{"cond": "base batch 8 (noise)", "row": 524, "k": 1, "rule": "broken-copy", "answer": "Switching", "new_type": "entity"}
+{"cond": "base batch 8 (noise)", "row": 1059, "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity"}
+{"cond": "base batch 8 (noise)", "row": 976, "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"cond": "base batch 8 (noise)", "row": 509, "k": 1, "rule": "broken-invalid", "answer": "1", "new_type": "broken"}
+{"cond": "base batch 8 (noise)", "row": 1593, "k": 4, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"cond": "remove BROKEN K20", "row": 522, "k": 1, "rule": "broken-copy", "answer": "Switch does work.", "new_type": "broken"}
+{"cond": "remove BROKEN K20", "row": 524, "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken"}
+{"cond": "remove BROKEN K20", "row": 1059, "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity"}
+{"cond": "remove BROKEN K20", "row": 976, "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"cond": "remove BROKEN K20", "row": 509, "k": 1, "rule": "broken-invalid", "answer": "1", "new_type": "broken"}
+{"cond": "remove BROKEN K20", "row": 1593, "k": 4, "rule": "broken-empty", "answer": "Athens", "new_type": "correct"}
+{"cond": "add BROKEN K20 a0.5", "row": 522, "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken"}
+{"cond": "add BROKEN K20 a0.5", "row": 524, "k": 1, "rule": "broken-copy", "answer": "Switching", "new_type": "entity"}
+{"cond": "add BROKEN K20 a0.5", "row": 1059, "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity"}
+{"cond": "add BROKEN K20 a0.5", "row": 976, "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"cond": "add BROKEN K20 a0.5", "row": 509, "k": 1, "rule": "broken-invalid", "answer": "Fidel Antuña Batista is a politician.", "new_type": "entity"}
+{"cond": "add BROKEN K20 a0.5", "row": 1593, "k": 4, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"cond": "add BROKEN K20 a1", "row": 522, "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken"}
+{"cond": "add BROKEN K20 a1", "row": 524, "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken"}
+{"cond": "add BROKEN K20 a1", "row": 1059, "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity"}
+{"cond": "add BROKEN K20 a1", "row": 976, "k": 2, "rule": "broken-empty", "answer": "Buenos Aires", "new_type": "correct"}
+{"cond": "add BROKEN K20 a1", "row": 509, "k": 1, "rule": "broken-invalid", "answer": "Fidel Antuña Batista is a politician.", "new_type": "entity"}
+{"cond": "add BROKEN K20 a1", "row": 1593, "k": 4, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"cond": "remove ENTITY-side K20", "row": 522, "k": 1, "rule": "broken-copy", "answer": "Switch does work.", "new_type": "broken"}
+{"cond": "remove ENTITY-side K20", "row": 524, "k": 1, "rule": "broken-copy", "answer": "Switching", "new_type": "entity"}
+{"cond": "remove ENTITY-side K20", "row": 1059, "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity"}
+{"cond": "remove ENTITY-side K20", "row": 976, "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"cond": "remove ENTITY-side K20", "row": 509, "k": 1, "rule": "broken-invalid", "answer": "1", "new_type": "broken"}
+{"cond": "remove ENTITY-side K20", "row": 1593, "k": 4, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"cond": "add ENTITY-side K20 a0.5", "row": 522, "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken"}
+{"cond": "add ENTITY-side K20 a0.5", "row": 524, "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken"}
+{"cond": "add ENTITY-side K20 a0.5", "row": 1059, "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity"}
+{"cond": "add ENTITY-side K20 a0.5", "row": 976, "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"cond": "add ENTITY-side K20 a0.5", "row": 509, "k": 1, "rule": "broken-invalid", "answer": "Fidel Antuña Batista is a politician.", "new_type": "entity"}
+{"cond": "add ENTITY-side K20 a0.5", "row": 1593, "k": 4, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"cond": "add ENTITY-side K20 a1", "row": 522, "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken"}
+{"cond": "add ENTITY-side K20 a1", "row": 524, "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken"}
+{"cond": "add ENTITY-side K20 a1", "row": 1059, "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity"}
+{"cond": "add ENTITY-side K20 a1", "row": 976, "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"cond": "add ENTITY-side K20 a1", "row": 509, "k": 1, "rule": "broken-invalid", "answer": "Fidel Antuña Batista is a politician.", "new_type": "entity"}
+{"cond": "add ENTITY-side K20 a1", "row": 1593, "k": 4, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"cond": "remove BROKEN K5", "row": 522, "k": 1, "rule": "broken-copy", "answer": "Switch does work.", "new_type": "broken"}
+{"cond": "remove BROKEN K5", "row": 524, "k": 1, "rule": "broken-copy", "answer": "Switching", "new_type": "entity"}
+{"cond": "remove BROKEN K5", "row": 1059, "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity"}
+{"cond": "remove BROKEN K5", "row": 976, "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"cond": "remove BROKEN K5", "row": 509, "k": 1, "rule": "broken-invalid", "answer": "1", "new_type": "broken"}
+{"cond": "remove BROKEN K5", "row": 1593, "k": 4, "rule": "broken-empty", "answer": "Athens", "new_type": "correct"}
+{"cond": "remove random 20 #0", "row": 522, "k": 1, "rule": "broken-copy", "answer": "Switch does work.", "new_type": "broken"}
+{"cond": "remove random 20 #0", "row": 524, "k": 1, "rule": "broken-copy", "answer": "Switching", "new_type": "entity"}
+{"cond": "remove random 20 #0", "row": 1059, "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity"}
+{"cond": "remove random 20 #0", "row": 976, "k": 2, "rule": "broken-empty", "answer": "Buenos Aires", "new_type": "correct"}
+{"cond": "remove random 20 #0", "row": 509, "k": 1, "rule": "broken-invalid", "answer": "1950", "new_type": "broken"}
+{"cond": "remove random 20 #0", "row": 1593, "k": 4, "rule": "broken-empty", "answer": "Athens, Greece", "new_type": "entity"}
+{"cond": "remove random 5 #0", "row": 522, "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken"}
+{"cond": "remove random 5 #0", "row": 524, "k": 1, "rule": "broken-copy", "answer": "To connect devices.", "new_type": "entity"}
+{"cond": "remove random 5 #0", "row": 1059, "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity"}
+{"cond": "remove random 5 #0", "row": 976, "k": 2, "rule": "broken-empty", "answer": "Córdoba, Argentina", "new_type": "entity"}
+{"cond": "remove random 5 #0", "row": 509, "k": 1, "rule": "broken-invalid", "answer": "1950", "new_type": "broken"}
+{"cond": "remove random 5 #0", "row": 1593, "k": 4, "rule": "broken-empty", "answer": "Athens", "new_type": "correct"}
+{"cond": "add random 20 a1 #0", "row": 522, "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken"}
+{"cond": "add random 20 a1 #0", "row": 524, "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken"}
+{"cond": "add random 20 a1 #0", "row": 1059, "k": 4, "rule": "broken-fabricated", "answer": "", "new_type": "broken"}
+{"cond": "add random 20 a1 #0", "row": 976, "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"cond": "add random 20 a1 #0", "row": 509, "k": 1, "rule": "broken-invalid", "answer": "", "new_type": "broken"}
+{"cond": "add random 20 a1 #0", "row": 1593, "k": 4, "rule": "broken-empty", "answer": "", "new_type": "broken"}

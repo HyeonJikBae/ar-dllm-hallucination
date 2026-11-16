@@ -1,0 +1,15 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00, 29.75it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 39.31it/s]
+  base: 72s
+  same fact CORRECT donor, forwards 0-7: 56s
+  same fact CORRECT donor, all 32: 61s
+  OTHER fact CORRECT donor (same relation), all 32: 69s
+  same fact ENTITY donor, all 32: 72s
+  OTHER fact BROKEN donor (same relation), all 32: 68s
+
+==== broken rows of facts 1/5..4/5 -> new answer type (rows that have a donor in that condition)
+  base                                             n=310 correct 0.039 entity 0.106 broken 0.855 | base on the same rows: correct 0.039 broken 0.855 | answer = donor's answer nan
+  same fact CORRECT donor, forwards 0-7            n=310 correct 0.181 entity 0.155 broken 0.661 | base on the same rows: correct 0.039 broken 0.855 | answer = donor's answer 0.155
+  same fact CORRECT donor, all 32                  n=310 correct 0.197 entity 0.194 broken 0.610 | base on the same rows: correct 0.039 broken 0.855 | answer = donor's answer 0.171
+  OTHER fact CORRECT donor (same relation), all 32 n=310 correct 0.197 entity 0.229 broken 0.571 | base on the same rows: correct 0.039 broken 0.855 | answer = donor's answer 0.035
+  same fact ENTITY donor, all 32                   n=180 correct 0.117 entity 0.244 broken 0.633 | base on the same rows: correct 0.028 broken 0.872 | answer = donor's answer 0.094
+  OTHER fact BROKEN donor (same relation), all 32  n=310 correct 0.135 entity 0.184 broken 0.681 | base on the same rows: correct 0.039 broken 0.855 | answer = donor's answer 0.029

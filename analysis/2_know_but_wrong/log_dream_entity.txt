@@ -1,0 +1,8 @@
+dream entity {'dont': 37119, 'kbw': 2749, 'know': 2875, 'known5': 5165} | test {'dont': 18413, 'kbw': 1357, 'know': 1415, 'known5': 2840}
+
+KNOW-BUT-WRONG (entity) vs the two other states, AUROC inside each relation (test subjects)
+signal                        vs KNOW   vs DONT KNOW
+one-vs-rest probe               0.529          0.726   (relations: 16, 16)
+knowledge axis (0/5 vs 5/5)      0.378          0.725   (relations: 16, 16)
+question text                   0.557          0.536   (relations: 16, 16)
+relation only                   0.500          0.500   (relations: 16, 16)

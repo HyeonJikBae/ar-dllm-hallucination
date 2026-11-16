@@ -1,0 +1,41 @@
+cosine of B with the D draws (fold 0): [-0.12, 0.06, -0.32, -0.24, 0.39, 0.08, -0.31, -0.06]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 214.50it/s]
+  [broken] B c1.5: 58s
+  [broken] B c2: 71s
+  [broken] D0 c1: 97s
+  [broken] D1 c1: 78s
+  [broken] D2 c1: 79s
+  [broken] D3 c1: 73s
+  [broken] D4 c1: 70s
+  [broken] D5 c1: 69s
+  [broken] D6 c1: 74s
+  [broken] D7 c1: 67s
+  [side] base: 69s
+  [side] B c0.5: 76s
+  [side] B c1: 71s
+  [side] D0 c1: 63s
+
+==== broken rows (n=310)
+  B c1.5     correct 0.219 | entity 0.587 | broken 0.194
+  B c2       correct 0.126 | entity 0.742 | broken 0.132
+  D0 c1      correct 0.061 | entity 0.265 | broken 0.668
+  D1 c1      correct 0.110 | entity 0.235 | broken 0.648
+  D2 c1      correct 0.045 | entity 0.200 | broken 0.752
+  D3 c1      correct 0.032 | entity 0.297 | broken 0.668
+  D4 c1      correct 0.142 | entity 0.271 | broken 0.584
+  D5 c1      correct 0.094 | entity 0.255 | broken 0.645
+  D6 c1      correct 0.048 | entity 0.252 | broken 0.690
+  D7 c1      correct 0.119 | entity 0.352 | broken 0.519
+  D draws c1: correct mean 0.081 (0.032-0.142) | broken mean 0.647 (0.519-0.752)
+
+==== side effects on CORRECT rows (n=150)
+  base     correct 0.907 | entity 0.093 | broken 0.000 | abstain 0.000
+  B c0.5   correct 0.813 | entity 0.180 | broken 0.007 | abstain 0.000
+  B c1     correct 0.640 | entity 0.333 | broken 0.027 | abstain 0.000
+  D0 c1    correct 0.507 | entity 0.393 | broken 0.100 | abstain 0.000
+
+==== side effects on ENTITY rows (n=150)
+  base     correct 0.073 | entity 0.913 | broken 0.013 | abstain 0.000
+  B c0.5   correct 0.233 | entity 0.727 | broken 0.040 | abstain 0.000
+  B c1     correct 0.300 | entity 0.660 | broken 0.040 | abstain 0.000
+  D0 c1    correct 0.160 | entity 0.767 | broken 0.073 | abstain 0.000

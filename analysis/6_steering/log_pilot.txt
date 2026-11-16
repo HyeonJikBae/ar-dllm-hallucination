@@ -1,0 +1,64 @@
+{'broken 1-4/5 (main)': 8, 'broken 0/5': 8, 'correct 1-4/5': 8, 'entity 1-4/5': 8}
+dev rows for the direction: 1530 (correct 1377 broken 153 )
+mean ||h|| = 54.2
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 47.54it/s]
+[base] done in 28s (total 28s)
+[+d5 a0.5] done in 26s (total 54s)
+[+d5 a1] done in 25s (total 78s)
+[+d5 a2] done in 29s (total 107s)
+[+d20 a0.5] done in 25s (total 132s)
+[+d20 a1] done in 26s (total 158s)
+[+d20 a2] done in 28s (total 186s)
+[-d20 a1 (opposite)] done in 24s (total 210s)
+[random a1] done in 29s (total 239s)
+[random a2] done in 20s (total 259s)
+
+new answer types by group and condition: correct / entity / broken / abstain (share of the group); 'same' = answer identical to the base run
+
+== broken 1-4/5 (main) (n=8)
+  base                 correct 0.250 | entity 0.000 | broken 0.750 | abstain 0.000 | same as base 1.00
+  +d5 a0.5             correct 0.375 | entity 0.125 | broken 0.500 | abstain 0.000 | same as base 0.75
+  +d5 a1               correct 0.250 | entity 0.125 | broken 0.625 | abstain 0.000 | same as base 0.62
+  +d5 a2               correct 0.375 | entity 0.000 | broken 0.625 | abstain 0.000 | same as base 0.75
+  +d20 a0.5            correct 0.375 | entity 0.125 | broken 0.500 | abstain 0.000 | same as base 0.75
+  +d20 a1              correct 0.125 | entity 0.500 | broken 0.375 | abstain 0.000 | same as base 0.50
+  +d20 a2              correct 0.000 | entity 0.500 | broken 0.500 | abstain 0.000 | same as base 0.00
+  -d20 a1 (opposite)   correct 0.125 | entity 0.250 | broken 0.625 | abstain 0.000 | same as base 0.38
+  random a1            correct 0.125 | entity 0.125 | broken 0.750 | abstain 0.000 | same as base 0.75
+  random a2            correct 0.250 | entity 0.375 | broken 0.375 | abstain 0.000 | same as base 0.62
+
+== broken 0/5 (n=8)
+  base                 correct 0.000 | entity 0.125 | broken 0.875 | abstain 0.000 | same as base 1.00
+  +d5 a0.5             correct 0.000 | entity 0.375 | broken 0.500 | abstain 0.125 | same as base 0.62
+  +d5 a1               correct 0.000 | entity 0.375 | broken 0.500 | abstain 0.125 | same as base 0.38
+  +d5 a2               correct 0.000 | entity 0.250 | broken 0.500 | abstain 0.250 | same as base 0.50
+  +d20 a0.5            correct 0.000 | entity 0.250 | broken 0.625 | abstain 0.125 | same as base 0.75
+  +d20 a1              correct 0.000 | entity 0.250 | broken 0.625 | abstain 0.125 | same as base 0.50
+  +d20 a2              correct 0.000 | entity 0.750 | broken 0.250 | abstain 0.000 | same as base 0.25
+  -d20 a1 (opposite)   correct 0.000 | entity 0.500 | broken 0.500 | abstain 0.000 | same as base 0.50
+  random a1            correct 0.000 | entity 0.375 | broken 0.625 | abstain 0.000 | same as base 0.75
+  random a2            correct 0.000 | entity 0.375 | broken 0.500 | abstain 0.125 | same as base 0.62
+
+== correct 1-4/5 (n=8)
+  base                 correct 1.000 | entity 0.000 | broken 0.000 | abstain 0.000 | same as base 1.00
+  +d5 a0.5             correct 0.750 | entity 0.125 | broken 0.125 | abstain 0.000 | same as base 0.75
+  +d5 a1               correct 0.750 | entity 0.125 | broken 0.125 | abstain 0.000 | same as base 0.75
+  +d5 a2               correct 0.750 | entity 0.250 | broken 0.000 | abstain 0.000 | same as base 0.75
+  +d20 a0.5            correct 0.750 | entity 0.125 | broken 0.125 | abstain 0.000 | same as base 0.75
+  +d20 a1              correct 0.625 | entity 0.375 | broken 0.000 | abstain 0.000 | same as base 0.38
+  +d20 a2              correct 0.500 | entity 0.250 | broken 0.250 | abstain 0.000 | same as base 0.12
+  -d20 a1 (opposite)   correct 0.375 | entity 0.625 | broken 0.000 | abstain 0.000 | same as base 0.38
+  random a1            correct 0.875 | entity 0.125 | broken 0.000 | abstain 0.000 | same as base 0.88
+  random a2            correct 0.500 | entity 0.500 | broken 0.000 | abstain 0.000 | same as base 0.50
+
+== entity 1-4/5 (n=8)
+  base                 correct 0.125 | entity 0.875 | broken 0.000 | abstain 0.000 | same as base 1.00
+  +d5 a0.5             correct 0.125 | entity 0.875 | broken 0.000 | abstain 0.000 | same as base 1.00
+  +d5 a1               correct 0.125 | entity 0.750 | broken 0.125 | abstain 0.000 | same as base 0.88
+  +d5 a2               correct 0.250 | entity 0.500 | broken 0.250 | abstain 0.000 | same as base 0.50
+  +d20 a0.5            correct 0.125 | entity 0.875 | broken 0.000 | abstain 0.000 | same as base 1.00
+  +d20 a1              correct 0.250 | entity 0.750 | broken 0.000 | abstain 0.000 | same as base 0.62
+  +d20 a2              correct 0.250 | entity 0.750 | broken 0.000 | abstain 0.000 | same as base 0.38
+  -d20 a1 (opposite)   correct 0.125 | entity 0.875 | broken 0.000 | abstain 0.000 | same as base 0.62
+  random a1            correct 0.000 | entity 1.000 | broken 0.000 | abstain 0.000 | same as base 0.88
+  random a2            correct 0.125 | entity 0.750 | broken 0.125 | abstain 0.000 | same as base 0.62

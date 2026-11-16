@@ -1,0 +1,20 @@
+
+===== step 0: gap score on test WRONG rows
+  fact 0/5 wrong rows  n= 21805  mean gap -0.51
+  fact 1/5 wrong rows  n=   780  mean gap -0.13
+  fact 2/5 wrong rows  n=   387  mean gap -0.04
+  fact 3/5 wrong rows  n=   254  mean gap -0.05
+  fact 4/5 wrong rows  n=   166  mean gap -0.02
+  AUROC (k>=1 'improvable' vs k=0 'unknown'): pooled 0.779 | inside relation 0.623 (15 relations)
+  among wrong rows of facts 1/5..4/5: Spearman(gap, k) = 0.140
+  share of wrong rows whose fact is answered right under another wording (k>=1), by gap quintile (low -> high): [0.01, 0.014, 0.028, 0.098, 0.174]
+
+===== step 8: gap score on test WRONG rows
+  fact 0/5 wrong rows  n= 21805  mean gap -0.41
+  fact 1/5 wrong rows  n=   780  mean gap -0.11
+  fact 2/5 wrong rows  n=   387  mean gap -0.02
+  fact 3/5 wrong rows  n=   254  mean gap -0.03
+  fact 4/5 wrong rows  n=   166  mean gap +0.05
+  AUROC (k>=1 'improvable' vs k=0 'unknown'): pooled 0.709 | inside relation 0.628 (15 relations)
+  among wrong rows of facts 1/5..4/5: Spearman(gap, k) = 0.116
+  share of wrong rows whose fact is answered right under another wording (k>=1), by gap quintile (low -> high): [0.006, 0.018, 0.058, 0.15, 0.103]

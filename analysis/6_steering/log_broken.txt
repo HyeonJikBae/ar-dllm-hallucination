@@ -1,0 +1,69 @@
+{'broken 1-4/5 (main)': 157, 'broken 0/5': 150, 'correct 1-4/5': 100, 'entity 1-4/5': 100}
+dev rows for the direction: 1530 (correct 1377 broken 153 )
+mean ||h|| = 54.2
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 151.39it/s]
+[base] done in 207s (total 207s)
+[base (batch 8: numerical-noise control)] done in 280s (total 487s)
+[+d5 a0.5] done in 248s (total 734s)
+[+d5 a1] done in 248s (total 983s)
+[+d5 a2] done in 248s (total 1231s)
+[+d20 a0.5] done in 242s (total 1473s)
+[+d20 a1] done in 202s (total 1674s)
+[+d20 a2] done in 254s (total 1928s)
+[-d20 a1 (opposite)] done in 249s (total 2177s)
+[random a1] done in 243s (total 2420s)
+[random a2] done in 247s (total 2667s)
+
+new answer types by group and condition: correct / entity / broken / abstain (share of the group); 'same' = answer identical to the base run
+
+== broken 1-4/5 (main) (n=157)
+  base                 correct 0.032 | entity 0.096 | broken 0.873 | abstain 0.000 | same as base 1.00
+  base (batch 8: numerical-noise control) correct 0.057 | entity 0.083 | broken 0.860 | abstain 0.000 | same as base 0.87
+  +d5 a0.5             correct 0.153 | entity 0.146 | broken 0.701 | abstain 0.000 | same as base 0.71
+  +d5 a1               correct 0.159 | entity 0.229 | broken 0.611 | abstain 0.000 | same as base 0.52
+  +d5 a2               correct 0.223 | entity 0.261 | broken 0.510 | abstain 0.006 | same as base 0.30
+  +d20 a0.5            correct 0.153 | entity 0.166 | broken 0.682 | abstain 0.000 | same as base 0.70
+  +d20 a1              correct 0.191 | entity 0.299 | broken 0.510 | abstain 0.000 | same as base 0.49
+  +d20 a2              correct 0.166 | entity 0.408 | broken 0.427 | abstain 0.000 | same as base 0.15
+  -d20 a1 (opposite)   correct 0.051 | entity 0.242 | broken 0.701 | abstain 0.006 | same as base 0.67
+  random a1            correct 0.070 | entity 0.121 | broken 0.809 | abstain 0.000 | same as base 0.83
+  random a2            correct 0.089 | entity 0.223 | broken 0.688 | abstain 0.000 | same as base 0.63
+
+== broken 0/5 (n=150)
+  base                 correct 0.000 | entity 0.153 | broken 0.847 | abstain 0.000 | same as base 1.00
+  base (batch 8: numerical-noise control) correct 0.000 | entity 0.167 | broken 0.833 | abstain 0.000 | same as base 0.85
+  +d5 a0.5             correct 0.000 | entity 0.213 | broken 0.767 | abstain 0.020 | same as base 0.67
+  +d5 a1               correct 0.000 | entity 0.373 | broken 0.567 | abstain 0.060 | same as base 0.32
+  +d5 a2               correct 0.000 | entity 0.367 | broken 0.567 | abstain 0.067 | same as base 0.31
+  +d20 a0.5            correct 0.000 | entity 0.247 | broken 0.747 | abstain 0.007 | same as base 0.71
+  +d20 a1              correct 0.000 | entity 0.407 | broken 0.573 | abstain 0.020 | same as base 0.43
+  +d20 a2              correct 0.007 | entity 0.560 | broken 0.433 | abstain 0.000 | same as base 0.05
+  -d20 a1 (opposite)   correct 0.000 | entity 0.393 | broken 0.600 | abstain 0.007 | same as base 0.57
+  random a1            correct 0.000 | entity 0.213 | broken 0.787 | abstain 0.000 | same as base 0.81
+  random a2            correct 0.000 | entity 0.267 | broken 0.720 | abstain 0.013 | same as base 0.69
+
+== correct 1-4/5 (n=100)
+  base                 correct 0.930 | entity 0.060 | broken 0.010 | abstain 0.000 | same as base 1.00
+  base (batch 8: numerical-noise control) correct 0.940 | entity 0.030 | broken 0.030 | abstain 0.000 | same as base 0.92
+  +d5 a0.5             correct 0.840 | entity 0.080 | broken 0.080 | abstain 0.000 | same as base 0.80
+  +d5 a1               correct 0.550 | entity 0.310 | broken 0.140 | abstain 0.000 | same as base 0.44
+  +d5 a2               correct 0.490 | entity 0.340 | broken 0.170 | abstain 0.000 | same as base 0.45
+  +d20 a0.5            correct 0.820 | entity 0.130 | broken 0.050 | abstain 0.000 | same as base 0.75
+  +d20 a1              correct 0.590 | entity 0.310 | broken 0.100 | abstain 0.000 | same as base 0.49
+  +d20 a2              correct 0.540 | entity 0.340 | broken 0.120 | abstain 0.000 | same as base 0.13
+  -d20 a1 (opposite)   correct 0.400 | entity 0.490 | broken 0.110 | abstain 0.000 | same as base 0.39
+  random a1            correct 0.800 | entity 0.160 | broken 0.040 | abstain 0.000 | same as base 0.81
+  random a2            correct 0.600 | entity 0.330 | broken 0.070 | abstain 0.000 | same as base 0.61
+
+== entity 1-4/5 (n=100)
+  base                 correct 0.030 | entity 0.970 | broken 0.000 | abstain 0.000 | same as base 1.00
+  base (batch 8: numerical-noise control) correct 0.090 | entity 0.910 | broken 0.000 | abstain 0.000 | same as base 0.80
+  +d5 a0.5             correct 0.170 | entity 0.730 | broken 0.100 | abstain 0.000 | same as base 0.57
+  +d5 a1               correct 0.140 | entity 0.670 | broken 0.190 | abstain 0.000 | same as base 0.42
+  +d5 a2               correct 0.160 | entity 0.610 | broken 0.230 | abstain 0.000 | same as base 0.36
+  +d20 a0.5            correct 0.140 | entity 0.790 | broken 0.070 | abstain 0.000 | same as base 0.66
+  +d20 a1              correct 0.190 | entity 0.710 | broken 0.100 | abstain 0.000 | same as base 0.52
+  +d20 a2              correct 0.150 | entity 0.710 | broken 0.140 | abstain 0.000 | same as base 0.17
+  -d20 a1 (opposite)   correct 0.090 | entity 0.840 | broken 0.070 | abstain 0.000 | same as base 0.46
+  random a1            correct 0.080 | entity 0.900 | broken 0.020 | abstain 0.000 | same as base 0.73
+  random a2            correct 0.110 | entity 0.830 | broken 0.060 | abstain 0.000 | same as base 0.55

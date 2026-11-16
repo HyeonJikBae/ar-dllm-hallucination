@@ -1,0 +1,30 @@
+0/5 rows used: broken 6547, entity 37119; facts with both: 3303; best separation broken-side 0.121, entity-side 0.071
+  K=20 within-fact AUROC on facts 1/5..4/5: correct-broken 0.706 (213 facts) | entity-broken 0.582 (142 facts) | correct-entity 0.569 (1118 facts)
+  K=5 within-fact AUROC on facts 1/5..4/5: correct-broken 0.672 (213 facts) | entity-broken 0.588 (142 facts) | correct-entity 0.557 (1118 facts)
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00, 29.93it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 39.57it/s]
+  base: 10s
+  base batch 8 (noise): 9s
+  remove BROKEN K20: 9s
+  add BROKEN K20 a0.5: 9s
+  add BROKEN K20 a1: 9s
+  remove ENTITY-side K20: 9s
+  add ENTITY-side K20 a0.5: 8s
+  add ENTITY-side K20 a1: 9s
+  remove BROKEN K5: 9s
+  remove random 20 #0: 8s
+  remove random 5 #0: 8s
+  add random 20 a1 #0: 8s
+
+==== broken rows of facts 1/5..4/5 (n=6) -> new answer type: correct / entity / broken
+  base                         correct 0.000 | entity 0.333 | broken 0.667
+  base batch 8 (noise)         correct 0.000 | entity 0.333 | broken 0.667
+  remove BROKEN K20            correct 0.167 | entity 0.167 | broken 0.667
+  add BROKEN K20 a0.5          correct 0.000 | entity 0.500 | broken 0.500
+  add BROKEN K20 a1            correct 0.167 | entity 0.333 | broken 0.500
+  remove ENTITY-side K20       correct 0.000 | entity 0.333 | broken 0.667
+  add ENTITY-side K20 a0.5     correct 0.000 | entity 0.333 | broken 0.667
+  add ENTITY-side K20 a1       correct 0.000 | entity 0.333 | broken 0.667
+  remove BROKEN K5             correct 0.167 | entity 0.333 | broken 0.500
+  remove random 20             broken mean 0.333 (min 0.333, max 0.333) | correct mean 0.167 (min 0.167, max 0.167)  [1 draws]
+  remove random 5              broken mean 0.333 (min 0.333, max 0.333) | correct mean 0.167 (min 0.167, max 0.167)  [1 draws]
+  add random 20 a1             broken mean 1.000 (min 1.000, max 1.000) | correct mean 0.000 (min 0.000, max 0.000)  [1 draws]

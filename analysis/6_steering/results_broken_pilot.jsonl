@@ -1,0 +1,320 @@
+{"cond": "base", "row": 4265, "sample_id": "2671070", "version": "question", "k": 1, "old_type": "broken", "answer": "Earth", "new_type": "broken", "old_answer": "Earth"}
+{"cond": "base", "row": 4600, "sample_id": "2225456", "version": "question", "k": 1, "old_type": "broken", "answer": "Brilliant", "new_type": "broken", "old_answer": "Brilliant"}
+{"cond": "base", "row": 44476, "sample_id": "2578182", "version": "v1", "k": 0, "old_type": "broken", "answer": "Metropolitan", "new_type": "broken", "old_answer": "The individual"}
+{"cond": "base", "row": 3830, "sample_id": "927892", "version": "question", "k": 1, "old_type": "broken", "answer": "Pop", "new_type": "correct", "old_answer": "Erin Beck"}
+{"cond": "base", "row": 17709, "sample_id": "5714403", "version": "v4", "k": 0, "old_type": "broken", "answer": "Woody Allen", "new_type": "entity", "old_answer": "Second Thoughts"}
+{"cond": "base", "row": 49145, "sample_id": "5189030", "version": "question", "k": 0, "old_type": "broken", "answer": "Contest", "new_type": "broken", "old_answer": "Contest"}
+{"cond": "base", "row": 46625, "sample_id": "670364", "version": "question", "k": 3, "old_type": "correct", "answer": "USA", "new_type": "correct", "old_answer": "USA"}
+{"cond": "base", "row": 4268, "sample_id": "2671070", "version": "v3", "k": 1, "old_type": "broken", "answer": "Earth", "new_type": "broken", "old_answer": "Earth"}
+{"cond": "base", "row": 4601, "sample_id": "2225456", "version": "v1", "k": 1, "old_type": "broken", "answer": "The genre of Brilliant is fantasy.", "new_type": "broken", "old_answer": "The genre of Brilliant is fantasy."}
+{"cond": "base", "row": 25520, "sample_id": "342799", "version": "question", "k": 4, "old_type": "correct", "answer": "Alex Haley", "new_type": "correct", "old_answer": "Alex Haley"}
+{"cond": "base", "row": 51574, "sample_id": "511140", "version": "v4", "k": 1, "old_type": "correct", "answer": "Calvinism", "new_type": "correct", "old_answer": "Calvinism"}
+{"cond": "base", "row": 18147, "sample_id": "4762260", "version": "v2", "k": 0, "old_type": "broken", "answer": "Josh", "new_type": "broken", "old_answer": "Josh"}
+{"cond": "base", "row": 405, "sample_id": "1074965", "version": "question", "k": 1, "old_type": "entity", "answer": "politician", "new_type": "correct", "old_answer": "statesman"}
+{"cond": "base", "row": 40510, "sample_id": "5919547", "version": "question", "k": 2, "old_type": "entity", "answer": "Oliver Goldsmith", "new_type": "entity", "old_answer": "Oliver Goldsmith"}
+{"cond": "base", "row": 38148, "sample_id": "3511774", "version": "v3", "k": 2, "old_type": "entity", "answer": "Cricket", "new_type": "entity", "old_answer": "Cricket"}
+{"cond": "base", "row": 48566, "sample_id": "6411342", "version": "v1", "k": 2, "old_type": "entity", "answer": "Bulgaria", "new_type": "entity", "old_answer": "Bulgaria"}
+{"cond": "base", "row": 40679, "sample_id": "876882", "version": "v4", "k": 0, "old_type": "broken", "answer": "The Sun", "new_type": "broken", "old_answer": "The Sun"}
+{"cond": "base", "row": 21738, "sample_id": "5386408", "version": "v3", "k": 0, "old_type": "broken", "answer": "Party Party", "new_type": "broken", "old_answer": "Party Party"}
+{"cond": "base", "row": 10560, "sample_id": "695949", "version": "question", "k": 3, "old_type": "correct", "answer": "Paul I of Russia", "new_type": "correct", "old_answer": "Paul I of Russia"}
+{"cond": "base", "row": 5037, "sample_id": "5704302", "version": "v2", "k": 4, "old_type": "correct", "answer": "short story", "new_type": "correct", "old_answer": "short story"}
+{"cond": "base", "row": 37817, "sample_id": "3546242", "version": "v2", "k": 1, "old_type": "entity", "answer": "Football", "new_type": "entity", "old_answer": "Football"}
+{"cond": "base", "row": 2316, "sample_id": "345035", "version": "v1", "k": 3, "old_type": "broken", "answer": "Moscow", "new_type": "correct", "old_answer": ""}
+{"cond": "base", "row": 35885, "sample_id": "418831", "version": "question", "k": 4, "old_type": "entity", "answer": "Hockey", "new_type": "entity", "old_answer": "Hockey"}
+{"cond": "base", "row": 976, "sample_id": "4300406", "version": "v1", "k": 2, "old_type": "broken", "answer": "", "new_type": "broken", "old_answer": ""}
+{"cond": "base", "row": 35843, "sample_id": "5245572", "version": "v3", "k": 2, "old_type": "correct", "answer": "Football", "new_type": "correct", "old_answer": "Football"}
+{"cond": "base", "row": 51119, "sample_id": "322602", "version": "v4", "k": 3, "old_type": "entity", "answer": "Dinesh D'Souza is a Christian.", "new_type": "entity", "old_answer": "Dinesh D'Souza is a Christian."}
+{"cond": "base", "row": 10227, "sample_id": "3581168", "version": "v2", "k": 0, "old_type": "broken", "answer": "Jinsa", "new_type": "broken", "old_answer": "Jinsa"}
+{"cond": "base", "row": 2202, "sample_id": "2974966", "version": "v2", "k": 4, "old_type": "correct", "answer": "Riga", "new_type": "correct", "old_answer": "Riga"}
+{"cond": "base", "row": 52089, "sample_id": "5037972", "version": "v4", "k": 3, "old_type": "correct", "answer": "Evangelical Lutheran Church in America", "new_type": "correct", "old_answer": "Evangelical Lutheran Church in America"}
+{"cond": "base", "row": 3407, "sample_id": "2415819", "version": "v2", "k": 4, "old_type": "entity", "answer": "Pierre-Yves Barré was born in Paris, France.", "new_type": "entity", "old_answer": "Pierre-Yves Barré was born in Paris, France."}
+{"cond": "base", "row": 9398, "sample_id": "2963470", "version": "v3", "k": 0, "old_type": "broken", "answer": "Æthelburh of Wilton", "new_type": "broken", "old_answer": "Æthelburh of Wilton"}
+{"cond": "base", "row": 1593, "sample_id": "3150882", "version": "v3", "k": 4, "old_type": "broken", "answer": "", "new_type": "broken", "old_answer": ""}
+{"cond": "+d5 a0.5", "row": 4265, "sample_id": "2671070", "version": "question", "k": 1, "old_type": "broken", "answer": "Earth", "new_type": "broken", "old_answer": "Earth"}
+{"cond": "+d5 a0.5", "row": 4600, "sample_id": "2225456", "version": "question", "k": 1, "old_type": "broken", "answer": "Brilliant", "new_type": "broken", "old_answer": "Brilliant"}
+{"cond": "+d5 a0.5", "row": 44476, "sample_id": "2578182", "version": "v1", "k": 0, "old_type": "broken", "answer": "Metropolitan", "new_type": "broken", "old_answer": "The individual"}
+{"cond": "+d5 a0.5", "row": 3830, "sample_id": "927892", "version": "question", "k": 1, "old_type": "broken", "answer": "Pop", "new_type": "correct", "old_answer": "Erin Beck"}
+{"cond": "+d5 a0.5", "row": 17709, "sample_id": "5714403", "version": "v4", "k": 0, "old_type": "broken", "answer": "Woody Allen", "new_type": "entity", "old_answer": "Second Thoughts"}
+{"cond": "+d5 a0.5", "row": 49145, "sample_id": "5189030", "version": "question", "k": 0, "old_type": "broken", "answer": "Contest", "new_type": "broken", "old_answer": "Contest"}
+{"cond": "+d5 a0.5", "row": 46625, "sample_id": "670364", "version": "question", "k": 3, "old_type": "correct", "answer": "USA", "new_type": "correct", "old_answer": "USA"}
+{"cond": "+d5 a0.5", "row": 4268, "sample_id": "2671070", "version": "v3", "k": 1, "old_type": "broken", "answer": "Earth", "new_type": "broken", "old_answer": "Earth"}
+{"cond": "+d5 a0.5", "row": 4601, "sample_id": "2225456", "version": "v1", "k": 1, "old_type": "broken", "answer": "Comedy", "new_type": "entity", "old_answer": "The genre of Brilliant is fantasy."}
+{"cond": "+d5 a0.5", "row": 25520, "sample_id": "342799", "version": "question", "k": 4, "old_type": "correct", "answer": "Alex Haley", "new_type": "correct", "old_answer": "Alex Haley"}
+{"cond": "+d5 a0.5", "row": 51574, "sample_id": "511140", "version": "v4", "k": 1, "old_type": "correct", "answer": "Calvinism", "new_type": "correct", "old_answer": "Calvinism"}
+{"cond": "+d5 a0.5", "row": 18147, "sample_id": "4762260", "version": "v2", "k": 0, "old_type": "broken", "answer": "Lloyd Kaufman", "new_type": "entity", "old_answer": "Josh"}
+{"cond": "+d5 a0.5", "row": 405, "sample_id": "1074965", "version": "question", "k": 1, "old_type": "entity", "answer": "politician", "new_type": "correct", "old_answer": "statesman"}
+{"cond": "+d5 a0.5", "row": 40510, "sample_id": "5919547", "version": "question", "k": 2, "old_type": "entity", "answer": "Oliver Goldsmith", "new_type": "entity", "old_answer": "Oliver Goldsmith"}
+{"cond": "+d5 a0.5", "row": 38148, "sample_id": "3511774", "version": "v3", "k": 2, "old_type": "entity", "answer": "Cricket", "new_type": "entity", "old_answer": "Cricket"}
+{"cond": "+d5 a0.5", "row": 48566, "sample_id": "6411342", "version": "v1", "k": 2, "old_type": "entity", "answer": "Bulgaria", "new_type": "entity", "old_answer": "Bulgaria"}
+{"cond": "+d5 a0.5", "row": 40679, "sample_id": "876882", "version": "v4", "k": 0, "old_type": "broken", "answer": "The Sun", "new_type": "broken", "old_answer": "The Sun"}
+{"cond": "+d5 a0.5", "row": 21738, "sample_id": "5386408", "version": "v3", "k": 0, "old_type": "broken", "answer": "Charlie Kaufman", "new_type": "entity", "old_answer": "Party Party"}
+{"cond": "+d5 a0.5", "row": 10560, "sample_id": "695949", "version": "question", "k": 3, "old_type": "correct", "answer": "Paul I of Russia", "new_type": "correct", "old_answer": "Paul I of Russia"}
+{"cond": "+d5 a0.5", "row": 5037, "sample_id": "5704302", "version": "v2", "k": 4, "old_type": "correct", "answer": "Fantasy", "new_type": "entity", "old_answer": "short story"}
+{"cond": "+d5 a0.5", "row": 37817, "sample_id": "3546242", "version": "v2", "k": 1, "old_type": "entity", "answer": "Football", "new_type": "entity", "old_answer": "Football"}
+{"cond": "+d5 a0.5", "row": 2316, "sample_id": "345035", "version": "v1", "k": 3, "old_type": "broken", "answer": "Moscow", "new_type": "correct", "old_answer": ""}
+{"cond": "+d5 a0.5", "row": 35885, "sample_id": "418831", "version": "question", "k": 4, "old_type": "entity", "answer": "Hockey", "new_type": "entity", "old_answer": "Hockey"}
+{"cond": "+d5 a0.5", "row": 976, "sample_id": "4300406", "version": "v1", "k": 2, "old_type": "broken", "answer": "", "new_type": "broken", "old_answer": ""}
+{"cond": "+d5 a0.5", "row": 35843, "sample_id": "5245572", "version": "v3", "k": 2, "old_type": "correct", "answer": "Football", "new_type": "correct", "old_answer": "Football"}
+{"cond": "+d5 a0.5", "row": 51119, "sample_id": "322602", "version": "v4", "k": 3, "old_type": "entity", "answer": "Dinesh D'Souza is a Christian.", "new_type": "entity", "old_answer": "Dinesh D'Souza is a Christian."}
+{"cond": "+d5 a0.5", "row": 10227, "sample_id": "3581168", "version": "v2", "k": 0, "old_type": "broken", "answer": "Unknown", "new_type": "abstain", "old_answer": "Jinsa"}
+{"cond": "+d5 a0.5", "row": 2202, "sample_id": "2974966", "version": "v2", "k": 4, "old_type": "correct", "answer": "Riga", "new_type": "correct", "old_answer": "Riga"}
+{"cond": "+d5 a0.5", "row": 52089, "sample_id": "5037972", "version": "v4", "k": 3, "old_type": "correct", "answer": "Lutheran", "new_type": "broken", "old_answer": "Evangelical Lutheran Church in America"}
+{"cond": "+d5 a0.5", "row": 3407, "sample_id": "2415819", "version": "v2", "k": 4, "old_type": "entity", "answer": "Pierre-Yves Barré was born in Paris, France.", "new_type": "entity", "old_answer": "Pierre-Yves Barré was born in Paris, France."}
+{"cond": "+d5 a0.5", "row": 9398, "sample_id": "2963470", "version": "v3", "k": 0, "old_type": "broken", "answer": "Æthelburh of Wilton", "new_type": "broken", "old_answer": "Æthelburh of Wilton"}
+{"cond": "+d5 a0.5", "row": 1593, "sample_id": "3150882", "version": "v3", "k": 4, "old_type": "broken", "answer": "Athens", "new_type": "correct", "old_answer": ""}
+{"cond": "+d5 a1", "row": 4265, "sample_id": "2671070", "version": "question", "k": 1, "old_type": "broken", "answer": "Earth", "new_type": "broken", "old_answer": "Earth"}
+{"cond": "+d5 a1", "row": 4600, "sample_id": "2225456", "version": "question", "k": 1, "old_type": "broken", "answer": "Brilliant", "new_type": "broken", "old_answer": "Brilliant"}
+{"cond": "+d5 a1", "row": 44476, "sample_id": "2578182", "version": "v1", "k": 0, "old_type": "broken", "answer": "author", "new_type": "entity", "old_answer": "The individual"}
+{"cond": "+d5 a1", "row": 3830, "sample_id": "927892", "version": "question", "k": 1, "old_type": "broken", "answer": "Pop", "new_type": "correct", "old_answer": "Erin Beck"}
+{"cond": "+d5 a1", "row": 17709, "sample_id": "5714403", "version": "v4", "k": 0, "old_type": "broken", "answer": "director", "new_type": "broken", "old_answer": "Second Thoughts"}
+{"cond": "+d5 a1", "row": 49145, "sample_id": "5189030", "version": "question", "k": 0, "old_type": "broken", "answer": "Contest", "new_type": "broken", "old_answer": "Contest"}
+{"cond": "+d5 a1", "row": 46625, "sample_id": "670364", "version": "question", "k": 3, "old_type": "correct", "answer": "USA", "new_type": "correct", "old_answer": "USA"}
+{"cond": "+d5 a1", "row": 4268, "sample_id": "2671070", "version": "v3", "k": 1, "old_type": "broken", "answer": "Earth", "new_type": "broken", "old_answer": "Earth"}
+{"cond": "+d5 a1", "row": 4601, "sample_id": "2225456", "version": "v1", "k": 1, "old_type": "broken", "answer": "Comedy", "new_type": "entity", "old_answer": "The genre of Brilliant is fantasy."}
+{"cond": "+d5 a1", "row": 25520, "sample_id": "342799", "version": "question", "k": 4, "old_type": "correct", "answer": "Alex Haley", "new_type": "correct", "old_answer": "Alex Haley"}
+{"cond": "+d5 a1", "row": 51574, "sample_id": "511140", "version": "v4", "k": 1, "old_type": "correct", "answer": "Calvinism", "new_type": "correct", "old_answer": "Calvinism"}
+{"cond": "+d5 a1", "row": 18147, "sample_id": "4762260", "version": "v2", "k": 0, "old_type": "broken", "answer": "Lloyd Kaufman", "new_type": "entity", "old_answer": "Josh"}
+{"cond": "+d5 a1", "row": 405, "sample_id": "1074965", "version": "question", "k": 1, "old_type": "entity", "answer": "politician", "new_type": "correct", "old_answer": "statesman"}
+{"cond": "+d5 a1", "row": 40510, "sample_id": "5919547", "version": "question", "k": 2, "old_type": "entity", "answer": "Oliver Goldsmith", "new_type": "entity", "old_answer": "Oliver Goldsmith"}
+{"cond": "+d5 a1", "row": 38148, "sample_id": "3511774", "version": "v3", "k": 2, "old_type": "entity", "answer": "Cricket", "new_type": "entity", "old_answer": "Cricket"}
+{"cond": "+d5 a1", "row": 48566, "sample_id": "6411342", "version": "v1", "k": 2, "old_type": "entity", "answer": "Bulgaria", "new_type": "entity", "old_answer": "Bulgaria"}
+{"cond": "+d5 a1", "row": 40679, "sample_id": "876882", "version": "v4", "k": 0, "old_type": "broken", "answer": "The Sun", "new_type": "broken", "old_answer": "The Sun"}
+{"cond": "+d5 a1", "row": 21738, "sample_id": "5386408", "version": "v3", "k": 0, "old_type": "broken", "answer": "Charlie Kaufman", "new_type": "entity", "old_answer": "Party Party"}
+{"cond": "+d5 a1", "row": 10560, "sample_id": "695949", "version": "question", "k": 3, "old_type": "correct", "answer": "Alexander I of Russia", "new_type": "broken", "old_answer": "Paul I of Russia"}
+{"cond": "+d5 a1", "row": 5037, "sample_id": "5704302", "version": "v2", "k": 4, "old_type": "correct", "answer": "short story", "new_type": "correct", "old_answer": "short story"}
+{"cond": "+d5 a1", "row": 37817, "sample_id": "3546242", "version": "v2", "k": 1, "old_type": "entity", "answer": "Football", "new_type": "entity", "old_answer": "Football"}
+{"cond": "+d5 a1", "row": 2316, "sample_id": "345035", "version": "v1", "k": 3, "old_type": "broken", "answer": "", "new_type": "broken", "old_answer": ""}
+{"cond": "+d5 a1", "row": 35885, "sample_id": "418831", "version": "question", "k": 4, "old_type": "entity", "answer": "Hockey", "new_type": "entity", "old_answer": "Hockey"}
+{"cond": "+d5 a1", "row": 976, "sample_id": "4300406", "version": "v1", "k": 2, "old_type": "broken", "answer": "", "new_type": "broken", "old_answer": ""}
+{"cond": "+d5 a1", "row": 35843, "sample_id": "5245572", "version": "v3", "k": 2, "old_type": "correct", "answer": "Football", "new_type": "correct", "old_answer": "Football"}
+{"cond": "+d5 a1", "row": 51119, "sample_id": "322602", "version": "v4", "k": 3, "old_type": "entity", "answer": "Dinesh D'Souza is a Christian.", "new_type": "entity", "old_answer": "Dinesh D'Souza is a Christian."}
+{"cond": "+d5 a1", "row": 10227, "sample_id": "3581168", "version": "v2", "k": 0, "old_type": "broken", "answer": "Unknown", "new_type": "abstain", "old_answer": "Jinsa"}
+{"cond": "+d5 a1", "row": 2202, "sample_id": "2974966", "version": "v2", "k": 4, "old_type": "correct", "answer": "Riga", "new_type": "correct", "old_answer": "Riga"}
+{"cond": "+d5 a1", "row": 52089, "sample_id": "5037972", "version": "v4", "k": 3, "old_type": "correct", "answer": "Protestant", "new_type": "entity", "old_answer": "Evangelical Lutheran Church in America"}
+{"cond": "+d5 a1", "row": 3407, "sample_id": "2415819", "version": "v2", "k": 4, "old_type": "entity", "answer": "", "new_type": "broken", "old_answer": "Pierre-Yves Barré was born in Paris, France."}
+{"cond": "+d5 a1", "row": 9398, "sample_id": "2963470", "version": "v3", "k": 0, "old_type": "broken", "answer": "Æthelburh of Wilton", "new_type": "broken", "old_answer": "Æthelburh of Wilton"}
+{"cond": "+d5 a1", "row": 1593, "sample_id": "3150882", "version": "v3", "k": 4, "old_type": "broken", "answer": "Athens", "new_type": "correct", "old_answer": ""}
+{"cond": "+d5 a2", "row": 4265, "sample_id": "2671070", "version": "question", "k": 1, "old_type": "broken", "answer": "Earth", "new_type": "broken", "old_answer": "Earth"}
+{"cond": "+d5 a2", "row": 4600, "sample_id": "2225456", "version": "question", "k": 1, "old_type": "broken", "answer": "Brilliant", "new_type": "broken", "old_answer": "Brilliant"}
+{"cond": "+d5 a2", "row": 44476, "sample_id": "2578182", "version": "v1", "k": 0, "old_type": "broken", "answer": "Metropolitan", "new_type": "broken", "old_answer": "The individual"}
+{"cond": "+d5 a2", "row": 3830, "sample_id": "927892", "version": "question", "k": 1, "old_type": "broken", "answer": "Pop", "new_type": "correct", "old_answer": "Erin Beck"}
+{"cond": "+d5 a2", "row": 17709, "sample_id": "5714403", "version": "v4", "k": 0, "old_type": "broken", "answer": "None", "new_type": "abstain", "old_answer": "Second Thoughts"}
+{"cond": "+d5 a2", "row": 49145, "sample_id": "5189030", "version": "question", "k": 0, "old_type": "broken", "answer": "Contest", "new_type": "broken", "old_answer": "Contest"}
+{"cond": "+d5 a2", "row": 46625, "sample_id": "670364", "version": "question", "k": 3, "old_type": "correct", "answer": "USA", "new_type": "correct", "old_answer": "USA"}
+{"cond": "+d5 a2", "row": 4268, "sample_id": "2671070", "version": "v3", "k": 1, "old_type": "broken", "answer": "Earth", "new_type": "broken", "old_answer": "Earth"}
+{"cond": "+d5 a2", "row": 4601, "sample_id": "2225456", "version": "v1", "k": 1, "old_type": "broken", "answer": ".", "new_type": "broken", "old_answer": "The genre of Brilliant is fantasy."}
+{"cond": "+d5 a2", "row": 25520, "sample_id": "342799", "version": "question", "k": 4, "old_type": "correct", "answer": "Alex Haley", "new_type": "correct", "old_answer": "Alex Haley"}
+{"cond": "+d5 a2", "row": 51574, "sample_id": "511140", "version": "v4", "k": 1, "old_type": "correct", "answer": "Calvinism", "new_type": "correct", "old_answer": "Calvinism"}
+{"cond": "+d5 a2", "row": 18147, "sample_id": "4762260", "version": "v2", "k": 0, "old_type": "broken", "answer": "Lloyd Kaufman", "new_type": "entity", "old_answer": "Josh"}
+{"cond": "+d5 a2", "row": 405, "sample_id": "1074965", "version": "question", "k": 1, "old_type": "entity", "answer": "politician", "new_type": "correct", "old_answer": "statesman"}
+{"cond": "+d5 a2", "row": 40510, "sample_id": "5919547", "version": "question", "k": 2, "old_type": "entity", "answer": "Oliver Goldsmith", "new_type": "entity", "old_answer": "Oliver Goldsmith"}
+{"cond": "+d5 a2", "row": 38148, "sample_id": "3511774", "version": "v3", "k": 2, "old_type": "entity", "answer": "Horse racing", "new_type": "entity", "old_answer": "Cricket"}
+{"cond": "+d5 a2", "row": 48566, "sample_id": "6411342", "version": "v1", "k": 2, "old_type": "entity", "answer": "Bulgaria", "new_type": "entity", "old_answer": "Bulgaria"}
+{"cond": "+d5 a2", "row": 40679, "sample_id": "876882", "version": "v4", "k": 0, "old_type": "broken", "answer": "The Sun", "new_type": "broken", "old_answer": "The Sun"}
+{"cond": "+d5 a2", "row": 21738, "sample_id": "5386408", "version": "v3", "k": 0, "old_type": "broken", "answer": "Charlie Kaufman", "new_type": "entity", "old_answer": "Party Party"}
+{"cond": "+d5 a2", "row": 10560, "sample_id": "695949", "version": "question", "k": 3, "old_type": "correct", "answer": "Emperor Paul I", "new_type": "entity", "old_answer": "Paul I of Russia"}
+{"cond": "+d5 a2", "row": 5037, "sample_id": "5704302", "version": "v2", "k": 4, "old_type": "correct", "answer": "short story", "new_type": "correct", "old_answer": "short story"}
+{"cond": "+d5 a2", "row": 37817, "sample_id": "3546242", "version": "v2", "k": 1, "old_type": "entity", "answer": "Football", "new_type": "entity", "old_answer": "Football"}
+{"cond": "+d5 a2", "row": 2316, "sample_id": "345035", "version": "v1", "k": 3, "old_type": "broken", "answer": "Moscow", "new_type": "correct", "old_answer": ""}
+{"cond": "+d5 a2", "row": 35885, "sample_id": "418831", "version": "question", "k": 4, "old_type": "entity", "answer": "Ice hockey", "new_type": "correct", "old_answer": "Hockey"}
+{"cond": "+d5 a2", "row": 976, "sample_id": "4300406", "version": "v1", "k": 2, "old_type": "broken", "answer": "", "new_type": "broken", "old_answer": ""}
+{"cond": "+d5 a2", "row": 35843, "sample_id": "5245572", "version": "v3", "k": 2, "old_type": "correct", "answer": "Football", "new_type": "correct", "old_answer": "Football"}
+{"cond": "+d5 a2", "row": 51119, "sample_id": "322602", "version": "v4", "k": 3, "old_type": "entity", "answer": ".", "new_type": "broken", "old_answer": "Dinesh D'Souza is a Christian."}
+{"cond": "+d5 a2", "row": 10227, "sample_id": "3581168", "version": "v2", "k": 0, "old_type": "broken", "answer": "Unknown", "new_type": "abstain", "old_answer": "Jinsa"}
+{"cond": "+d5 a2", "row": 2202, "sample_id": "2974966", "version": "v2", "k": 4, "old_type": "correct", "answer": "Riga", "new_type": "correct", "old_answer": "Riga"}
+{"cond": "+d5 a2", "row": 52089, "sample_id": "5037972", "version": "v4", "k": 3, "old_type": "correct", "answer": "The Lutheran Church", "new_type": "entity", "old_answer": "Evangelical Lutheran Church in America"}
+{"cond": "+d5 a2", "row": 3407, "sample_id": "2415819", "version": "v2", "k": 4, "old_type": "entity", "answer": "", "new_type": "broken", "old_answer": "Pierre-Yves Barré was born in Paris, France."}
+{"cond": "+d5 a2", "row": 9398, "sample_id": "2963470", "version": "v3", "k": 0, "old_type": "broken", "answer": "Æthelburh of Wilton", "new_type": "broken", "old_answer": "Æthelburh of Wilton"}
+{"cond": "+d5 a2", "row": 1593, "sample_id": "3150882", "version": "v3", "k": 4, "old_type": "broken", "answer": "Athens", "new_type": "correct", "old_answer": ""}
+{"cond": "+d20 a0.5", "row": 4265, "sample_id": "2671070", "version": "question", "k": 1, "old_type": "broken", "answer": "Earth", "new_type": "broken", "old_answer": "Earth"}
+{"cond": "+d20 a0.5", "row": 4600, "sample_id": "2225456", "version": "question", "k": 1, "old_type": "broken", "answer": "Brilliant", "new_type": "broken", "old_answer": "Brilliant"}
+{"cond": "+d20 a0.5", "row": 44476, "sample_id": "2578182", "version": "v1", "k": 0, "old_type": "broken", "answer": "Metropolitan", "new_type": "broken", "old_answer": "The individual"}
+{"cond": "+d20 a0.5", "row": 3830, "sample_id": "927892", "version": "question", "k": 1, "old_type": "broken", "answer": "Pop", "new_type": "correct", "old_answer": "Erin Beck"}
+{"cond": "+d20 a0.5", "row": 17709, "sample_id": "5714403", "version": "v4", "k": 0, "old_type": "broken", "answer": "Woody Allen", "new_type": "entity", "old_answer": "Second Thoughts"}
+{"cond": "+d20 a0.5", "row": 49145, "sample_id": "5189030", "version": "question", "k": 0, "old_type": "broken", "answer": "Contest", "new_type": "broken", "old_answer": "Contest"}
+{"cond": "+d20 a0.5", "row": 46625, "sample_id": "670364", "version": "question", "k": 3, "old_type": "correct", "answer": "USA", "new_type": "correct", "old_answer": "USA"}
+{"cond": "+d20 a0.5", "row": 4268, "sample_id": "2671070", "version": "v3", "k": 1, "old_type": "broken", "answer": "Earth", "new_type": "broken", "old_answer": "Earth"}
+{"cond": "+d20 a0.5", "row": 4601, "sample_id": "2225456", "version": "v1", "k": 1, "old_type": "broken", "answer": "Comedy", "new_type": "entity", "old_answer": "The genre of Brilliant is fantasy."}
+{"cond": "+d20 a0.5", "row": 25520, "sample_id": "342799", "version": "question", "k": 4, "old_type": "correct", "answer": "Alex Haley", "new_type": "correct", "old_answer": "Alex Haley"}
+{"cond": "+d20 a0.5", "row": 51574, "sample_id": "511140", "version": "v4", "k": 1, "old_type": "correct", "answer": "Calvinism", "new_type": "correct", "old_answer": "Calvinism"}
+{"cond": "+d20 a0.5", "row": 18147, "sample_id": "4762260", "version": "v2", "k": 0, "old_type": "broken", "answer": "Josh", "new_type": "broken", "old_answer": "Josh"}
+{"cond": "+d20 a0.5", "row": 405, "sample_id": "1074965", "version": "question", "k": 1, "old_type": "entity", "answer": "politician", "new_type": "correct", "old_answer": "statesman"}
+{"cond": "+d20 a0.5", "row": 40510, "sample_id": "5919547", "version": "question", "k": 2, "old_type": "entity", "answer": "Oliver Goldsmith", "new_type": "entity", "old_answer": "Oliver Goldsmith"}
+{"cond": "+d20 a0.5", "row": 38148, "sample_id": "3511774", "version": "v3", "k": 2, "old_type": "entity", "answer": "Cricket", "new_type": "entity", "old_answer": "Cricket"}
+{"cond": "+d20 a0.5", "row": 48566, "sample_id": "6411342", "version": "v1", "k": 2, "old_type": "entity", "answer": "Bulgaria", "new_type": "entity", "old_answer": "Bulgaria"}
+{"cond": "+d20 a0.5", "row": 40679, "sample_id": "876882", "version": "v4", "k": 0, "old_type": "broken", "answer": "The Sun", "new_type": "broken", "old_answer": "The Sun"}
+{"cond": "+d20 a0.5", "row": 21738, "sample_id": "5386408", "version": "v3", "k": 0, "old_type": "broken", "answer": "Charlie Kaufman", "new_type": "entity", "old_answer": "Party Party"}
+{"cond": "+d20 a0.5", "row": 10560, "sample_id": "695949", "version": "question", "k": 3, "old_type": "correct", "answer": "Paul I of Russia", "new_type": "correct", "old_answer": "Paul I of Russia"}
+{"cond": "+d20 a0.5", "row": 5037, "sample_id": "5704302", "version": "v2", "k": 4, "old_type": "correct", "answer": "Fantasy", "new_type": "entity", "old_answer": "short story"}
+{"cond": "+d20 a0.5", "row": 37817, "sample_id": "3546242", "version": "v2", "k": 1, "old_type": "entity", "answer": "Football", "new_type": "entity", "old_answer": "Football"}
+{"cond": "+d20 a0.5", "row": 2316, "sample_id": "345035", "version": "v1", "k": 3, "old_type": "broken", "answer": "Moscow", "new_type": "correct", "old_answer": ""}
+{"cond": "+d20 a0.5", "row": 35885, "sample_id": "418831", "version": "question", "k": 4, "old_type": "entity", "answer": "Hockey", "new_type": "entity", "old_answer": "Hockey"}
+{"cond": "+d20 a0.5", "row": 976, "sample_id": "4300406", "version": "v1", "k": 2, "old_type": "broken", "answer": "", "new_type": "broken", "old_answer": ""}
+{"cond": "+d20 a0.5", "row": 35843, "sample_id": "5245572", "version": "v3", "k": 2, "old_type": "correct", "answer": "Football", "new_type": "correct", "old_answer": "Football"}
+{"cond": "+d20 a0.5", "row": 51119, "sample_id": "322602", "version": "v4", "k": 3, "old_type": "entity", "answer": "Dinesh D'Souza is a Christian.", "new_type": "entity", "old_answer": "Dinesh D'Souza is a Christian."}
+{"cond": "+d20 a0.5", "row": 10227, "sample_id": "3581168", "version": "v2", "k": 0, "old_type": "broken", "answer": "Unknown", "new_type": "abstain", "old_answer": "Jinsa"}
+{"cond": "+d20 a0.5", "row": 2202, "sample_id": "2974966", "version": "v2", "k": 4, "old_type": "correct", "answer": "Riga", "new_type": "correct", "old_answer": "Riga"}
+{"cond": "+d20 a0.5", "row": 52089, "sample_id": "5037972", "version": "v4", "k": 3, "old_type": "correct", "answer": "Lutheran", "new_type": "broken", "old_answer": "Evangelical Lutheran Church in America"}
+{"cond": "+d20 a0.5", "row": 3407, "sample_id": "2415819", "version": "v2", "k": 4, "old_type": "entity", "answer": "Pierre-Yves Barré was born in Paris, France.", "new_type": "entity", "old_answer": "Pierre-Yves Barré was born in Paris, France."}
+{"cond": "+d20 a0.5", "row": 9398, "sample_id": "2963470", "version": "v3", "k": 0, "old_type": "broken", "answer": "Æthelburh of Wilton", "new_type": "broken", "old_answer": "Æthelburh of Wilton"}
+{"cond": "+d20 a0.5", "row": 1593, "sample_id": "3150882", "version": "v3", "k": 4, "old_type": "broken", "answer": "Athens", "new_type": "correct", "old_answer": ""}
+{"cond": "+d20 a1", "row": 4265, "sample_id": "2671070", "version": "question", "k": 1, "old_type": "broken", "answer": "Earth", "new_type": "broken", "old_answer": "Earth"}
+{"cond": "+d20 a1", "row": 4600, "sample_id": "2225456", "version": "question", "k": 1, "old_type": "broken", "answer": "Brilliant", "new_type": "broken", "old_answer": "Brilliant"}
+{"cond": "+d20 a1", "row": 44476, "sample_id": "2578182", "version": "v1", "k": 0, "old_type": "broken", "answer": "Frenchman", "new_type": "entity", "old_answer": "The individual"}
+{"cond": "+d20 a1", "row": 3830, "sample_id": "927892", "version": "question", "k": 1, "old_type": "broken", "answer": "Pop", "new_type": "correct", "old_answer": "Erin Beck"}
+{"cond": "+d20 a1", "row": 17709, "sample_id": "5714403", "version": "v4", "k": 0, "old_type": "broken", "answer": "director", "new_type": "broken", "old_answer": "Second Thoughts"}
+{"cond": "+d20 a1", "row": 49145, "sample_id": "5189030", "version": "question", "k": 0, "old_type": "broken", "answer": "Contest", "new_type": "broken", "old_answer": "Contest"}
+{"cond": "+d20 a1", "row": 46625, "sample_id": "670364", "version": "question", "k": 3, "old_type": "correct", "answer": "USA", "new_type": "correct", "old_answer": "USA"}
+{"cond": "+d20 a1", "row": 4268, "sample_id": "2671070", "version": "v3", "k": 1, "old_type": "broken", "answer": "Earth", "new_type": "broken", "old_answer": "Earth"}
+{"cond": "+d20 a1", "row": 4601, "sample_id": "2225456", "version": "v1", "k": 1, "old_type": "broken", "answer": "Comedy", "new_type": "entity", "old_answer": "The genre of Brilliant is fantasy."}
+{"cond": "+d20 a1", "row": 25520, "sample_id": "342799", "version": "question", "k": 4, "old_type": "correct", "answer": ": Alex Haley", "new_type": "correct", "old_answer": "Alex Haley"}
+{"cond": "+d20 a1", "row": 51574, "sample_id": "511140", "version": "v4", "k": 1, "old_type": "correct", "answer": "Theosophism", "new_type": "entity", "old_answer": "Calvinism"}
+{"cond": "+d20 a1", "row": 18147, "sample_id": "4762260", "version": "v2", "k": 0, "old_type": "broken", "answer": "Josh", "new_type": "broken", "old_answer": "Josh"}
+{"cond": "+d20 a1", "row": 405, "sample_id": "1074965", "version": "question", "k": 1, "old_type": "entity", "answer": "politician", "new_type": "correct", "old_answer": "statesman"}
+{"cond": "+d20 a1", "row": 40510, "sample_id": "5919547", "version": "question", "k": 2, "old_type": "entity", "answer": ": Oliver Goldsmith", "new_type": "entity", "old_answer": "Oliver Goldsmith"}
+{"cond": "+d20 a1", "row": 38148, "sample_id": "3511774", "version": "v3", "k": 2, "old_type": "entity", "answer": "Horse racing", "new_type": "entity", "old_answer": "Cricket"}
+{"cond": "+d20 a1", "row": 48566, "sample_id": "6411342", "version": "v1", "k": 2, "old_type": "entity", "answer": "Serbia", "new_type": "correct", "old_answer": "Bulgaria"}
+{"cond": "+d20 a1", "row": 40679, "sample_id": "876882", "version": "v4", "k": 0, "old_type": "broken", "answer": "The Sun", "new_type": "broken", "old_answer": "The Sun"}
+{"cond": "+d20 a1", "row": 21738, "sample_id": "5386408", "version": "v3", "k": 0, "old_type": "broken", "answer": "Charlie Kaufman", "new_type": "entity", "old_answer": "Party Party"}
+{"cond": "+d20 a1", "row": 10560, "sample_id": "695949", "version": "question", "k": 3, "old_type": "correct", "answer": "Emperor Paul I of Russia", "new_type": "correct", "old_answer": "Paul I of Russia"}
+{"cond": "+d20 a1", "row": 5037, "sample_id": "5704302", "version": "v2", "k": 4, "old_type": "correct", "answer": "short story", "new_type": "correct", "old_answer": "short story"}
+{"cond": "+d20 a1", "row": 37817, "sample_id": "3546242", "version": "v2", "k": 1, "old_type": "entity", "answer": "Football", "new_type": "entity", "old_answer": "Football"}
+{"cond": "+d20 a1", "row": 2316, "sample_id": "345035", "version": "v1", "k": 3, "old_type": "broken", "answer": "Russia", "new_type": "entity", "old_answer": ""}
+{"cond": "+d20 a1", "row": 35885, "sample_id": "418831", "version": "question", "k": 4, "old_type": "entity", "answer": "Hockey", "new_type": "entity", "old_answer": "Hockey"}
+{"cond": "+d20 a1", "row": 976, "sample_id": "4300406", "version": "v1", "k": 2, "old_type": "broken", "answer": "Argentina", "new_type": "entity", "old_answer": ""}
+{"cond": "+d20 a1", "row": 35843, "sample_id": "5245572", "version": "v3", "k": 2, "old_type": "correct", "answer": "Football", "new_type": "correct", "old_answer": "Football"}
+{"cond": "+d20 a1", "row": 51119, "sample_id": "322602", "version": "v4", "k": 3, "old_type": "entity", "answer": "Dinesh D'Souza is a Christian.", "new_type": "entity", "old_answer": "Dinesh D'Souza is a Christian."}
+{"cond": "+d20 a1", "row": 10227, "sample_id": "3581168", "version": "v2", "k": 0, "old_type": "broken", "answer": "Unknown", "new_type": "abstain", "old_answer": "Jinsa"}
+{"cond": "+d20 a1", "row": 2202, "sample_id": "2974966", "version": "v2", "k": 4, "old_type": "correct", "answer": "Latvia", "new_type": "entity", "old_answer": "Riga"}
+{"cond": "+d20 a1", "row": 52089, "sample_id": "5037972", "version": "v4", "k": 3, "old_type": "correct", "answer": "Protestant", "new_type": "entity", "old_answer": "Evangelical Lutheran Church in America"}
+{"cond": "+d20 a1", "row": 3407, "sample_id": "2415819", "version": "v2", "k": 4, "old_type": "entity", "answer": "Pierre-Yves Barré was born in Paris, France.", "new_type": "entity", "old_answer": "Pierre-Yves Barré was born in Paris, France."}
+{"cond": "+d20 a1", "row": 9398, "sample_id": "2963470", "version": "v3", "k": 0, "old_type": "broken", "answer": "Æthelburh of Wilton", "new_type": "broken", "old_answer": "Æthelburh of Wilton"}
+{"cond": "+d20 a1", "row": 1593, "sample_id": "3150882", "version": "v3", "k": 4, "old_type": "broken", "answer": "Greece", "new_type": "entity", "old_answer": ""}
+{"cond": "+d20 a2", "row": 4265, "sample_id": "2671070", "version": "question", "k": 1, "old_type": "broken", "answer": ": Earth", "new_type": "broken", "old_answer": "Earth"}
+{"cond": "+d20 a2", "row": 4600, "sample_id": "2225456", "version": "question", "k": 1, "old_type": "broken", "answer": ": drama", "new_type": "entity", "old_answer": "Brilliant"}
+{"cond": "+d20 a2", "row": 44476, "sample_id": "2578182", "version": "v1", "k": 0, "old_type": "broken", "answer": ": Richard Strauss", "new_type": "entity", "old_answer": "The individual"}
+{"cond": "+d20 a2", "row": 3830, "sample_id": "927892", "version": "question", "k": 1, "old_type": "broken", "answer": ": Author", "new_type": "entity", "old_answer": "Erin Beck"}
+{"cond": "+d20 a2", "row": 17709, "sample_id": "5714403", "version": "v4", "k": 0, "old_type": "broken", "answer": ". J. Abrams", "new_type": "entity", "old_answer": "Second Thoughts"}
+{"cond": "+d20 a2", "row": 49145, "sample_id": "5189030", "version": "question", "k": 0, "old_type": "broken", "answer": "Contest", "new_type": "broken", "old_answer": "Contest"}
+{"cond": "+d20 a2", "row": 46625, "sample_id": "670364", "version": "question", "k": 3, "old_type": "correct", "answer": "USA", "new_type": "correct", "old_answer": "USA"}
+{"cond": "+d20 a2", "row": 4268, "sample_id": "2671070", "version": "v3", "k": 1, "old_type": "broken", "answer": ": Earth", "new_type": "broken", "old_answer": "Earth"}
+{"cond": "+d20 a2", "row": 4601, "sample_id": "2225456", "version": "v1", "k": 1, "old_type": "broken", "answer": ":", "new_type": "broken", "old_answer": "The genre of Brilliant is fantasy."}
+{"cond": "+d20 a2", "row": 25520, "sample_id": "342799", "version": "question", "k": 4, "old_type": "correct", "answer": ": Alex Haley", "new_type": "correct", "old_answer": "Alex Haley"}
+{"cond": "+d20 a2", "row": 51574, "sample_id": "511140", "version": "v4", "k": 1, "old_type": "correct", "answer": ": Calvinism", "new_type": "correct", "old_answer": "Calvinism"}
+{"cond": "+d20 a2", "row": 18147, "sample_id": "4762260", "version": "v2", "k": 0, "old_type": "broken", "answer": ": Josh Hedges", "new_type": "entity", "old_answer": "Josh"}
+{"cond": "+d20 a2", "row": 405, "sample_id": "1074965", "version": "question", "k": 1, "old_type": "entity", "answer": ": a knight", "new_type": "entity", "old_answer": "statesman"}
+{"cond": "+d20 a2", "row": 40510, "sample_id": "5919547", "version": "question", "k": 2, "old_type": "entity", "answer": "Oliver Goldsmith", "new_type": "entity", "old_answer": "Oliver Goldsmith"}
+{"cond": "+d20 a2", "row": 38148, "sample_id": "3511774", "version": "v3", "k": 2, "old_type": "entity", "answer": ": football", "new_type": "correct", "old_answer": "Cricket"}
+{"cond": "+d20 a2", "row": 48566, "sample_id": "6411342", "version": "v1", "k": 2, "old_type": "entity", "answer": "Bulgaria", "new_type": "entity", "old_answer": "Bulgaria"}
+{"cond": "+d20 a2", "row": 40679, "sample_id": "876882", "version": "v4", "k": 0, "old_type": "broken", "answer": "literature writer", "new_type": "entity", "old_answer": "The Sun"}
+{"cond": "+d20 a2", "row": 21738, "sample_id": "5386408", "version": "v3", "k": 0, "old_type": "broken", "answer": ": John D. Smith", "new_type": "entity", "old_answer": "Party Party"}
+{"cond": "+d20 a2", "row": 10560, "sample_id": "695949", "version": "question", "k": 3, "old_type": "correct", "answer": "Russia", "new_type": "broken", "old_answer": "Paul I of Russia"}
+{"cond": "+d20 a2", "row": 5037, "sample_id": "5704302", "version": "v2", "k": 4, "old_type": "correct", "answer": "literature", "new_type": "entity", "old_answer": "short story"}
+{"cond": "+d20 a2", "row": 37817, "sample_id": "3546242", "version": "v2", "k": 1, "old_type": "entity", "answer": ": Football", "new_type": "entity", "old_answer": "Football"}
+{"cond": "+d20 a2", "row": 2316, "sample_id": "345035", "version": "v1", "k": 3, "old_type": "broken", "answer": "Russia", "new_type": "entity", "old_answer": ""}
+{"cond": "+d20 a2", "row": 35885, "sample_id": "418831", "version": "question", "k": 4, "old_type": "entity", "answer": ": ice hockey", "new_type": "correct", "old_answer": "Hockey"}
+{"cond": "+d20 a2", "row": 976, "sample_id": "4300406", "version": "v1", "k": 2, "old_type": "broken", "answer": ":", "new_type": "broken", "old_answer": ""}
+{"cond": "+d20 a2", "row": 35843, "sample_id": "5245572", "version": "v3", "k": 2, "old_type": "correct", "answer": ":", "new_type": "broken", "old_answer": "Football"}
+{"cond": "+d20 a2", "row": 51119, "sample_id": "322602", "version": "v4", "k": 3, "old_type": "entity", "answer": "Dinesh D'Souza is a Christian.", "new_type": "entity", "old_answer": "Dinesh D'Souza is a Christian."}
+{"cond": "+d20 a2", "row": 10227, "sample_id": "3581168", "version": "v2", "k": 0, "old_type": "broken", "answer": ": Jinsa father", "new_type": "entity", "old_answer": "Jinsa"}
+{"cond": "+d20 a2", "row": 2202, "sample_id": "2974966", "version": "v2", "k": 4, "old_type": "correct", "answer": ": Raimonds Vilde was born in Riga, Latvia.", "new_type": "entity", "old_answer": "Riga"}
+{"cond": "+d20 a2", "row": 52089, "sample_id": "5037972", "version": "v4", "k": 3, "old_type": "correct", "answer": ": Evangelical Lutheran Church in America", "new_type": "correct", "old_answer": "Evangelical Lutheran Church in America"}
+{"cond": "+d20 a2", "row": 3407, "sample_id": "2415819", "version": "v2", "k": 4, "old_type": "entity", "answer": ": Pierre-Yves Barré was born in Paris, France.", "new_type": "entity", "old_answer": "Pierre-Yves Barré was born in Paris, France."}
+{"cond": "+d20 a2", "row": 9398, "sample_id": "2963470", "version": "v3", "k": 0, "old_type": "broken", "answer": "Æthelburh of Wilton", "new_type": "broken", "old_answer": "Æthelburh of Wilton"}
+{"cond": "+d20 a2", "row": 1593, "sample_id": "3150882", "version": "v3", "k": 4, "old_type": "broken", "answer": "Greece", "new_type": "entity", "old_answer": ""}
+{"cond": "-d20 a1 (opposite)", "row": 4265, "sample_id": "2671070", "version": "question", "k": 1, "old_type": "broken", "answer": "Science Fiction", "new_type": "correct", "old_answer": "Earth"}
+{"cond": "-d20 a1 (opposite)", "row": 4600, "sample_id": "2225456", "version": "question", "k": 1, "old_type": "broken", "answer": "Puzzle game", "new_type": "entity", "old_answer": "Brilliant"}
+{"cond": "-d20 a1 (opposite)", "row": 44476, "sample_id": "2578182", "version": "v1", "k": 0, "old_type": "broken", "answer": "Oscar Wilde", "new_type": "entity", "old_answer": "The individual"}
+{"cond": "-d20 a1 (opposite)", "row": 3830, "sample_id": "927892", "version": "question", "k": 1, "old_type": "broken", "answer": "Erin Beck", "new_type": "broken", "old_answer": "Erin Beck"}
+{"cond": "-d20 a1 (opposite)", "row": 17709, "sample_id": "5714403", "version": "v4", "k": 0, "old_type": "broken", "answer": "John J. Smith", "new_type": "entity", "old_answer": "Second Thoughts"}
+{"cond": "-d20 a1 (opposite)", "row": 49145, "sample_id": "5189030", "version": "question", "k": 0, "old_type": "broken", "answer": "Contest", "new_type": "broken", "old_answer": "Contest"}
+{"cond": "-d20 a1 (opposite)", "row": 46625, "sample_id": "670364", "version": "question", "k": 3, "old_type": "correct", "answer": "USA", "new_type": "correct", "old_answer": "USA"}
+{"cond": "-d20 a1 (opposite)", "row": 4268, "sample_id": "2671070", "version": "v3", "k": 1, "old_type": "broken", "answer": "Earth", "new_type": "broken", "old_answer": "Earth"}
+{"cond": "-d20 a1 (opposite)", "row": 4601, "sample_id": "2225456", "version": "v1", "k": 1, "old_type": "broken", "answer": "The genre of Brilliant is fantasy.", "new_type": "broken", "old_answer": "The genre of Brilliant is fantasy."}
+{"cond": "-d20 a1 (opposite)", "row": 25520, "sample_id": "342799", "version": "question", "k": 4, "old_type": "correct", "answer": "Alex Haley", "new_type": "correct", "old_answer": "Alex Haley"}
+{"cond": "-d20 a1 (opposite)", "row": 51574, "sample_id": "511140", "version": "v4", "k": 1, "old_type": "correct", "answer": "The belief system of William Ames is Puritanism.", "new_type": "entity", "old_answer": "Calvinism"}
+{"cond": "-d20 a1 (opposite)", "row": 18147, "sample_id": "4762260", "version": "v2", "k": 0, "old_type": "broken", "answer": "Lloyd Kaufman", "new_type": "entity", "old_answer": "Josh"}
+{"cond": "-d20 a1 (opposite)", "row": 405, "sample_id": "1074965", "version": "question", "k": 1, "old_type": "entity", "answer": "a knight", "new_type": "entity", "old_answer": "statesman"}
+{"cond": "-d20 a1 (opposite)", "row": 40510, "sample_id": "5919547", "version": "question", "k": 2, "old_type": "entity", "answer": "Oliver Goldsmith", "new_type": "entity", "old_answer": "Oliver Goldsmith"}
+{"cond": "-d20 a1 (opposite)", "row": 38148, "sample_id": "3511774", "version": "v3", "k": 2, "old_type": "entity", "answer": "Billy Lumley participated in the sport of football.", "new_type": "entity", "old_answer": "Cricket"}
+{"cond": "-d20 a1 (opposite)", "row": 48566, "sample_id": "6411342", "version": "v1", "k": 2, "old_type": "entity", "answer": "Bulgaria", "new_type": "entity", "old_answer": "Bulgaria"}
+{"cond": "-d20 a1 (opposite)", "row": 40679, "sample_id": "876882", "version": "v4", "k": 0, "old_type": "broken", "answer": "The Sun", "new_type": "broken", "old_answer": "The Sun"}
+{"cond": "-d20 a1 (opposite)", "row": 21738, "sample_id": "5386408", "version": "v3", "k": 0, "old_type": "broken", "answer": "Party Party", "new_type": "broken", "old_answer": "Party Party"}
+{"cond": "-d20 a1 (opposite)", "row": 10560, "sample_id": "695949", "version": "question", "k": 3, "old_type": "correct", "answer": "Paul I of Russia", "new_type": "correct", "old_answer": "Paul I of Russia"}
+{"cond": "-d20 a1 (opposite)", "row": 5037, "sample_id": "5704302", "version": "v2", "k": 4, "old_type": "correct", "answer": "The Aleph would be classified as a short story.", "new_type": "entity", "old_answer": "short story"}
+{"cond": "-d20 a1 (opposite)", "row": 37817, "sample_id": "3546242", "version": "v2", "k": 1, "old_type": "entity", "answer": "Football", "new_type": "entity", "old_answer": "Football"}
+{"cond": "-d20 a1 (opposite)", "row": 2316, "sample_id": "345035", "version": "v1", "k": 3, "old_type": "broken", "answer": "", "new_type": "broken", "old_answer": ""}
+{"cond": "-d20 a1 (opposite)", "row": 35885, "sample_id": "418831", "version": "question", "k": 4, "old_type": "entity", "answer": "Ice hockey", "new_type": "correct", "old_answer": "Hockey"}
+{"cond": "-d20 a1 (opposite)", "row": 976, "sample_id": "4300406", "version": "v1", "k": 2, "old_type": "broken", "answer": "", "new_type": "broken", "old_answer": ""}
+{"cond": "-d20 a1 (opposite)", "row": 35843, "sample_id": "5245572", "version": "v3", "k": 2, "old_type": "correct", "answer": "Najeh Humoud competes in the sport of football.", "new_type": "entity", "old_answer": "Football"}
+{"cond": "-d20 a1 (opposite)", "row": 51119, "sample_id": "322602", "version": "v4", "k": 3, "old_type": "entity", "answer": "Dinesh D'Souza is a Christian.", "new_type": "entity", "old_answer": "Dinesh D'Souza is a Christian."}
+{"cond": "-d20 a1 (opposite)", "row": 10227, "sample_id": "3581168", "version": "v2", "k": 0, "old_type": "broken", "answer": "Jina", "new_type": "entity", "old_answer": "Jinsa"}
+{"cond": "-d20 a1 (opposite)", "row": 2202, "sample_id": "2974966", "version": "v2", "k": 4, "old_type": "correct", "answer": "Liepaja", "new_type": "entity", "old_answer": "Riga"}
+{"cond": "-d20 a1 (opposite)", "row": 52089, "sample_id": "5037972", "version": "v4", "k": 3, "old_type": "correct", "answer": "The Lutheran Theological Seminary at Philadelphia is affiliated with the Evangelical Lutheran Church in America.", "new_type": "entity", "old_answer": "Evangelical Lutheran Church in America"}
+{"cond": "-d20 a1 (opposite)", "row": 3407, "sample_id": "2415819", "version": "v2", "k": 4, "old_type": "entity", "answer": "Pierre-Yves Barré was born in Paris, France.", "new_type": "entity", "old_answer": "Pierre-Yves Barré was born in Paris, France."}
+{"cond": "-d20 a1 (opposite)", "row": 9398, "sample_id": "2963470", "version": "v3", "k": 0, "old_type": "broken", "answer": "Æthelburh of Wilton", "new_type": "broken", "old_answer": "Æthelburh of Wilton"}
+{"cond": "-d20 a1 (opposite)", "row": 1593, "sample_id": "3150882", "version": "v3", "k": 4, "old_type": "broken", "answer": "The birthplace of Antigoni Goni is Patras, Greece.", "new_type": "entity", "old_answer": ""}
+{"cond": "random a1", "row": 4265, "sample_id": "2671070", "version": "question", "k": 1, "old_type": "broken", "answer": "Earth", "new_type": "broken", "old_answer": "Earth"}
+{"cond": "random a1", "row": 4600, "sample_id": "2225456", "version": "question", "k": 1, "old_type": "broken", "answer": "Brilliant", "new_type": "broken", "old_answer": "Brilliant"}
+{"cond": "random a1", "row": 44476, "sample_id": "2578182", "version": "v1", "k": 0, "old_type": "broken", "answer": "Oscar Wilde", "new_type": "entity", "old_answer": "The individual"}
+{"cond": "random a1", "row": 3830, "sample_id": "927892", "version": "question", "k": 1, "old_type": "broken", "answer": "Pop", "new_type": "correct", "old_answer": "Erin Beck"}
+{"cond": "random a1", "row": 17709, "sample_id": "5714403", "version": "v4", "k": 0, "old_type": "broken", "answer": "Woody Allen", "new_type": "entity", "old_answer": "Second Thoughts"}
+{"cond": "random a1", "row": 49145, "sample_id": "5189030", "version": "question", "k": 0, "old_type": "broken", "answer": "Contest", "new_type": "broken", "old_answer": "Contest"}
+{"cond": "random a1", "row": 46625, "sample_id": "670364", "version": "question", "k": 3, "old_type": "correct", "answer": "USA", "new_type": "correct", "old_answer": "USA"}
+{"cond": "random a1", "row": 4268, "sample_id": "2671070", "version": "v3", "k": 1, "old_type": "broken", "answer": "Earth", "new_type": "broken", "old_answer": "Earth"}
+{"cond": "random a1", "row": 4601, "sample_id": "2225456", "version": "v1", "k": 1, "old_type": "broken", "answer": "Comedy", "new_type": "entity", "old_answer": "The genre of Brilliant is fantasy."}
+{"cond": "random a1", "row": 25520, "sample_id": "342799", "version": "question", "k": 4, "old_type": "correct", "answer": "Alex Haley", "new_type": "correct", "old_answer": "Alex Haley"}
+{"cond": "random a1", "row": 51574, "sample_id": "511140", "version": "v4", "k": 1, "old_type": "correct", "answer": "Calvinism", "new_type": "correct", "old_answer": "Calvinism"}
+{"cond": "random a1", "row": 18147, "sample_id": "4762260", "version": "v2", "k": 0, "old_type": "broken", "answer": "Josh", "new_type": "broken", "old_answer": "Josh"}
+{"cond": "random a1", "row": 405, "sample_id": "1074965", "version": "question", "k": 1, "old_type": "entity", "answer": "statesman", "new_type": "entity", "old_answer": "statesman"}
+{"cond": "random a1", "row": 40510, "sample_id": "5919547", "version": "question", "k": 2, "old_type": "entity", "answer": "Oliver Goldsmith", "new_type": "entity", "old_answer": "Oliver Goldsmith"}
+{"cond": "random a1", "row": 38148, "sample_id": "3511774", "version": "v3", "k": 2, "old_type": "entity", "answer": "Cricket", "new_type": "entity", "old_answer": "Cricket"}
+{"cond": "random a1", "row": 48566, "sample_id": "6411342", "version": "v1", "k": 2, "old_type": "entity", "answer": "Bulgaria", "new_type": "entity", "old_answer": "Bulgaria"}
+{"cond": "random a1", "row": 40679, "sample_id": "876882", "version": "v4", "k": 0, "old_type": "broken", "answer": "The Sun", "new_type": "broken", "old_answer": "The Sun"}
+{"cond": "random a1", "row": 21738, "sample_id": "5386408", "version": "v3", "k": 0, "old_type": "broken", "answer": "Party Party", "new_type": "broken", "old_answer": "Party Party"}
+{"cond": "random a1", "row": 10560, "sample_id": "695949", "version": "question", "k": 3, "old_type": "correct", "answer": "Paul I of Russia", "new_type": "correct", "old_answer": "Paul I of Russia"}
+{"cond": "random a1", "row": 5037, "sample_id": "5704302", "version": "v2", "k": 4, "old_type": "correct", "answer": "short story", "new_type": "correct", "old_answer": "short story"}
+{"cond": "random a1", "row": 37817, "sample_id": "3546242", "version": "v2", "k": 1, "old_type": "entity", "answer": "Football", "new_type": "entity", "old_answer": "Football"}
+{"cond": "random a1", "row": 2316, "sample_id": "345035", "version": "v1", "k": 3, "old_type": "broken", "answer": "", "new_type": "broken", "old_answer": ""}
+{"cond": "random a1", "row": 35885, "sample_id": "418831", "version": "question", "k": 4, "old_type": "entity", "answer": "Hockey", "new_type": "entity", "old_answer": "Hockey"}
+{"cond": "random a1", "row": 976, "sample_id": "4300406", "version": "v1", "k": 2, "old_type": "broken", "answer": "", "new_type": "broken", "old_answer": ""}
+{"cond": "random a1", "row": 35843, "sample_id": "5245572", "version": "v3", "k": 2, "old_type": "correct", "answer": "Football", "new_type": "correct", "old_answer": "Football"}
+{"cond": "random a1", "row": 51119, "sample_id": "322602", "version": "v4", "k": 3, "old_type": "entity", "answer": "Dinesh D'Souza is a Christian.", "new_type": "entity", "old_answer": "Dinesh D'Souza is a Christian."}
+{"cond": "random a1", "row": 10227, "sample_id": "3581168", "version": "v2", "k": 0, "old_type": "broken", "answer": "Jinsa", "new_type": "broken", "old_answer": "Jinsa"}
+{"cond": "random a1", "row": 2202, "sample_id": "2974966", "version": "v2", "k": 4, "old_type": "correct", "answer": "Riga", "new_type": "correct", "old_answer": "Riga"}
+{"cond": "random a1", "row": 52089, "sample_id": "5037972", "version": "v4", "k": 3, "old_type": "correct", "answer": "The Lutheran Church", "new_type": "entity", "old_answer": "Evangelical Lutheran Church in America"}
+{"cond": "random a1", "row": 3407, "sample_id": "2415819", "version": "v2", "k": 4, "old_type": "entity", "answer": "Pierre-Yves Barré was born in Paris, France.", "new_type": "entity", "old_answer": "Pierre-Yves Barré was born in Paris, France."}
+{"cond": "random a1", "row": 9398, "sample_id": "2963470", "version": "v3", "k": 0, "old_type": "broken", "answer": "Æthelred", "new_type": "entity", "old_answer": "Æthelburh of Wilton"}
+{"cond": "random a1", "row": 1593, "sample_id": "3150882", "version": "v3", "k": 4, "old_type": "broken", "answer": "", "new_type": "broken", "old_answer": ""}
+{"cond": "random a2", "row": 4265, "sample_id": "2671070", "version": "question", "k": 1, "old_type": "broken", "answer": "Earth is a sci-fi movie.", "new_type": "entity", "old_answer": "Earth"}
+{"cond": "random a2", "row": 4600, "sample_id": "2225456", "version": "question", "k": 1, "old_type": "broken", "answer": "Brilliant is a puzzle game.", "new_type": "entity", "old_answer": "Brilliant"}
+{"cond": "random a2", "row": 44476, "sample_id": "2578182", "version": "v1", "k": 0, "old_type": "broken", "answer": "Oscar Wilde", "new_type": "entity", "old_answer": "The individual"}
+{"cond": "random a2", "row": 3830, "sample_id": "927892", "version": "question", "k": 1, "old_type": "broken", "answer": "Pop", "new_type": "correct", "old_answer": "Erin Beck"}
+{"cond": "random a2", "row": 17709, "sample_id": "5714403", "version": "v4", "k": 0, "old_type": "broken", "answer": "Woody Allen", "new_type": "entity", "old_answer": "Second Thoughts"}
+{"cond": "random a2", "row": 49145, "sample_id": "5189030", "version": "question", "k": 0, "old_type": "broken", "answer": "Contest", "new_type": "broken", "old_answer": "Contest"}
+{"cond": "random a2", "row": 46625, "sample_id": "670364", "version": "question", "k": 3, "old_type": "correct", "answer": "USA", "new_type": "correct", "old_answer": "USA"}
+{"cond": "random a2", "row": 4268, "sample_id": "2671070", "version": "v3", "k": 1, "old_type": "broken", "answer": "Earth", "new_type": "broken", "old_answer": "Earth"}
+{"cond": "random a2", "row": 4601, "sample_id": "2225456", "version": "v1", "k": 1, "old_type": "broken", "answer": "Brilliant is a work of science fiction literature.", "new_type": "entity", "old_answer": "The genre of Brilliant is fantasy."}
+{"cond": "random a2", "row": 25520, "sample_id": "342799", "version": "question", "k": 4, "old_type": "correct", "answer": "Alex Haley", "new_type": "correct", "old_answer": "Alex Haley"}
+{"cond": "random a2", "row": 51574, "sample_id": "511140", "version": "v4", "k": 1, "old_type": "correct", "answer": "Arminism", "new_type": "entity", "old_answer": "Calvinism"}
+{"cond": "random a2", "row": 18147, "sample_id": "4762260", "version": "v2", "k": 0, "old_type": "broken", "answer": "Josh", "new_type": "broken", "old_answer": "Josh"}
+{"cond": "random a2", "row": 405, "sample_id": "1074965", "version": "question", "k": 1, "old_type": "entity", "answer": "a knight", "new_type": "entity", "old_answer": "statesman"}
+{"cond": "random a2", "row": 40510, "sample_id": "5919547", "version": "question", "k": 2, "old_type": "entity", "answer": "Oliver Goldsmith", "new_type": "entity", "old_answer": "Oliver Goldsmith"}
+{"cond": "random a2", "row": 38148, "sample_id": "3511774", "version": "v3", "k": 2, "old_type": "entity", "answer": "Cricket", "new_type": "entity", "old_answer": "Cricket"}
+{"cond": "random a2", "row": 48566, "sample_id": "6411342", "version": "v1", "k": 2, "old_type": "entity", "answer": "Bulgaria", "new_type": "entity", "old_answer": "Bulgaria"}
+{"cond": "random a2", "row": 40679, "sample_id": "876882", "version": "v4", "k": 0, "old_type": "broken", "answer": "The Sun", "new_type": "broken", "old_answer": "The Sun"}
+{"cond": "random a2", "row": 21738, "sample_id": "5386408", "version": "v3", "k": 0, "old_type": "broken", "answer": "Party Party", "new_type": "broken", "old_answer": "Party Party"}
+{"cond": "random a2", "row": 10560, "sample_id": "695949", "version": "question", "k": 3, "old_type": "correct", "answer": "Paul I of Russia", "new_type": "correct", "old_answer": "Paul I of Russia"}
+{"cond": "random a2", "row": 5037, "sample_id": "5704302", "version": "v2", "k": 4, "old_type": "correct", "answer": "Fantasy", "new_type": "entity", "old_answer": "short story"}
+{"cond": "random a2", "row": 37817, "sample_id": "3546242", "version": "v2", "k": 1, "old_type": "entity", "answer": "Football", "new_type": "entity", "old_answer": "Football"}
+{"cond": "random a2", "row": 2316, "sample_id": "345035", "version": "v1", "k": 3, "old_type": "broken", "answer": "Moscow", "new_type": "correct", "old_answer": ""}
+{"cond": "random a2", "row": 35885, "sample_id": "418831", "version": "question", "k": 4, "old_type": "entity", "answer": "Ice hockey", "new_type": "correct", "old_answer": "Hockey"}
+{"cond": "random a2", "row": 976, "sample_id": "4300406", "version": "v1", "k": 2, "old_type": "broken", "answer": "", "new_type": "broken", "old_answer": ""}
+{"cond": "random a2", "row": 35843, "sample_id": "5245572", "version": "v3", "k": 2, "old_type": "correct", "answer": "Football", "new_type": "correct", "old_answer": "Football"}
+{"cond": "random a2", "row": 51119, "sample_id": "322602", "version": "v4", "k": 3, "old_type": "entity", "answer": "Dinesh D'Souza is a Christian.", "new_type": "entity", "old_answer": "Dinesh D'Souza is a Christian."}
+{"cond": "random a2", "row": 10227, "sample_id": "3581168", "version": "v2", "k": 0, "old_type": "broken", "answer": "Unknown", "new_type": "abstain", "old_answer": "Jinsa"}
+{"cond": "random a2", "row": 2202, "sample_id": "2974966", "version": "v2", "k": 4, "old_type": "correct", "answer": "Liepaja", "new_type": "entity", "old_answer": "Riga"}
+{"cond": "random a2", "row": 52089, "sample_id": "5037972", "version": "v4", "k": 3, "old_type": "correct", "answer": "The Lutheran Theological Seminary at Philadelphia is affiliated with the Evangelical Lutheran Church in America.", "new_type": "entity", "old_answer": "Evangelical Lutheran Church in America"}
+{"cond": "random a2", "row": 3407, "sample_id": "2415819", "version": "v2", "k": 4, "old_type": "entity", "answer": "", "new_type": "broken", "old_answer": "Pierre-Yves Barré was born in Paris, France."}
+{"cond": "random a2", "row": 9398, "sample_id": "2963470", "version": "v3", "k": 0, "old_type": "broken", "answer": "Æthelred", "new_type": "entity", "old_answer": "Æthelburh of Wilton"}
+{"cond": "random a2", "row": 1593, "sample_id": "3150882", "version": "v3", "k": 4, "old_type": "broken", "answer": "", "new_type": "broken", "old_answer": ""}

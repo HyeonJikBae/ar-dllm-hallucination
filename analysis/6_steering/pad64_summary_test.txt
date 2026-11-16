@@ -1,0 +1,13 @@
+STEP 1: no-intervention run with the original batch shape: answer identical to the stored answer in 1.000 of 8 broken rows; still broken in 1.000 (batch-16 runs gave 0.86 identical / 0.873 broken).
+
+STEP 2/3: broken rows of facts 1/5..4/5, both folds pooled. New answer types: correct / entity / broken (original batch shape, then batch 16 of crossfit_broken.py)
+  base                         batch64: correct 0.000 entity 0.000 broken 1.000 | batch16: correct 0.000 entity 0.250 broken 0.750
+  remove BROKEN signal         batch64: correct 0.500 entity 0.125 broken 0.375 | batch16: correct 0.500 entity 0.125 broken 0.375
+  add BROKEN signal a1         batch64: correct 0.000 entity 0.375 broken 0.625 | batch16: correct 0.000 entity 0.250 broken 0.750
+  add CORRECT signal a1        batch64: correct 0.250 entity 0.125 broken 0.625 | batch16: correct 0.250 entity 0.125 broken 0.625
+  remove random latents #0     batch64: correct 0.125 entity 0.125 broken 0.750 | batch16: correct 0.125 entity 0.250 broken 0.625
+random-latent controls (batch64): broken rate mean 0.750, min 0.750, max 0.750
+  k=4/5 (n=2) broken rate: base: 1.00, remove BROKEN: 0.00, add BROKEN: 0.50, add CORRECT: 0.50
+  k=3/5 (n=1) broken rate: base: 1.00, remove BROKEN: 0.00, add BROKEN: 1.00, add CORRECT: 1.00
+  k=2/5 (n=1) broken rate: base: 1.00, remove BROKEN: 0.00, add BROKEN: 1.00, add CORRECT: 1.00
+  k=1/5 (n=4) broken rate: base: 1.00, remove BROKEN: 0.75, add BROKEN: 0.50, add CORRECT: 0.50

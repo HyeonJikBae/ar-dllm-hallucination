@@ -1,0 +1,21 @@
+rows 5950 dev 2975 test 2975 correct share 0.483
+
+Top-K = 20. Within-fact AUROC (test facts).   chance 0.5
+step  SAE on/off  SAE strength  raw probe |  change vs step0: on/off  strength
+  0   0.617       0.629         0.644    |   -
+  8   0.639       0.686         0.749    |   0.686              0.700
+ 16   0.647       0.693         0.764    |   0.687              0.689
+ 24   0.648       0.675         0.773    |   0.687              0.691
+ 31   0.675       0.681         0.805    |   0.686              0.690
+   (facts: 595 )
+raw probe on steps 0..8 concatenated: 0.750
+raw probe on steps 0..16 concatenated: 0.757
+raw probe on steps 0..24 concatenated: 0.771
+raw probe on steps 0..31 concatenated: 0.804
+
+confidence baseline (log-prob/margin of all 32 slots, all steps up to s):
+  up to step  0: 0.616
+  up to step  8: 0.643
+  up to step 16: 0.646
+  up to step 24: 0.644
+  up to step 31: 0.636

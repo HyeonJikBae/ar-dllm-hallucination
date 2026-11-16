@@ -20,6 +20,10 @@ data/final_report.html  결과 보고서
 analysis/sae_io.py           SAE 불러오기 (가중치는 repo의 sae/ 폴더)
 analysis/1_signal_search/   같은 사실 안에서 맞힘 대 틀림 신호 검색
 analysis/2_know_but_wrong/  안다 / 아는데 틀린다 / 모른다 구분
+analysis/3_continuous_knowledge/  앎을 연속값(k = 0~5)으로 회귀
+analysis/4_type_latents/    SAE 켜짐/꺼짐으로 오답 유형 구분
+analysis/5_onoff_vs_strength/  답 쓰기 전 상태로 정답/오답 구분 (SAE 켜짐/꺼짐 대 세기, step별, 답 확정 시점)   README 있음
+analysis/6_steering/        아는데 틀린 답을 hidden state 개입으로 정답으로 바꾸기 (방향 B, 게이팅, SAE 대조)   README 있음
 ```
 
 재현 순서 (생성은 이미 되어 있으므로 2번부터):
@@ -28,7 +32,13 @@ cd data/1_raw && python3 rebuild_dream_answers.py                # Dream 답 = �
 cd ../2_grading && python3 run_grading.py                        # 정답/오답, 0/5~5/5
 cd ../3_classification && python3 classify_rules.py qwen && python3 classify_rules.py dream
 ```
-각 스크립트는 `--check`로 저장된 결과와 비교할 수 있다(차이 0이어야 함). 분석 두 개는 아직 이 라벨로 다시 돌리지 않았다(이전 결과는 지웠다).
+각 스크립트는 `--check`로 저장된 결과와 비교할 수 있다(차이 0이어야 함). `analysis/` 아래 분석은 모두 이 라벨로 돌렸고, 출력은 각 폴더의 `log_*.txt`, `results_*`에 있다. 1, 2번은 `MINK=2`로 2/5~4/5만 쓴 결과(`*_k2`)도 있다.
+
+## 지금까지의 결론 (Dream, 자세한 내용은 `analysis/5_onoff_vs_strength/README.md`, `analysis/6_steering/README.md`)
+- 답을 쓰기 전 상태로 아는 사실 대 모르는 사실은 잘 구분된다(AUROC 약 0.9). 하지만 같은 사실 안에서 이번 표현이 맞을지 틀릴지는 약하다(약 0.66).
+- 같은 사실 안에서 구한 (정답 평균 − 오답 평균) 방향을 layer 20 프롬프트 끝 토큰에 더하면, 아는데 틀린 질문의 약 25%가 정답이 된다. 의미 없는 방향은 약 9%다.
+- 맞던 질문도 일부 틀리게 되어, 모두에 적용하면 1/5~4/5 정답률은 47.6%에서 49.2%로 오른다. 틀린 질문에만 적용할 수 있으면 60.0%다. 병목은 틀릴 질문을 미리 고르는 것이다.
+- SAE latent를 골라 빼거나 더하는 방식은 크기를 맞춘 무작위 latent보다 낫지 않았다.
 
 ## 0. 데이터와 생성
 - 데이터 준비 코드와 파일은 `data/0_prep/`에 있다. 제외 후보를 찾는 코드(`find_…`, `confirm_…`)의 출력에서 최종 제외 목록(`2. popqa_excluded.jsonl`)을 정한 과정은 파일로만 남아 있다.

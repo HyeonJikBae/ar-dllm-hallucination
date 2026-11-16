@@ -1,0 +1,26 @@
+
+===== step 0.   best KNOW latent separation 0.61, best UNKNOWN latent 0.63
+   k/5 correct/wrong |  n  | KNOW: share ON, strength(0..1) | UNKNOWN: share ON, strength(0..1)
+   0/5 wrong       | 21805 | 0.11   0.00            | 0.62   0.00
+   1/5 correct     |   195 | 0.23   0.39            | 0.36   0.83
+   1/5 wrong       |   780 | 0.24   0.40            | 0.37   0.81
+   2/5 correct     |   258 | 0.28   0.48            | 0.31   0.90
+   2/5 wrong       |   387 | 0.27   0.45            | 0.31   0.89
+   3/5 correct     |   381 | 0.29   0.49            | 0.31   0.92
+   3/5 wrong       |   254 | 0.28   0.46            | 0.33   0.90
+   4/5 correct     |   664 | 0.34   0.60            | 0.29   0.91
+   4/5 wrong       |   166 | 0.30   0.53            | 0.31   0.90
+   5/5 correct     |  2710 | 0.50   1.00            | 0.23   1.00
+
+===== step 8.   best KNOW latent separation 0.71, best UNKNOWN latent 0.68
+   k/5 correct/wrong |  n  | KNOW: share ON, strength(0..1) | UNKNOWN: share ON, strength(0..1)
+   0/5 wrong       | 21805 | 0.23   0.00            | 0.63   0.00
+   1/5 correct     |   195 | 0.37   0.21            | 0.44   0.48
+   1/5 wrong       |   780 | 0.34   0.18            | 0.45   0.46
+   2/5 correct     |   258 | 0.41   0.24            | 0.39   0.52
+   2/5 wrong       |   387 | 0.36   0.23            | 0.38   0.52
+   3/5 correct     |   381 | 0.51   0.49            | 0.34   0.70
+   3/5 wrong       |   254 | 0.35   0.22            | 0.38   0.58
+   4/5 correct     |   664 | 0.62   0.78            | 0.26   0.86
+   4/5 wrong       |   166 | 0.39   0.24            | 0.34   0.61
+   5/5 correct     |  2710 | 0.83   1.00            | 0.11   1.00

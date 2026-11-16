@@ -1,0 +1,64 @@
+
+===== step 0
+KNOW latent 13781: MaxMin dev 0.60 | test separation entity 0.64, broken 0.69
+UNKNOWN latent 3932: MaxMin dev 0.62 | test separation entity 0.60, broken 0.66
+
+[KNOW latent 13781, correct rows, step 0]  k  | n | share ON
+      1/5 |    195 | 0.25
+      2/5 |    258 | 0.29
+      3/5 |    381 | 0.34
+      4/5 |    664 | 0.46
+      5/5 |   2710 | 0.78
+
+[KNOW latent 13781, wrong rows, step 0]  k  | n | share ON
+      0/5 |  21805 | 0.13
+      1/5 |    780 | 0.28
+      2/5 |    387 | 0.28
+      3/5 |    254 | 0.28
+      4/5 |    166 | 0.27
+
+[UNKNOWN latent 3932, correct rows, step 0]  k  | n | share ON
+      1/5 |    195 | 0.25
+      2/5 |    258 | 0.19
+      3/5 |    381 | 0.21
+      4/5 |    664 | 0.12
+      5/5 |   2710 | 0.06
+
+[UNKNOWN latent 3932, wrong rows, step 0]  k  | n | share ON
+      0/5 |  21805 | 0.66
+      1/5 |    780 | 0.26
+      2/5 |    387 | 0.20
+      3/5 |    254 | 0.20
+      4/5 |    166 | 0.14
+
+===== step 8
+KNOW latent 15892: MaxMin dev 0.71 | test separation entity 0.72, broken 0.73
+UNKNOWN latent 13946: MaxMin dev 0.64 | test separation entity 0.65, broken 0.64
+
+[KNOW latent 15892, correct rows, step 8]  k  | n | share ON
+      1/5 |    195 | 0.35
+      2/5 |    258 | 0.36
+      3/5 |    381 | 0.50
+      4/5 |    664 | 0.64
+      5/5 |   2710 | 0.91
+
+[KNOW latent 15892, wrong rows, step 8]  k  | n | share ON
+      0/5 |  21805 | 0.19
+      1/5 |    780 | 0.25
+      2/5 |    387 | 0.27
+      3/5 |    254 | 0.22
+      4/5 |    166 | 0.28
+
+[UNKNOWN latent 13946, correct rows, step 8]  k  | n | share ON
+      1/5 |    195 | 0.56
+      2/5 |    258 | 0.52
+      3/5 |    381 | 0.44
+      4/5 |    664 | 0.31
+      5/5 |   2710 | 0.06
+
+[UNKNOWN latent 13946, wrong rows, step 8]  k  | n | share ON
+      0/5 |  21805 | 0.71
+      1/5 |    780 | 0.60
+      2/5 |    387 | 0.50
+      3/5 |    254 | 0.48
+      4/5 |    166 | 0.48

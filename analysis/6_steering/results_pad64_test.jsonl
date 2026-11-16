@@ -1,0 +1,40 @@
+{"cond": "base", "row": 3830, "fold": 0, "k": 1, "rule": "broken-copy", "answer": "Erin Beck", "new_type": "broken", "stored_answer": "Erin Beck"}
+{"cond": "base", "row": 522, "fold": 1, "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken", "stored_answer": "Switch"}
+{"cond": "base", "row": 524, "fold": 1, "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken", "stored_answer": "Switch"}
+{"cond": "base", "row": 2316, "fold": 0, "k": 3, "rule": "broken-empty", "answer": "", "new_type": "broken", "stored_answer": ""}
+{"cond": "base", "row": 1059, "fold": 1, "k": 4, "rule": "broken-fabricated", "answer": "Brtra, Portugal", "new_type": "broken", "stored_answer": "Brtra, Portugal"}
+{"cond": "base", "row": 976, "fold": 0, "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken", "stored_answer": ""}
+{"cond": "base", "row": 509, "fold": 1, "k": 1, "rule": "broken-invalid", "answer": "1", "new_type": "broken", "stored_answer": "1"}
+{"cond": "base", "row": 1593, "fold": 0, "k": 4, "rule": "broken-empty", "answer": "", "new_type": "broken", "stored_answer": ""}
+{"cond": "remove BROKEN signal", "row": 3830, "fold": 0, "k": 1, "rule": "broken-copy", "answer": "Pop", "new_type": "correct", "stored_answer": "Erin Beck"}
+{"cond": "remove BROKEN signal", "row": 522, "fold": 1, "k": 1, "rule": "broken-copy", "answer": "Switch does work.", "new_type": "broken", "stored_answer": "Switch"}
+{"cond": "remove BROKEN signal", "row": 524, "fold": 1, "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken", "stored_answer": "Switch"}
+{"cond": "remove BROKEN signal", "row": 2316, "fold": 0, "k": 3, "rule": "broken-empty", "answer": "Moscow", "new_type": "correct", "stored_answer": ""}
+{"cond": "remove BROKEN signal", "row": 1059, "fold": 1, "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity", "stored_answer": "Brtra, Portugal"}
+{"cond": "remove BROKEN signal", "row": 976, "fold": 0, "k": 2, "rule": "broken-empty", "answer": "Buenos Aires", "new_type": "correct", "stored_answer": ""}
+{"cond": "remove BROKEN signal", "row": 509, "fold": 1, "k": 1, "rule": "broken-invalid", "answer": "1", "new_type": "broken", "stored_answer": "1"}
+{"cond": "remove BROKEN signal", "row": 1593, "fold": 0, "k": 4, "rule": "broken-empty", "answer": "Athens", "new_type": "correct", "stored_answer": ""}
+{"cond": "add BROKEN signal a1", "row": 3830, "fold": 0, "k": 1, "rule": "broken-copy", "answer": "Erin Beck", "new_type": "broken", "stored_answer": "Erin Beck"}
+{"cond": "add BROKEN signal a1", "row": 522, "fold": 1, "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken", "stored_answer": "Switch"}
+{"cond": "add BROKEN signal a1", "row": 524, "fold": 1, "k": 1, "rule": "broken-copy", "answer": "Switching", "new_type": "entity", "stored_answer": "Switch"}
+{"cond": "add BROKEN signal a1", "row": 2316, "fold": 0, "k": 3, "rule": "broken-empty", "answer": "", "new_type": "broken", "stored_answer": ""}
+{"cond": "add BROKEN signal a1", "row": 1059, "fold": 1, "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity", "stored_answer": "Brtra, Portugal"}
+{"cond": "add BROKEN signal a1", "row": 976, "fold": 0, "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken", "stored_answer": ""}
+{"cond": "add BROKEN signal a1", "row": 509, "fold": 1, "k": 1, "rule": "broken-invalid", "answer": "Fidel Antuña Batista is a politician.", "new_type": "entity", "stored_answer": "1"}
+{"cond": "add BROKEN signal a1", "row": 1593, "fold": 0, "k": 4, "rule": "broken-empty", "answer": "", "new_type": "broken", "stored_answer": ""}
+{"cond": "add CORRECT signal a1", "row": 3830, "fold": 0, "k": 1, "rule": "broken-copy", "answer": "Pop", "new_type": "correct", "stored_answer": "Erin Beck"}
+{"cond": "add CORRECT signal a1", "row": 522, "fold": 1, "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken", "stored_answer": "Switch"}
+{"cond": "add CORRECT signal a1", "row": 524, "fold": 1, "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken", "stored_answer": "Switch"}
+{"cond": "add CORRECT signal a1", "row": 2316, "fold": 0, "k": 3, "rule": "broken-empty", "answer": "", "new_type": "broken", "stored_answer": ""}
+{"cond": "add CORRECT signal a1", "row": 1059, "fold": 1, "k": 4, "rule": "broken-fabricated", "answer": "Portugal", "new_type": "broken", "stored_answer": "Brtra, Portugal"}
+{"cond": "add CORRECT signal a1", "row": 976, "fold": 0, "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken", "stored_answer": ""}
+{"cond": "add CORRECT signal a1", "row": 509, "fold": 1, "k": 1, "rule": "broken-invalid", "answer": "Fidel Antuña Batista is a politician.", "new_type": "entity", "stored_answer": "1"}
+{"cond": "add CORRECT signal a1", "row": 1593, "fold": 0, "k": 4, "rule": "broken-empty", "answer": "Athens", "new_type": "correct", "stored_answer": ""}
+{"cond": "remove random latents #0", "row": 3830, "fold": 0, "k": 1, "rule": "broken-copy", "answer": "Pop", "new_type": "correct", "stored_answer": "Erin Beck"}
+{"cond": "remove random latents #0", "row": 522, "fold": 1, "k": 1, "rule": "broken-copy", "answer": "Switch does work.", "new_type": "broken", "stored_answer": "Switch"}
+{"cond": "remove random latents #0", "row": 524, "fold": 1, "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken", "stored_answer": "Switch"}
+{"cond": "remove random latents #0", "row": 2316, "fold": 0, "k": 3, "rule": "broken-empty", "answer": "", "new_type": "broken", "stored_answer": ""}
+{"cond": "remove random latents #0", "row": 1059, "fold": 1, "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity", "stored_answer": "Brtra, Portugal"}
+{"cond": "remove random latents #0", "row": 976, "fold": 0, "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken", "stored_answer": ""}
+{"cond": "remove random latents #0", "row": 509, "fold": 1, "k": 1, "rule": "broken-invalid", "answer": "1", "new_type": "broken", "stored_answer": "1"}
+{"cond": "remove random latents #0", "row": 1593, "fold": 0, "k": 4, "rule": "broken-empty", "answer": "", "new_type": "broken", "stored_answer": ""}

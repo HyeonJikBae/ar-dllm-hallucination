@@ -1,0 +1,37 @@
+qwen: rows 6070 | facts 1214 | subjects 1189 | correct share 0.50
+positions: ['prompt_last'] | SAE L0 {'prompt_last': 66.3}
+  dev 0.654  conf-lp
+  dev 0.628  conf-margin
+  dev 0.654  conf-lr
+  dev 0.645  text-lr
+  dev 0.627  sae-sum20|prompt_last
+  dev 0.667  sae-lr300|C0.003|prompt_last
+  dev 0.644  sae-lr300|C0.03|prompt_last
+  dev 0.651  sae-lr2000|C0.003|prompt_last
+  dev 0.625  sae-lr2000|C0.03|prompt_last
+  dev 0.707  raw-lr|C0.0003|prompt_last
+  dev 0.687  raw-lr|C0.003|prompt_last
+picked on dev: {'conf-lp': 'conf-lp', 'conf-margin': 'conf-margin', 'conf-lr': 'conf-lr', 'text-lr': 'text-lr', 'sae-su': 'sae-sum20|prompt_last', 'sae-lr': 'sae-lr300|C0.003|prompt_last', 'raw-lr': 'raw-lr|C0.0003|prompt_last'}
+
+TEST (within-fact AUROC, mean [95% CI over facts])
+  0.649 [0.621, 0.676]  conf-lp  <- picked
+  0.642 [0.615, 0.670]  conf-margin  <- picked
+  0.655 [0.628, 0.681]  conf-lr  <- picked
+  0.616 [0.591, 0.641]  text-lr  <- picked
+  0.609 [0.583, 0.635]  sae-sum20|prompt_last  <- picked
+  0.623 [0.596, 0.649]  sae-lr300|C0.003|prompt_last  <- picked
+  0.614 [0.587, 0.639]  sae-lr300|C0.03|prompt_last
+  0.631 [0.605, 0.658]  sae-lr2000|C0.003|prompt_last
+  0.615 [0.589, 0.643]  sae-lr2000|C0.03|prompt_last
+  0.663 [0.635, 0.691]  raw-lr|C0.0003|prompt_last  <- picked
+  0.653 [0.628, 0.680]  raw-lr|C0.003|prompt_last
+
+NULL (labels shuffled inside each fact, picked configurations, mean over 20 shuffles)
+  0.498 ± 0.011  conf-lp
+  0.498 ± 0.009  conf-lr
+  0.497 ± 0.012  conf-margin
+  0.507 ± 0.014  raw-lr|C0.0003|prompt_last
+  0.502 ± 0.015  sae-lr300|C0.003|prompt_last
+  0.499 ± 0.013  sae-sum20|prompt_last
+  0.497 ± 0.016  text-lr
+saved analysis/results_signal_qwen.json

@@ -1,0 +1,5 @@
+rows 7950
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 189.91it/s]
+  base: 1452s
+  B c0.5: 1589s
+  B c1: 1794s

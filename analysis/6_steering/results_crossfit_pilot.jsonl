@@ -1,0 +1,160 @@
+{"fold": "A", "cond": "base", "row": 4265, "sample_id": "2671070", "k": 1, "rule": "broken-copy", "answer": "Earth", "new_type": "broken"}
+{"fold": "A", "cond": "base", "row": 4600, "sample_id": "2225456", "k": 1, "rule": "broken-copy", "answer": "Brilliant", "new_type": "broken"}
+{"fold": "A", "cond": "base", "row": 3830, "sample_id": "927892", "k": 1, "rule": "broken-copy", "answer": "Erin Beck", "new_type": "broken"}
+{"fold": "A", "cond": "base", "row": 4268, "sample_id": "2671070", "k": 1, "rule": "broken-copy", "answer": "Earth", "new_type": "broken"}
+{"fold": "A", "cond": "base", "row": 4601, "sample_id": "2225456", "k": 1, "rule": "broken-fabricated", "answer": "Comedy", "new_type": "entity"}
+{"fold": "A", "cond": "base", "row": 2316, "sample_id": "345035", "k": 3, "rule": "broken-empty", "answer": "Moscow", "new_type": "correct"}
+{"fold": "A", "cond": "base", "row": 976, "sample_id": "4300406", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "A", "cond": "base", "row": 1593, "sample_id": "3150882", "k": 4, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "A", "cond": "base batch 8 (noise)", "row": 4265, "sample_id": "2671070", "k": 1, "rule": "broken-copy", "answer": "Earth", "new_type": "broken"}
+{"fold": "A", "cond": "base batch 8 (noise)", "row": 4600, "sample_id": "2225456", "k": 1, "rule": "broken-copy", "answer": "Brilliant", "new_type": "broken"}
+{"fold": "A", "cond": "base batch 8 (noise)", "row": 3830, "sample_id": "927892", "k": 1, "rule": "broken-copy", "answer": "Erin Beck", "new_type": "broken"}
+{"fold": "A", "cond": "base batch 8 (noise)", "row": 4268, "sample_id": "2671070", "k": 1, "rule": "broken-copy", "answer": "Earth", "new_type": "broken"}
+{"fold": "A", "cond": "base batch 8 (noise)", "row": 4601, "sample_id": "2225456", "k": 1, "rule": "broken-fabricated", "answer": "Comedy", "new_type": "entity"}
+{"fold": "A", "cond": "base batch 8 (noise)", "row": 2316, "sample_id": "345035", "k": 3, "rule": "broken-empty", "answer": "Moscow", "new_type": "correct"}
+{"fold": "A", "cond": "base batch 8 (noise)", "row": 976, "sample_id": "4300406", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "A", "cond": "base batch 8 (noise)", "row": 1593, "sample_id": "3150882", "k": 4, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "A", "cond": "remove BROKEN signal", "row": 4265, "sample_id": "2671070", "k": 1, "rule": "broken-copy", "answer": "Earth", "new_type": "broken"}
+{"fold": "A", "cond": "remove BROKEN signal", "row": 4600, "sample_id": "2225456", "k": 1, "rule": "broken-copy", "answer": "Brilliant", "new_type": "broken"}
+{"fold": "A", "cond": "remove BROKEN signal", "row": 3830, "sample_id": "927892", "k": 1, "rule": "broken-copy", "answer": "Pop", "new_type": "correct"}
+{"fold": "A", "cond": "remove BROKEN signal", "row": 4268, "sample_id": "2671070", "k": 1, "rule": "broken-copy", "answer": "Earth", "new_type": "broken"}
+{"fold": "A", "cond": "remove BROKEN signal", "row": 4601, "sample_id": "2225456", "k": 1, "rule": "broken-fabricated", "answer": "Comedy", "new_type": "entity"}
+{"fold": "A", "cond": "remove BROKEN signal", "row": 2316, "sample_id": "345035", "k": 3, "rule": "broken-empty", "answer": "Moscow", "new_type": "correct"}
+{"fold": "A", "cond": "remove BROKEN signal", "row": 976, "sample_id": "4300406", "k": 2, "rule": "broken-empty", "answer": "Buenos Aires", "new_type": "correct"}
+{"fold": "A", "cond": "remove BROKEN signal", "row": 1593, "sample_id": "3150882", "k": 4, "rule": "broken-empty", "answer": "Athens", "new_type": "correct"}
+{"fold": "A", "cond": "add BROKEN signal a0.5", "row": 4265, "sample_id": "2671070", "k": 1, "rule": "broken-copy", "answer": "Earth", "new_type": "broken"}
+{"fold": "A", "cond": "add BROKEN signal a0.5", "row": 4600, "sample_id": "2225456", "k": 1, "rule": "broken-copy", "answer": "Action", "new_type": "entity"}
+{"fold": "A", "cond": "add BROKEN signal a0.5", "row": 3830, "sample_id": "927892", "k": 1, "rule": "broken-copy", "answer": "Erin Beck", "new_type": "broken"}
+{"fold": "A", "cond": "add BROKEN signal a0.5", "row": 4268, "sample_id": "2671070", "k": 1, "rule": "broken-copy", "answer": "Earth", "new_type": "broken"}
+{"fold": "A", "cond": "add BROKEN signal a0.5", "row": 4601, "sample_id": "2225456", "k": 1, "rule": "broken-fabricated", "answer": "Comedy", "new_type": "entity"}
+{"fold": "A", "cond": "add BROKEN signal a0.5", "row": 2316, "sample_id": "345035", "k": 3, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "A", "cond": "add BROKEN signal a0.5", "row": 976, "sample_id": "4300406", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "A", "cond": "add BROKEN signal a0.5", "row": 1593, "sample_id": "3150882", "k": 4, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "A", "cond": "add BROKEN signal a1", "row": 4265, "sample_id": "2671070", "k": 1, "rule": "broken-copy", "answer": "Earth", "new_type": "broken"}
+{"fold": "A", "cond": "add BROKEN signal a1", "row": 4600, "sample_id": "2225456", "k": 1, "rule": "broken-copy", "answer": "The genre of Brilliant is Comedy.", "new_type": "entity"}
+{"fold": "A", "cond": "add BROKEN signal a1", "row": 3830, "sample_id": "927892", "k": 1, "rule": "broken-copy", "answer": "Erin Beck", "new_type": "broken"}
+{"fold": "A", "cond": "add BROKEN signal a1", "row": 4268, "sample_id": "2671070", "k": 1, "rule": "broken-copy", "answer": "Earth", "new_type": "broken"}
+{"fold": "A", "cond": "add BROKEN signal a1", "row": 4601, "sample_id": "2225456", "k": 1, "rule": "broken-fabricated", "answer": "The genre of Brilliant is fantasy.", "new_type": "broken"}
+{"fold": "A", "cond": "add BROKEN signal a1", "row": 2316, "sample_id": "345035", "k": 3, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "A", "cond": "add BROKEN signal a1", "row": 976, "sample_id": "4300406", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "A", "cond": "add BROKEN signal a1", "row": 1593, "sample_id": "3150882", "k": 4, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "A", "cond": "remove CORRECT signal", "row": 4265, "sample_id": "2671070", "k": 1, "rule": "broken-copy", "answer": "Earth", "new_type": "broken"}
+{"fold": "A", "cond": "remove CORRECT signal", "row": 4600, "sample_id": "2225456", "k": 1, "rule": "broken-copy", "answer": "Action", "new_type": "entity"}
+{"fold": "A", "cond": "remove CORRECT signal", "row": 3830, "sample_id": "927892", "k": 1, "rule": "broken-copy", "answer": "Erin Beck", "new_type": "broken"}
+{"fold": "A", "cond": "remove CORRECT signal", "row": 4268, "sample_id": "2671070", "k": 1, "rule": "broken-copy", "answer": "Earth", "new_type": "broken"}
+{"fold": "A", "cond": "remove CORRECT signal", "row": 4601, "sample_id": "2225456", "k": 1, "rule": "broken-fabricated", "answer": "The genre of Brilliant is fantasy.", "new_type": "broken"}
+{"fold": "A", "cond": "remove CORRECT signal", "row": 2316, "sample_id": "345035", "k": 3, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "A", "cond": "remove CORRECT signal", "row": 976, "sample_id": "4300406", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "A", "cond": "remove CORRECT signal", "row": 1593, "sample_id": "3150882", "k": 4, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "A", "cond": "add CORRECT signal a0.5", "row": 4265, "sample_id": "2671070", "k": 1, "rule": "broken-copy", "answer": "Earth", "new_type": "broken"}
+{"fold": "A", "cond": "add CORRECT signal a0.5", "row": 4600, "sample_id": "2225456", "k": 1, "rule": "broken-copy", "answer": "Brilliant", "new_type": "broken"}
+{"fold": "A", "cond": "add CORRECT signal a0.5", "row": 3830, "sample_id": "927892", "k": 1, "rule": "broken-copy", "answer": "Pop", "new_type": "correct"}
+{"fold": "A", "cond": "add CORRECT signal a0.5", "row": 4268, "sample_id": "2671070", "k": 1, "rule": "broken-copy", "answer": "Earth", "new_type": "broken"}
+{"fold": "A", "cond": "add CORRECT signal a0.5", "row": 4601, "sample_id": "2225456", "k": 1, "rule": "broken-fabricated", "answer": "Comedy", "new_type": "entity"}
+{"fold": "A", "cond": "add CORRECT signal a0.5", "row": 2316, "sample_id": "345035", "k": 3, "rule": "broken-empty", "answer": "Moscow", "new_type": "correct"}
+{"fold": "A", "cond": "add CORRECT signal a0.5", "row": 976, "sample_id": "4300406", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "A", "cond": "add CORRECT signal a0.5", "row": 1593, "sample_id": "3150882", "k": 4, "rule": "broken-empty", "answer": "Athens", "new_type": "correct"}
+{"fold": "A", "cond": "add CORRECT signal a1", "row": 4265, "sample_id": "2671070", "k": 1, "rule": "broken-copy", "answer": "Earth", "new_type": "broken"}
+{"fold": "A", "cond": "add CORRECT signal a1", "row": 4600, "sample_id": "2225456", "k": 1, "rule": "broken-copy", "answer": "Brilliant", "new_type": "broken"}
+{"fold": "A", "cond": "add CORRECT signal a1", "row": 3830, "sample_id": "927892", "k": 1, "rule": "broken-copy", "answer": "Pop", "new_type": "correct"}
+{"fold": "A", "cond": "add CORRECT signal a1", "row": 4268, "sample_id": "2671070", "k": 1, "rule": "broken-copy", "answer": "Earth", "new_type": "broken"}
+{"fold": "A", "cond": "add CORRECT signal a1", "row": 4601, "sample_id": "2225456", "k": 1, "rule": "broken-fabricated", "answer": "Comedy", "new_type": "entity"}
+{"fold": "A", "cond": "add CORRECT signal a1", "row": 2316, "sample_id": "345035", "k": 3, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "A", "cond": "add CORRECT signal a1", "row": 976, "sample_id": "4300406", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "A", "cond": "add CORRECT signal a1", "row": 1593, "sample_id": "3150882", "k": 4, "rule": "broken-empty", "answer": "Athens", "new_type": "correct"}
+{"fold": "A", "cond": "remove random latents #0", "row": 4265, "sample_id": "2671070", "k": 1, "rule": "broken-copy", "answer": "Earth", "new_type": "broken"}
+{"fold": "A", "cond": "remove random latents #0", "row": 4600, "sample_id": "2225456", "k": 1, "rule": "broken-copy", "answer": "Action", "new_type": "entity"}
+{"fold": "A", "cond": "remove random latents #0", "row": 3830, "sample_id": "927892", "k": 1, "rule": "broken-copy", "answer": "Pop", "new_type": "correct"}
+{"fold": "A", "cond": "remove random latents #0", "row": 4268, "sample_id": "2671070", "k": 1, "rule": "broken-copy", "answer": "Earth", "new_type": "broken"}
+{"fold": "A", "cond": "remove random latents #0", "row": 4601, "sample_id": "2225456", "k": 1, "rule": "broken-fabricated", "answer": "The genre of Brilliant is fantasy.", "new_type": "broken"}
+{"fold": "A", "cond": "remove random latents #0", "row": 2316, "sample_id": "345035", "k": 3, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "A", "cond": "remove random latents #0", "row": 976, "sample_id": "4300406", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "A", "cond": "remove random latents #0", "row": 1593, "sample_id": "3150882", "k": 4, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "A", "cond": "remove random latents #1", "row": 4265, "sample_id": "2671070", "k": 1, "rule": "broken-copy", "answer": "Earth", "new_type": "broken"}
+{"fold": "A", "cond": "remove random latents #1", "row": 4600, "sample_id": "2225456", "k": 1, "rule": "broken-copy", "answer": "Brilliant", "new_type": "broken"}
+{"fold": "A", "cond": "remove random latents #1", "row": 3830, "sample_id": "927892", "k": 1, "rule": "broken-copy", "answer": "Pop", "new_type": "correct"}
+{"fold": "A", "cond": "remove random latents #1", "row": 4268, "sample_id": "2671070", "k": 1, "rule": "broken-copy", "answer": "Earth", "new_type": "broken"}
+{"fold": "A", "cond": "remove random latents #1", "row": 4601, "sample_id": "2225456", "k": 1, "rule": "broken-fabricated", "answer": "The genre of Brilliant is fantasy.", "new_type": "broken"}
+{"fold": "A", "cond": "remove random latents #1", "row": 2316, "sample_id": "345035", "k": 3, "rule": "broken-empty", "answer": "Moscow", "new_type": "correct"}
+{"fold": "A", "cond": "remove random latents #1", "row": 976, "sample_id": "4300406", "k": 2, "rule": "broken-empty", "answer": "Buenos Aires", "new_type": "correct"}
+{"fold": "A", "cond": "remove random latents #1", "row": 1593, "sample_id": "3150882", "k": 4, "rule": "broken-empty", "answer": "Athens", "new_type": "correct"}
+{"fold": "B", "cond": "base", "row": 522, "sample_id": "2344027", "k": 1, "rule": "broken-copy", "answer": "Switch does work.", "new_type": "broken"}
+{"fold": "B", "cond": "base", "row": 524, "sample_id": "2344027", "k": 1, "rule": "broken-copy", "answer": "Switching", "new_type": "entity"}
+{"fold": "B", "cond": "base", "row": 1608, "sample_id": "2894564", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "base", "row": 1606, "sample_id": "2894564", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "base", "row": 1059, "sample_id": "2245900", "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity"}
+{"fold": "B", "cond": "base", "row": 509, "sample_id": "1412527", "k": 1, "rule": "broken-invalid", "answer": "1", "new_type": "broken"}
+{"fold": "B", "cond": "base", "row": 2623, "sample_id": "3666171", "k": 1, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "base", "row": 2753, "sample_id": "3897677", "k": 1, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "base batch 8 (noise)", "row": 522, "sample_id": "2344027", "k": 1, "rule": "broken-copy", "answer": "Switch does work.", "new_type": "broken"}
+{"fold": "B", "cond": "base batch 8 (noise)", "row": 524, "sample_id": "2344027", "k": 1, "rule": "broken-copy", "answer": "Switching", "new_type": "entity"}
+{"fold": "B", "cond": "base batch 8 (noise)", "row": 1608, "sample_id": "2894564", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "base batch 8 (noise)", "row": 1606, "sample_id": "2894564", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "base batch 8 (noise)", "row": 1059, "sample_id": "2245900", "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity"}
+{"fold": "B", "cond": "base batch 8 (noise)", "row": 509, "sample_id": "1412527", "k": 1, "rule": "broken-invalid", "answer": "1", "new_type": "broken"}
+{"fold": "B", "cond": "base batch 8 (noise)", "row": 2623, "sample_id": "3666171", "k": 1, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "base batch 8 (noise)", "row": 2753, "sample_id": "3897677", "k": 1, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "remove BROKEN signal", "row": 522, "sample_id": "2344027", "k": 1, "rule": "broken-copy", "answer": "Switch does work.", "new_type": "broken"}
+{"fold": "B", "cond": "remove BROKEN signal", "row": 524, "sample_id": "2344027", "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken"}
+{"fold": "B", "cond": "remove BROKEN signal", "row": 1608, "sample_id": "2894564", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "remove BROKEN signal", "row": 1606, "sample_id": "2894564", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "remove BROKEN signal", "row": 1059, "sample_id": "2245900", "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity"}
+{"fold": "B", "cond": "remove BROKEN signal", "row": 509, "sample_id": "1412527", "k": 1, "rule": "broken-invalid", "answer": "1", "new_type": "broken"}
+{"fold": "B", "cond": "remove BROKEN signal", "row": 2623, "sample_id": "3666171", "k": 1, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "remove BROKEN signal", "row": 2753, "sample_id": "3897677", "k": 1, "rule": "broken-empty", "answer": "Genoa", "new_type": "entity"}
+{"fold": "B", "cond": "add BROKEN signal a0.5", "row": 522, "sample_id": "2344027", "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken"}
+{"fold": "B", "cond": "add BROKEN signal a0.5", "row": 524, "sample_id": "2344027", "k": 1, "rule": "broken-copy", "answer": "Switching", "new_type": "entity"}
+{"fold": "B", "cond": "add BROKEN signal a0.5", "row": 1608, "sample_id": "2894564", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "add BROKEN signal a0.5", "row": 1606, "sample_id": "2894564", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "add BROKEN signal a0.5", "row": 1059, "sample_id": "2245900", "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity"}
+{"fold": "B", "cond": "add BROKEN signal a0.5", "row": 509, "sample_id": "1412527", "k": 1, "rule": "broken-invalid", "answer": "Fidel Antuña Batista is a politician.", "new_type": "entity"}
+{"fold": "B", "cond": "add BROKEN signal a0.5", "row": 2623, "sample_id": "3666171", "k": 1, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "add BROKEN signal a0.5", "row": 2753, "sample_id": "3897677", "k": 1, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "add BROKEN signal a1", "row": 522, "sample_id": "2344027", "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken"}
+{"fold": "B", "cond": "add BROKEN signal a1", "row": 524, "sample_id": "2344027", "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken"}
+{"fold": "B", "cond": "add BROKEN signal a1", "row": 1608, "sample_id": "2894564", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "add BROKEN signal a1", "row": 1606, "sample_id": "2894564", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "add BROKEN signal a1", "row": 1059, "sample_id": "2245900", "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity"}
+{"fold": "B", "cond": "add BROKEN signal a1", "row": 509, "sample_id": "1412527", "k": 1, "rule": "broken-invalid", "answer": "Fidel Antuña Batista is a politician.", "new_type": "entity"}
+{"fold": "B", "cond": "add BROKEN signal a1", "row": 2623, "sample_id": "3666171", "k": 1, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "add BROKEN signal a1", "row": 2753, "sample_id": "3897677", "k": 1, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "remove CORRECT signal", "row": 522, "sample_id": "2344027", "k": 1, "rule": "broken-copy", "answer": "Switch does work.", "new_type": "broken"}
+{"fold": "B", "cond": "remove CORRECT signal", "row": 524, "sample_id": "2344027", "k": 1, "rule": "broken-copy", "answer": "Switching", "new_type": "entity"}
+{"fold": "B", "cond": "remove CORRECT signal", "row": 1608, "sample_id": "2894564", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "remove CORRECT signal", "row": 1606, "sample_id": "2894564", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "remove CORRECT signal", "row": 1059, "sample_id": "2245900", "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity"}
+{"fold": "B", "cond": "remove CORRECT signal", "row": 509, "sample_id": "1412527", "k": 1, "rule": "broken-invalid", "answer": "1", "new_type": "broken"}
+{"fold": "B", "cond": "remove CORRECT signal", "row": 2623, "sample_id": "3666171", "k": 1, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "remove CORRECT signal", "row": 2753, "sample_id": "3897677", "k": 1, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "add CORRECT signal a0.5", "row": 522, "sample_id": "2344027", "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken"}
+{"fold": "B", "cond": "add CORRECT signal a0.5", "row": 524, "sample_id": "2344027", "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken"}
+{"fold": "B", "cond": "add CORRECT signal a0.5", "row": 1608, "sample_id": "2894564", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "add CORRECT signal a0.5", "row": 1606, "sample_id": "2894564", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "add CORRECT signal a0.5", "row": 1059, "sample_id": "2245900", "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity"}
+{"fold": "B", "cond": "add CORRECT signal a0.5", "row": 509, "sample_id": "1412527", "k": 1, "rule": "broken-invalid", "answer": "Fidel Antuña Batista is a politician.", "new_type": "entity"}
+{"fold": "B", "cond": "add CORRECT signal a0.5", "row": 2623, "sample_id": "3666171", "k": 1, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "add CORRECT signal a0.5", "row": 2753, "sample_id": "3897677", "k": 1, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "add CORRECT signal a1", "row": 522, "sample_id": "2344027", "k": 1, "rule": "broken-copy", "answer": "Switch does work.", "new_type": "broken"}
+{"fold": "B", "cond": "add CORRECT signal a1", "row": 524, "sample_id": "2344027", "k": 1, "rule": "broken-copy", "answer": "Switch", "new_type": "broken"}
+{"fold": "B", "cond": "add CORRECT signal a1", "row": 1608, "sample_id": "2894564", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "add CORRECT signal a1", "row": 1606, "sample_id": "2894564", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "add CORRECT signal a1", "row": 1059, "sample_id": "2245900", "k": 4, "rule": "broken-fabricated", "answer": "Portugal", "new_type": "broken"}
+{"fold": "B", "cond": "add CORRECT signal a1", "row": 509, "sample_id": "1412527", "k": 1, "rule": "broken-invalid", "answer": "Fidel Antuña Batista is a politician.", "new_type": "entity"}
+{"fold": "B", "cond": "add CORRECT signal a1", "row": 2623, "sample_id": "3666171", "k": 1, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "add CORRECT signal a1", "row": 2753, "sample_id": "3897677", "k": 1, "rule": "broken-empty", "answer": "Genoa", "new_type": "entity"}
+{"fold": "B", "cond": "remove random latents #0", "row": 522, "sample_id": "2344027", "k": 1, "rule": "broken-copy", "answer": "Switch does work.", "new_type": "broken"}
+{"fold": "B", "cond": "remove random latents #0", "row": 524, "sample_id": "2344027", "k": 1, "rule": "broken-copy", "answer": "Switching", "new_type": "entity"}
+{"fold": "B", "cond": "remove random latents #0", "row": 1608, "sample_id": "2894564", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "remove random latents #0", "row": 1606, "sample_id": "2894564", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "remove random latents #0", "row": 1059, "sample_id": "2245900", "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity"}
+{"fold": "B", "cond": "remove random latents #0", "row": 509, "sample_id": "1412527", "k": 1, "rule": "broken-invalid", "answer": "1", "new_type": "broken"}
+{"fold": "B", "cond": "remove random latents #0", "row": 2623, "sample_id": "3666171", "k": 1, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "remove random latents #0", "row": 2753, "sample_id": "3897677", "k": 1, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "remove random latents #1", "row": 522, "sample_id": "2344027", "k": 1, "rule": "broken-copy", "answer": "Switch does work.", "new_type": "broken"}
+{"fold": "B", "cond": "remove random latents #1", "row": 524, "sample_id": "2344027", "k": 1, "rule": "broken-copy", "answer": "Switching", "new_type": "entity"}
+{"fold": "B", "cond": "remove random latents #1", "row": 1608, "sample_id": "2894564", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "remove random latents #1", "row": 1606, "sample_id": "2894564", "k": 2, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "remove random latents #1", "row": 1059, "sample_id": "2245900", "k": 4, "rule": "broken-fabricated", "answer": "Afonso II of Portugal was born in 1102 in Braga, Portugal.", "new_type": "entity"}
+{"fold": "B", "cond": "remove random latents #1", "row": 509, "sample_id": "1412527", "k": 1, "rule": "broken-invalid", "answer": "1", "new_type": "broken"}
+{"fold": "B", "cond": "remove random latents #1", "row": 2623, "sample_id": "3666171", "k": 1, "rule": "broken-empty", "answer": "", "new_type": "broken"}
+{"fold": "B", "cond": "remove random latents #1", "row": 2753, "sample_id": "3897677", "k": 1, "rule": "broken-empty", "answer": "", "new_type": "broken"}

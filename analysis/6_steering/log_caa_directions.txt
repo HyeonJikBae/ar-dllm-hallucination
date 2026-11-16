@@ -1,0 +1,51 @@
+fold 0 facts used: B 173, E 888, C 110 | cosines: B-E 0.83, B-C 0.56, E-C 0.28, BE-B 0.96, BE-E 0.96
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 148.28it/s]
+  base: 201s
+  B c0.5: 203s
+  B c1.0: 199s
+  E c0.5: 191s
+  E c1.0: 160s
+  BE c0.5: 159s
+  BE c1.0: 159s
+  C c0.5: 159s
+  C c1.0: 183s
+  D0 c1: 216s
+  D1 c1: 237s
+  D2 c1: 212s
+  D3 c1: 232s
+
+==== originally BROKEN rows (n=310): correct / entity / broken
+  base     correct 0.032 | entity 0.113 | broken 0.855
+  B c0.5   correct 0.190 | entity 0.261 | broken 0.548
+  B c1.0   correct 0.252 | entity 0.365 | broken 0.384
+  E c0.5   correct 0.171 | entity 0.226 | broken 0.597
+  E c1.0   correct 0.235 | entity 0.313 | broken 0.445
+  BE c0.5  correct 0.174 | entity 0.261 | broken 0.561
+  BE c1.0  correct 0.255 | entity 0.326 | broken 0.419
+  C c0.5   correct 0.161 | entity 0.268 | broken 0.571
+  C c1.0   correct 0.235 | entity 0.377 | broken 0.384
+  D x4 c1: correct mean 0.056 (0.029-0.097) | broken mean 0.690 (0.658-0.748)
+
+==== originally ENTITY rows (n=300): correct / entity / broken
+  base     correct 0.060 | entity 0.927 | broken 0.013
+  B c0.5   correct 0.220 | entity 0.753 | broken 0.023
+  B c1.0   correct 0.270 | entity 0.683 | broken 0.047
+  E c0.5   correct 0.210 | entity 0.753 | broken 0.033
+  E c1.0   correct 0.237 | entity 0.687 | broken 0.073
+  BE c0.5  correct 0.220 | entity 0.740 | broken 0.030
+  BE c1.0  correct 0.250 | entity 0.683 | broken 0.063
+  C c0.5   correct 0.167 | entity 0.817 | broken 0.017
+  C c1.0   correct 0.180 | entity 0.800 | broken 0.020
+  D x4 c1: correct mean 0.123 (0.107-0.160) | broken mean 0.107 (0.060-0.147)
+
+==== originally CORRECT rows (n=300): correct / entity / broken
+  base     correct 0.943 | entity 0.053 | broken 0.000
+  B c0.5   correct 0.830 | entity 0.160 | broken 0.010
+  B c1.0   correct 0.697 | entity 0.270 | broken 0.033
+  E c0.5   correct 0.833 | entity 0.163 | broken 0.003
+  E c1.0   correct 0.697 | entity 0.257 | broken 0.040
+  BE c0.5  correct 0.830 | entity 0.157 | broken 0.013
+  BE c1.0  correct 0.707 | entity 0.260 | broken 0.030
+  C c0.5   correct 0.820 | entity 0.173 | broken 0.003
+  C c1.0   correct 0.647 | entity 0.347 | broken 0.003
+  D x4 c1: correct mean 0.490 (0.457-0.553) | broken mean 0.120 (0.087-0.140)

@@ -1,0 +1,27 @@
+step 8
+
+=== KNOW vs UNK  (knows vs does-not-know, wrong type t)   (n dev pos/neg, test pos/neg per type: {'entity': (2455, 18779, 2710, 18340), 'broken': (2455, 3318, 2710, 3229)})
+  [on/off] best MaxMin on dev: positive side 0.71, negative side 0.64
+     top-1  MaxMin latents: entity test AUROC 0.874 | broken test AUROC 0.893
+     top-20 MaxMin latents: entity test AUROC 0.934 | broken test AUROC 0.953
+  [strength(t)] best MaxMin on dev: positive side 86.94, negative side 69.45
+     top-1  MaxMin latents: entity test AUROC 0.906 | broken test AUROC 0.945
+     top-20 MaxMin latents: entity test AUROC 0.931 | broken test AUROC 0.959
+
+=== KNOW vs KBW  (knows vs knows-but-wrong type t)   (n dev pos/neg, test pos/neg per type: {'entity': (2455, 1328, 2710, 1421), 'broken': (2455, 153, 2710, 157)})
+  [on/off] best MaxMin on dev: positive side 0.63, negative side 0.43
+     top-1  MaxMin latents: entity test AUROC 0.836 | broken test AUROC 0.838
+     top-20 MaxMin latents: entity test AUROC 0.891 | broken test AUROC 0.876
+  [strength(t)] best MaxMin on dev: positive side 31.89, negative side 17.04
+     top-1  MaxMin latents: entity test AUROC 0.840 | broken test AUROC 0.872
+     top-20 MaxMin latents: entity test AUROC 0.894 | broken test AUROC 0.902
+
+=== UNK vs KBW  (does-not-know-wrong vs knows-but-wrong, type t)   (n dev pos/neg, test pos/neg per type: {'entity': (18779, 1328, 18340, 1421), 'broken': (3318, 153, 3229, 157)})
+  [on/off] best MaxMin on dev: positive side 0.39, negative side 0.28
+     top-1  MaxMin latents: entity test AUROC 0.700 | broken test AUROC 0.747
+     top-20 MaxMin latents: entity test AUROC 0.742 | broken test AUROC 0.821
+  [strength(t)] best MaxMin on dev: positive side 20.30, negative side 7.50
+     top-1  MaxMin latents: entity test AUROC 0.680 | broken test AUROC 0.711
+     top-20 MaxMin latents: entity test AUROC 0.729 | broken test AUROC 0.800
+
+abstain sizes (not analysed per type): UNK 444  KBW 16

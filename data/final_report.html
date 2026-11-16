@@ -2,157 +2,133 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: single reading column, tables scroll inside their own wrapper */
-:root{--bg:#f6f7f5;--fg:#1d2321;--mute:#5c6663;--line:#d8dcd8;--panel:#ffffff;--accent:#1f6f5c;--accent2:#b5532a;--soft:#e6efeb;
+/* Layout: one reading column; pipeline as a row of step cards that wraps; tables scroll inside their wrapper */
+:root{--bg:#f6f7f5;--fg:#1d2321;--mute:#5c6663;--line:#d8dcd8;--panel:#ffffff;--accent:#1f6f5c;--soft:#e6efeb;
+--c-correct:#2f8f5b;--c-entity:#5b7fb8;--c-broken:#d0723a;--c-abstain:#a3aaa6;
 --sans:"IBM Plex Sans KR",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141917;--fg:#e4e8e5;--mute:#98a39f;--line:#2e3935;--panel:#1b221f;--accent:#58b9a0;--accent2:#e08a5e;--soft:#22302b;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#141917;--fg:#e4e8e5;--mute:#98a39f;--line:#2e3935;--panel:#1b221f;--accent:#58b9a0;--accent2:#e08a5e;--soft:#22302b;color-scheme:dark}
-body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.7;padding-block:32px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
-main{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:28px;min-width:0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141917;--fg:#e4e8e5;--mute:#98a39f;--line:#2e3935;--panel:#1b221f;--accent:#58b9a0;--soft:#22302b;
+--c-correct:#4fbf83;--c-entity:#7f9fd6;--c-broken:#ec8d55;--c-abstain:#7b8581;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141917;--fg:#e4e8e5;--mute:#98a39f;--line:#2e3935;--panel:#1b221f;--accent:#58b9a0;--soft:#22302b;
+--c-correct:#4fbf83;--c-entity:#7f9fd6;--c-broken:#ec8d55;--c-abstain:#7b8581;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.65;padding-block:32px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+main{max-width:980px;margin:0 auto;display:flex;flex-direction:column;gap:32px;min-width:0}
 h1{font-size:28px;line-height:1.3;margin:0;text-wrap:balance}
-h2{font-size:20px;margin:0 0 10px;padding-top:6px;border-top:2px solid var(--accent);text-wrap:balance}
-h3{font-size:16px;margin:18px 0 6px}
-p{margin:0 0 10px}
-.sub{color:var(--mute);margin:6px 0 0}
+h2{font-size:20px;margin:0 0 12px;padding-top:8px;border-top:2px solid var(--accent);text-wrap:balance}
+h3{font-size:16px;margin:18px 0 8px}
+p{margin:0 0 10px} .sub{color:var(--mute);margin:6px 0 0} .mute{color:var(--mute)}
 section{min-width:0}
-.tw{overflow-x:auto;margin:10px 0}
+code{font-family:var(--mono);font-size:12.5px}
+.flow{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.step{background:var(--panel);border:1px solid var(--line);border-top:4px solid var(--accent);padding:12px 14px;min-width:0;position:relative}
+.step .n{font-family:var(--mono);font-size:12px;color:var(--accent);letter-spacing:.06em}
+.step b{display:block;font-size:16px;margin:2px 0 6px}
+.step .num{font-variant-numeric:tabular-nums;font-size:22px;font-weight:700}
+.step ul{margin:6px 0 0;padding-left:18px;font-size:13.5px} .step li{margin-bottom:2px}
+.step code{font-size:11.5px;color:var(--mute)}
+.tw{overflow-x:auto;margin:8px 0}
 table{border-collapse:collapse;width:100%;font-size:13.5px;font-variant-numeric:tabular-nums}
 th,td{border-bottom:1px solid var(--line);padding:6px 10px;text-align:right;white-space:nowrap}
-th:first-child,td:first-child{text-align:left}
-th{background:var(--soft);font-weight:500}
-td.l,th.l{text-align:left;white-space:normal}
-code{font-family:var(--mono);font-size:12.5px}
-pre{background:var(--panel);border:1px solid var(--line);padding:12px;overflow-x:auto;font-family:var(--mono);font-size:12.5px;line-height:1.55;margin:10px 0;white-space:pre-wrap}
-.box{background:var(--panel);border:1px solid var(--line);padding:12px 16px;margin:10px 0}
-.warn{border-left:4px solid var(--accent2)}
-ul,ol{margin:0 0 10px;padding-left:22px}
-li{margin-bottom:4px}
+th:first-child,td:first-child{text-align:left} th{background:var(--soft);font-weight:500}
+td.l,th.l{text-align:left;white-space:normal} td.em{font-weight:700;color:var(--c-broken)}
+td.barcell{width:34%;min-width:160px}
+.bar{display:flex;height:14px;border-radius:2px;overflow:hidden;background:var(--soft)}
+.bar i{display:block;height:100%}
+.s-correct{background:var(--c-correct)} .s-entity{background:var(--c-entity)} .s-broken{background:var(--c-broken)} .s-abstain{background:var(--c-abstain)}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:var(--mute);margin:6px 0}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;margin-right:6px;vertical-align:-1px}
+.lg-correct::before{background:var(--c-correct)} .lg-entity::before{background:var(--c-entity)} .lg-broken::before{background:var(--c-broken)} .lg-abstain::before{background:var(--c-abstain)}
+.models{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.model{background:var(--panel);border:1px solid var(--line);padding:14px 16px;min-width:0}
+.model h3{margin:0 0 4px} .model .big{font-size:26px;font-weight:700;font-variant-numeric:tabular-nums}
+.model .bar{height:22px;margin:10px 0 6px}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;font-size:13.5px;font-variant-numeric:tabular-nums}
+.kv span:nth-child(odd){color:var(--mute)}
+.box{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--c-broken);padding:12px 16px}
+ul{margin:0 0 8px;padding-left:20px} li{margin-bottom:4px}
+pre{background:var(--panel);border:1px solid var(--line);padding:10px 12px;overflow-x:auto;font-family:var(--mono);font-size:12.5px;margin:8px 0;white-space:pre-wrap}
 </style>
-
 <main>
 <header>
 <h1>PopQA 최종 채점 보고서: Qwen2.5-7B와 Dream-v0-Base-7B</h1>
-<p class="sub">두 모델의 정답/오답, 오답 3유형(entity, broken, abstain), 0/5~5/5 분포와 채점·분류 규칙. 모두 문자열 규칙과 Wikidata 캐시로만 정하며, 다시 돌리면 같은 결과가 나온다.</p>
+<p class="sub">PopQA 원본에서 정답/오답, 오답 3유형, 0/5~5/5까지. 모든 단계는 정해진 규칙으로만 돌아가고(변형 질문 생성만 GPT), 다시 돌리면 같은 결과가 나온다.</p>
 </header>
 
 <section>
-<h2>1. 데이터와 생성</h2>
-<ul>
-<li>PopQA 14,267개 사실 중 정답이 여러 개인 사실(3,203개)과 값이 시간에 따라 바뀐 사실(19개)을 빼고 <b>11,045개</b>를 쓴다.</li>
-<li>사실마다 질문 5개: PopQA 원래 질문 1개와 gpt-4o-mini로 만든 변형 4개. 변형은 답의 종류, 관계, 관계 방향을 유지하고 문장 구조만 바꾼다. 모델당 55,225행.</li>
-<li>프롬프트(두 모델 공통, 예시 답 없음):</li>
-</ul>
-<pre>Answer the question with only the direct answer: a short phrase or name, no explanation, no full sentences.
-
-Question: {질문}
-Answer:</pre>
-<ul>
-<li>Qwen2.5-7B: 탐욕 디코딩, 최대 32토큰. Dream-v0-Base-7B: 캔버스 32칸, 32 step, <code>topk_margin</code>, 온도 0.</li>
-<li><b>답은 첫 특수 토큰(<code>&lt;|endoftext|&gt;</code> 등) 앞까지의 글에서, 앞쪽 공백과 줄바꿈을 지운 뒤의 첫 줄</b>이다. 그 뒤의 글은 보지 않는다.</li>
-<li>Qwen은 답을 쓰고 <code>&lt;|endoftext|&gt;</code>에서 멈춘다. Dream도 답 뒤에 <code>&lt;|endoftext|&gt;</code>를 두지만, 캔버스 32칸을 채워야 해서 그 뒤에 새 문서(웹 페이지 문구, 수학 문제)를 이어 쓴다. 특수 토큰을 지우고 글자로 바꾸면 "KyivTake the 2-minute tour ×"처럼 답과 새 문서가 붙으므로, 특수 토큰에서 먼저 끊는다.</li>
-</ul>
-</section>
-
-<section>
-<h2>2. 정답/오답</h2>
-<div class="tw"><table>
-<tr><th></th><th>정답</th><th>오답</th><th>정답률</th></tr>
-<tr><td>Qwen2.5-7B (AR)</td><td>10,025</td><td>45,200</td><td>18.2%</td></tr>
-<tr><td>Dream-v0-Base-7B (dLLM)</td><td>8,040</td><td>47,185</td><td>14.6%</td></tr>
-</table></div>
-<h3>0/5 ~ 5/5 (사실 수)</h3>
-<p>한 사실의 5개 질문 중 몇 개를 맞혔는지로 묶은 것이다. 1/5~4/5는 모델이 사실을 알지만 질문 표현에 따라 틀리는 구간이다.</p>
-<div class="tw"><table>
-<tr><th></th><th>0/5</th><th>1/5</th><th>2/5</th><th>3/5</th><th>4/5</th><th>5/5</th></tr>
-<tr><td>Qwen</td><td>8,438</td><td>343</td><td>245</td><td>276</td><td>351</td><td>1,392</td></tr>
-<tr><td>Dream</td><td>8,822</td><td>387</td><td>240</td><td>244</td><td>319</td><td>1,033</td></tr>
-</table></div>
-</section>
-
-<section>
-<h2>3. 오답 3유형</h2>
-<div class="tw"><table>
-<tr><th>유형</th><th class="l">뜻</th><th>Qwen</th><th>Dream</th></tr>
-<tr><td>entity</td><td class="l">골드가 아닌 다른 실재 개체를 답함</td><td>43,738 (96.8%)</td><td>39,868 (84.5%)</td></tr>
-<tr><td>broken</td><td class="l">생성이 망가진 답</td><td>1,254 (2.8%)</td><td>6,857 (14.5%)</td></tr>
-<tr><td>abstain</td><td class="l">모르겠다고 거절</td><td>208 (0.5%)</td><td>460 (1.0%)</td></tr>
-</table></div>
-
-<h3>broken의 내역</h3>
-<div class="tw"><table>
-<tr><th>규칙</th><th class="l">예</th><th>Qwen</th><th>Dream</th></tr>
-<tr><td>질문 베낌</td><td class="l">"Saturday Night" (질문: who composed Saturday Night?)</td><td>1,039</td><td>5,632</td></tr>
-<tr><td>지어낸 이름</td><td class="l">"Out Riley" (질문: who directed Outing Riley?)</td><td>49</td><td>522</td></tr>
-<tr><td>빈 답</td><td class="l">(첫 토큰이 바로 <code>&lt;|endoftext|&gt;</code>)</td><td>116</td><td>480</td></tr>
-<tr><td>답이 될 수 없는 모양</td><td class="l">"X", "1", "Me", "Yes"</td><td>26</td><td>195</td></tr>
-<tr><td>반복</td><td class="l">"The answer is: The answer is: …"</td><td>20</td><td>18</td></tr>
-<tr><td>프롬프트·채팅 누출</td><td class="l">"…user: Write a python function"</td><td>4</td><td>9</td></tr>
-<tr><td>답 뒤에 쓸데없는 글</td><td class="l">(특수 토큰 앞에서 붙은 경우만)</td><td>0</td><td>1</td></tr>
-</table></div>
-
-<h3>사실 그룹별 오답 유형 (오답 중 비율)</h3>
-<div class="tw"><table>
-<tr><th></th><th>그룹</th><th>오답</th><th>entity</th><th>broken</th><th>abstain</th></tr>
-<tr><td>Qwen</td><td>0/5</td><td>42,190</td><td>96.8%</td><td>2.7%</td><td>0.5%</td></tr>
-<tr><td></td><td>1/5</td><td>1,372</td><td>95.7%</td><td>4.1%</td><td>0.2%</td></tr>
-<tr><td></td><td>2/5</td><td>735</td><td>97.8%</td><td>2.2%</td><td>0.0%</td></tr>
-<tr><td></td><td>3/5</td><td>552</td><td>94.6%</td><td>5.3%</td><td>0.2%</td></tr>
-<tr><td></td><td>4/5</td><td>351</td><td>94.6%</td><td>5.4%</td><td>0.0%</td></tr>
-<tr><td>Dream</td><td>0/5</td><td>44,110</td><td>84.2%</td><td>14.8%</td><td>1.0%</td></tr>
-<tr><td></td><td>1/5</td><td>1,548</td><td>91.0%</td><td>8.2%</td><td>0.8%</td></tr>
-<tr><td></td><td>2/5</td><td>720</td><td>88.5%</td><td>11.2%</td><td>0.3%</td></tr>
-<tr><td></td><td>3/5</td><td>488</td><td>86.9%</td><td>12.9%</td><td>0.2%</td></tr>
-<tr><td></td><td>4/5</td><td>319</td><td>87.5%</td><td>12.2%</td><td>0.3%</td></tr>
-</table></div>
-<p>두 모델 모두 사실을 얼마나 아는지와 broken 비율 사이에 뚜렷한 경향은 없다. Dream의 broken은 Qwen의 약 5배(14.5% 대 2.8%)이고, 대부분 질문 속 단어를 답으로 쓰는 질문 베낌이다(5,632행, Qwen 1,039행).</p>
-</section>
-
-<section>
-<h2>4. 채점 규칙</h2>
-<ol>
-<li><b>첫 줄 안에 쓸데없는 글이 있으면 오답</b>: 웹 잔해(Take the 2-minute tour, You are here, Skip to main content, The Interview Process, The Executive Committee), 수학 문제("What is the sum/value/product", "equation", <code>$</code>, "Solve", "Find the"), 띄어쓰기 없이 붙은 새 문장("Paris.What"), 프롬프트·채팅 누출("question:", "answer:", "user:", "assistant:"), 반복.</li>
-<li>아니면 답을 정규화(소문자, 악센트·기호 제거)해서 골드와 모든 별칭과 비교한다. 로마 숫자(I~XII)가 같고, 두 문자열이 같거나 유사도(difflib 비율 또는 단어를 정렬한 뒤의 비율)가 90 이상이면 <b>정답</b>.</li>
-<li>그 밖은 <b>오답</b>. 문장에서 답을 꺼내지 않는다.</li>
-</ol>
-<div class="tw"><table>
-<tr><th class="l">답</th><th class="l">골드</th><th class="l">결과</th></tr>
-<tr><td class="l">E.M. Forster</td><td class="l">E. M. Forster</td><td class="l">정답 (정규화하면 같음)</td></tr>
-<tr><td class="l">Kurosawa Akira</td><td class="l">Akira Kurosawa</td><td class="l">정답 (단어 순서만 다름)</td></tr>
-<tr><td class="l">Henry II</td><td class="l">Henry III</td><td class="l">오답 (로마 숫자 다름)</td></tr>
-<tr><td class="l">Kyiv &lt;|endoftext|&gt; Take the 2-minute tour ×</td><td class="l">Kyiv</td><td class="l">정답 (특수 토큰에서 끊으면 "Kyiv")</td></tr>
-<tr><td class="l">ParisWhat is the sum … (특수 토큰 없이 같은 줄에 붙음)</td><td class="l">Paris</td><td class="l">오답 (같은 줄의 쓸데없는 글)</td></tr>
-<tr><td class="l">Marco Ameglio is an Italian politician.</td><td class="l">politician</td><td class="l">오답 (문장형)</td></tr>
-</table></div>
-<p>참고 논문(Ferrando et al. 2025)은 생성문 전체에서 정답 단어가 들어 있는지(<code>token_set_ratio &gt; 90</code>)를 본다. 그 방식은 "Tennis"를 "table tennis"의 정답으로 보는 등 관대해서 쓰지 않았다.</p>
-</section>
-
-<section>
-<h2>5. 오답 유형 규칙</h2>
-<p>오답 행에만, 위에서부터 처음 해당하는 것으로 정한다.</p>
-<div class="tw"><table>
-<tr><th>순서</th><th class="l">조건</th><th>유형</th></tr>
-<tr><td>1</td><td class="l">빈 답</td><td>broken</td></tr>
-<tr><td>2</td><td class="l">거절 표현(unknown, not specified, I don't know 등, 14단어 이하) 또는 "no", "none"</td><td>abstain</td></tr>
-<tr><td>3</td><td class="l">프롬프트·채팅 누출</td><td>broken</td></tr>
-<tr><td>4</td><td class="l">반복(같은 두 단어 묶음 3번 이상, 또는 같은 내용어 4번 이상)</td><td>broken</td></tr>
-<tr><td>5</td><td class="l">답 뒤에 쓸데없는 글(채점 1번과 같은 목록)</td><td>broken</td></tr>
-<tr><td>6</td><td class="l">답이 될 수 없는 모양: 숫자만, 알파벳 한 글자, 기능어 한 단어. PopQA의 질문은 사람·장소·분야·색을 묻기 때문</td><td>broken</td></tr>
-<tr><td>7</td><td class="l">답의 내용어가 전부 질문 속 단어(질문 베낌)</td><td>broken</td></tr>
-<tr><td>8</td><td class="l">질문 단어와 새 단어가 섞인 이름인데 Wikidata에 후보가 없음(아버지·어머니 관계 제외)</td><td>broken</td></tr>
-<tr><td>9</td><td class="l">나머지</td><td>entity</td></tr>
-</table></div>
-</section>
-
-<section>
-<h2>6. 한계</h2>
-<div class="box warn">
-<ul>
-<li>정답을 담은 문장형 답은 오답(entity)이다. 문장에서 답을 꺼내는 규칙을 시험했을 때 늘어나는 정답은 0.1% 미만이었다.</li>
-<li>쓸데없는 글은 정해 둔 목록으로만 잡고, 특수 토큰과 줄바꿈 뒤의 글은 보지 않는다.</li>
-<li>지어낸 이름 판정은 Wikidata 캐시에 기댄다. 실재하지만 Wikidata에서 찾지 못한 이름이 broken이 될 수 있다(예: "Edward A. Murphy, Jr.").</li>
-<li>Qwen은 생성 원문을 저장하지 않아 저장된 답을 썼다. 10행을 다시 생성해 보니 모두 답을 쓰고 <code>&lt;|endoftext|&gt;</code>에서 멈췄다.</li>
-<li>무작위 200행(모델별 정답·entity·broken·abstain 각 25행)을 Claude가 본 결과 약 98~99%가 위 정의대로 분류됐다. 특수 토큰에서 끊기 전 기준이다. 사람 검증은 아직 하지 않았다.</li>
-</ul>
+<h2>전체 흐름</h2>
+<div class="flow">
+<div class="step"><div class="n">STEP 0 · data/0_prep</div><b>데이터 준비</b><div class="num">14,267 → 11,045</div>
+<ul><li>정답이 여러 개인 사실 3,203개 제외</li><li>값이 바뀐 사실 19개 제외</li><li>질문 5개 = 원래 1 + gpt-4o-mini 변형 4</li><li>모델당 55,225행</li></ul></div>
+<div class="step"><div class="n">STEP 1 · data/1_raw</div><b>생성과 답 꺼내기</b><div class="num">32 토큰 / 32 칸</div>
+<ul><li>같은 지시형 프롬프트, 예시 답 없음</li><li>Qwen 탐욕, Dream 32 step <code>topk_margin</code></li><li>답 = 첫 특수 토큰 앞 → 첫 줄</li></ul></div>
+<div class="step"><div class="n">STEP 2 · data/2_grading</div><b>정답/오답</b><div class="num">유사도 ≥ 90</div>
+<ul><li>답 줄에 쓸데없는 글 → 오답</li><li>골드·별칭과 비교, 로마 숫자 일치</li><li>5개 중 맞힌 수 → 0/5~5/5</li></ul></div>
+<div class="step"><div class="n">STEP 3 · data/3_classification</div><b>오답 3유형</b><div class="num">9단계 규칙</div>
+<ul><li>abstain: 거절 표현</li><li>broken: 빈 답·누출·반복·모양·질문 베낌·지어낸 이름</li><li>entity: 나머지</li></ul></div>
 </div>
+</section>
+
+<section>
+<h2>결과 한눈에</h2>
+<div class="legend"><span class="lg-correct">정답</span><span class="lg-entity">entity (다른 실재 개체)</span><span class="lg-broken">broken (망가진 답)</span><span class="lg-abstain">abstain (거절)</span></div>
+<div class="models">
+<div class="model"><h3>Qwen2.5-7B <span class="mute">(AR)</span></h3><div class="big">정답 10,025 <span class="mute" style="font-size:16px">/ 55,225 (18.2%)</span></div>
+<div class="bar" role="img" aria-label="정답 18.2%, entity 79.2%, broken 2.3%, abstain 0.4%"><i class="s-correct" style="width:18.15%" title="정답 10,025 (18.2%)"></i><i class="s-entity" style="width:79.20%" title="entity 43,738 (79.2%)"></i><i class="s-broken" style="width:2.27%" title="broken 1,254 (2.3%)"></i><i class="s-abstain" style="width:0.38%" title="abstain 208 (0.4%)"></i></div><div class="kv"><span>오답 중 entity</span><span>43,738 (96.8%)</span><span>오답 중 broken</span><span>1,254 (2.8%)</span><span>오답 중 abstain</span><span>208 (0.5%)</span></div></div>
+<div class="model"><h3>Dream-v0-Base-7B <span class="mute">(dLLM)</span></h3><div class="big">정답 8,040 <span class="mute" style="font-size:16px">/ 55,225 (14.6%)</span></div>
+<div class="bar" role="img" aria-label="정답 14.6%, entity 72.2%, broken 12.4%, abstain 0.8%"><i class="s-correct" style="width:14.56%" title="정답 8,040 (14.6%)"></i><i class="s-entity" style="width:72.19%" title="entity 39,868 (72.2%)"></i><i class="s-broken" style="width:12.42%" title="broken 6,857 (12.4%)"></i><i class="s-abstain" style="width:0.83%" title="abstain 460 (0.8%)"></i></div><div class="kv"><span>오답 중 entity</span><span>39,868 (84.5%)</span><span>오답 중 broken</span><span>6,857 (14.5%)</span><span>오답 중 abstain</span><span>460 (1.0%)</span></div></div>
+</div>
+</section>
+
+<section>
+<h2>0/5 ~ 5/5 별 결과</h2>
+<p>사실 하나를 5가지 질문으로 물었을 때 맞힌 수로 묶었다. 막대는 그 그룹의 모든 행(사실 수 × 5)을 정답·entity·broken·abstain으로 나눈 것이다. 빨간 숫자는 <b>오답 중 broken 비율</b>이다.</p>
+<div class="legend"><span class="lg-correct">정답</span><span class="lg-entity">entity</span><span class="lg-broken">broken</span><span class="lg-abstain">abstain</span></div>
+<h3>Qwen2.5-7B</h3>
+<div class="tw"><table><tr><th>그룹</th><th>사실</th><th>행</th><th>정답</th><th>entity</th><th>broken</th><th>abstain</th><th>오답 중 broken</th><th class="l">구성</th></tr><tr><td>0/5</td><td>8,438</td><td>42,190</td><td>0</td><td>40,852</td><td>1,134</td><td>204</td><td class="em">2.7%</td><td class="barcell"><div class="bar" role="img" aria-label="정답 0.0%, entity 96.8%, broken 2.7%, abstain 0.5%"><i class="s-entity" style="width:96.83%" title="entity 40,852 (96.8%)"></i><i class="s-broken" style="width:2.69%" title="broken 1,134 (2.7%)"></i><i class="s-abstain" style="width:0.48%" title="abstain 204 (0.5%)"></i></div></td></tr><tr><td>1/5</td><td>343</td><td>1,715</td><td>343</td><td>1,313</td><td>56</td><td>3</td><td class="em">4.1%</td><td class="barcell"><div class="bar" role="img" aria-label="정답 20.0%, entity 76.6%, broken 3.3%, abstain 0.2%"><i class="s-correct" style="width:20.00%" title="정답 343 (20.0%)"></i><i class="s-entity" style="width:76.56%" title="entity 1,313 (76.6%)"></i><i class="s-broken" style="width:3.27%" title="broken 56 (3.3%)"></i><i class="s-abstain" style="width:0.17%" title="abstain 3 (0.2%)"></i></div></td></tr><tr><td>2/5</td><td>245</td><td>1,225</td><td>490</td><td>719</td><td>16</td><td>0</td><td class="em">2.2%</td><td class="barcell"><div class="bar" role="img" aria-label="정답 40.0%, entity 58.7%, broken 1.3%, abstain 0.0%"><i class="s-correct" style="width:40.00%" title="정답 490 (40.0%)"></i><i class="s-entity" style="width:58.69%" title="entity 719 (58.7%)"></i><i class="s-broken" style="width:1.31%" title="broken 16 (1.3%)"></i></div></td></tr><tr><td>3/5</td><td>276</td><td>1,380</td><td>828</td><td>522</td><td>29</td><td>1</td><td class="em">5.3%</td><td class="barcell"><div class="bar" role="img" aria-label="정답 60.0%, entity 37.8%, broken 2.1%, abstain 0.1%"><i class="s-correct" style="width:60.00%" title="정답 828 (60.0%)"></i><i class="s-entity" style="width:37.83%" title="entity 522 (37.8%)"></i><i class="s-broken" style="width:2.10%" title="broken 29 (2.1%)"></i><i class="s-abstain" style="width:0.07%" title="abstain 1 (0.1%)"></i></div></td></tr><tr><td>4/5</td><td>351</td><td>1,755</td><td>1,404</td><td>332</td><td>19</td><td>0</td><td class="em">5.4%</td><td class="barcell"><div class="bar" role="img" aria-label="정답 80.0%, entity 18.9%, broken 1.1%, abstain 0.0%"><i class="s-correct" style="width:80.00%" title="정답 1,404 (80.0%)"></i><i class="s-entity" style="width:18.92%" title="entity 332 (18.9%)"></i><i class="s-broken" style="width:1.08%" title="broken 19 (1.1%)"></i></div></td></tr><tr><td>5/5</td><td>1,392</td><td>6,960</td><td>6,960</td><td>0</td><td>0</td><td>0</td><td class="em">–</td><td class="barcell"><div class="bar" role="img" aria-label="정답 100.0%, entity 0.0%, broken 0.0%, abstain 0.0%"><i class="s-correct" style="width:100.00%" title="정답 6,960 (100.0%)"></i></div></td></tr></table></div>
+<h3>Dream-v0-Base-7B</h3>
+<div class="tw"><table><tr><th>그룹</th><th>사실</th><th>행</th><th>정답</th><th>entity</th><th>broken</th><th>abstain</th><th>오답 중 broken</th><th class="l">구성</th></tr><tr><td>0/5</td><td>8,822</td><td>44,110</td><td>0</td><td>37,119</td><td>6,547</td><td>444</td><td class="em">14.8%</td><td class="barcell"><div class="bar" role="img" aria-label="정답 0.0%, entity 84.2%, broken 14.8%, abstain 1.0%"><i class="s-entity" style="width:84.15%" title="entity 37,119 (84.2%)"></i><i class="s-broken" style="width:14.84%" title="broken 6,547 (14.8%)"></i><i class="s-abstain" style="width:1.01%" title="abstain 444 (1.0%)"></i></div></td></tr><tr><td>1/5</td><td>387</td><td>1,935</td><td>387</td><td>1,409</td><td>127</td><td>12</td><td class="em">8.2%</td><td class="barcell"><div class="bar" role="img" aria-label="정답 20.0%, entity 72.8%, broken 6.6%, abstain 0.6%"><i class="s-correct" style="width:20.00%" title="정답 387 (20.0%)"></i><i class="s-entity" style="width:72.82%" title="entity 1,409 (72.8%)"></i><i class="s-broken" style="width:6.56%" title="broken 127 (6.6%)"></i><i class="s-abstain" style="width:0.62%" title="abstain 12 (0.6%)"></i></div></td></tr><tr><td>2/5</td><td>240</td><td>1,200</td><td>480</td><td>637</td><td>81</td><td>2</td><td class="em">11.2%</td><td class="barcell"><div class="bar" role="img" aria-label="정답 40.0%, entity 53.1%, broken 6.8%, abstain 0.2%"><i class="s-correct" style="width:40.00%" title="정답 480 (40.0%)"></i><i class="s-entity" style="width:53.08%" title="entity 637 (53.1%)"></i><i class="s-broken" style="width:6.75%" title="broken 81 (6.8%)"></i><i class="s-abstain" style="width:0.17%" title="abstain 2 (0.2%)"></i></div></td></tr><tr><td>3/5</td><td>244</td><td>1,220</td><td>732</td><td>424</td><td>63</td><td>1</td><td class="em">12.9%</td><td class="barcell"><div class="bar" role="img" aria-label="정답 60.0%, entity 34.8%, broken 5.2%, abstain 0.1%"><i class="s-correct" style="width:60.00%" title="정답 732 (60.0%)"></i><i class="s-entity" style="width:34.75%" title="entity 424 (34.8%)"></i><i class="s-broken" style="width:5.16%" title="broken 63 (5.2%)"></i><i class="s-abstain" style="width:0.08%" title="abstain 1 (0.1%)"></i></div></td></tr><tr><td>4/5</td><td>319</td><td>1,595</td><td>1,276</td><td>279</td><td>39</td><td>1</td><td class="em">12.2%</td><td class="barcell"><div class="bar" role="img" aria-label="정답 80.0%, entity 17.5%, broken 2.4%, abstain 0.1%"><i class="s-correct" style="width:80.00%" title="정답 1,276 (80.0%)"></i><i class="s-entity" style="width:17.49%" title="entity 279 (17.5%)"></i><i class="s-broken" style="width:2.45%" title="broken 39 (2.4%)"></i><i class="s-abstain" style="width:0.06%" title="abstain 1 (0.1%)"></i></div></td></tr><tr><td>5/5</td><td>1,033</td><td>5,165</td><td>5,165</td><td>0</td><td>0</td><td>0</td><td class="em">–</td><td class="barcell"><div class="bar" role="img" aria-label="정답 100.0%, entity 0.0%, broken 0.0%, abstain 0.0%"><i class="s-correct" style="width:100.00%" title="정답 5,165 (100.0%)"></i></div></td></tr></table></div>
+<p>Dream의 broken은 모든 그룹에서 Qwen보다 많다. 아는 정도(1/5~4/5)와 broken 비율 사이에는 뚜렷한 경향이 없다.</p>
+</section>
+
+<section>
+<h2>broken의 내역</h2>
+<div class="tw"><table><tr><th>규칙</th><th class="l">예</th><th>Qwen</th><th>Dream</th></tr><tr><td>질문 베낌</td><td class="l mute">Who directed The City? → The City</td><td>1,039</td><td>5,632</td></tr><tr><td>지어낸 이름</td><td class="l mute">Who directed Outing Riley? → Out Riley</td><td>49</td><td>522</td></tr><tr><td>빈 답</td><td class="l mute">첫 토큰이 바로 &lt;|endoftext|&gt;</td><td>116</td><td>480</td></tr><tr><td>답이 될 수 없는 모양</td><td class="l mute">X · 1 · Me · Yes</td><td>26</td><td>195</td></tr><tr><td>반복</td><td class="l mute">The answer is: The answer is: …</td><td>20</td><td>18</td></tr><tr><td>프롬프트·채팅 누출</td><td class="l mute">… user: Write a python function</td><td>4</td><td>9</td></tr><tr><td>답 뒤에 쓸데없는 글</td><td class="l mute">ParisWhat is the sum …</td><td>0</td><td>1</td></tr></table></div>
+<p>Dream의 broken은 대부분 질문 속 단어를 답으로 쓰는 질문 베낌이다(Qwen의 약 5배).</p>
+</section>
+
+<section>
+<h2>규칙 상세</h2>
+<h3>답 꺼내기</h3>
+<ol><li>첫 특수 토큰(<code>&lt;|endoftext|&gt;</code> 등) 앞까지만 쓴다. Dream은 약 9%가 답 뒤에 <code>&lt;|endoftext|&gt;</code>를 두고 남은 칸에 새 문서를 쓰기 때문이다.</li>
+<li>앞쪽 공백과 줄바꿈을 지운 뒤 첫 줄을 답으로 쓴다. Dream은 약 90%가 답 뒤에 줄을 바꿔 스스로 만든 다음 질문을 쓴다.</li></ol>
+<h3>정답/오답</h3>
+<ol><li>답 줄에 쓸데없는 글(웹 잔해 5개 문구, 수학 문제, 붙은 새 문장, 누출, 반복)이 있으면 오답</li>
+<li>정규화(소문자, 악센트·기호 제거) 후 골드와 별칭 전부와 비교. 로마 숫자(I~XII)가 같고, 같거나 유사도(difflib 비율 또는 단어 정렬 후 비율) 90 이상이면 정답</li>
+<li>그 밖은 오답. 문장에서 답을 꺼내지 않는다.</li></ol>
+<h3>오답 3유형 (위에서부터 처음 해당하는 것)</h3>
+<div class="tw"><table><tr><th>순서</th><th class="l">조건</th><th>유형</th></tr>
+<tr><td>1</td><td class="l">빈 답</td><td>broken</td></tr>
+<tr><td>2</td><td class="l">거절 표현(unknown, not specified 등, 14단어 이하) 또는 "no", "none"</td><td>abstain</td></tr>
+<tr><td>3</td><td class="l">프롬프트·채팅 누출</td><td>broken</td></tr>
+<tr><td>4</td><td class="l">반복</td><td>broken</td></tr>
+<tr><td>5</td><td class="l">답 뒤에 쓸데없는 글</td><td>broken</td></tr>
+<tr><td>6</td><td class="l">숫자만, 알파벳 한 글자, 기능어 한 단어</td><td>broken</td></tr>
+<tr><td>7</td><td class="l">답의 내용어가 전부 질문 속 단어</td><td>broken</td></tr>
+<tr><td>8</td><td class="l">질문 단어와 새 단어가 섞인 이름인데 Wikidata에 없음(아버지·어머니 제외)</td><td>broken</td></tr>
+<tr><td>9</td><td class="l">나머지</td><td>entity</td></tr></table></div>
+<h3>다시 돌리기</h3>
+<pre>cd data/1_raw &amp;&amp; python3 rebuild_dream_answers.py
+cd ../2_grading &amp;&amp; python3 run_grading.py
+cd ../3_classification &amp;&amp; python3 classify_rules.py qwen &amp;&amp; python3 classify_rules.py dream</pre>
+</section>
+
+<section>
+<h2>한계</h2>
+<div class="box"><ul>
+<li>정답을 담은 문장형 답은 오답(entity)이다. 문장에서 답을 꺼내도 늘어나는 정답은 0.1% 미만이었다.</li>
+<li>쓸데없는 글은 정해 둔 목록으로만 잡고, 특수 토큰과 줄바꿈 뒤의 글은 보지 않는다.</li>
+<li>지어낸 이름(8번)은 Wikidata 캐시에 기댄다. 실재하지만 찾지 못한 이름이 broken이 될 수 있다.</li>
+<li>Qwen은 생성 원문을 저장하지 않아 저장된 답을 썼다. 10행을 다시 생성해 보니 모두 <code>&lt;|endoftext|&gt;</code>에서 멈췄다.</li>
+<li>사람 검증은 아직 하지 않았다.</li>
+</ul></div>
 </section>
 </main>

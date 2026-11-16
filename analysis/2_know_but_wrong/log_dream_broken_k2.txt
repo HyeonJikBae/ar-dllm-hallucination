@@ -1,0 +1,8 @@
+dream broken {'dont': 6547, 'kbw': 183, 'know': 2488, 'known5': 5165} | test {'dont': 3255, 'kbw': 84, 'know': 1266, 'known5': 2615}
+
+KNOW-BUT-WRONG (broken) vs the two other states, AUROC inside each relation (test subjects)
+signal                        vs KNOW   vs DONT KNOW
+one-vs-rest probe               0.755          0.662   (relations: 4, 4)
+knowledge axis (0/5 vs 5/5)      0.292          0.637   (relations: 4, 4)
+question text                   0.627          0.528   (relations: 4, 4)
+relation only                   0.500          0.500   (relations: 4, 4)

@@ -1,0 +1,15 @@
+encoded (55225, 16384) mean latents on 85.55183340878226
+
+=== Task 1: knows (5/5) vs does not know (0/5). dev 2455 22305 test 2710 21805
+  best single latent: separation 0.61 | - 0.63
+  K=1   on/off: pooled 0.888 within-rel 0.717 | strength: pooled 0.880 within-rel 0.826
+  K=5   on/off: pooled 0.892 within-rel 0.751 | strength: pooled 0.931 within-rel 0.877
+  K=20  on/off: pooled 0.913 within-rel 0.820 | strength: pooled 0.935 within-rel 0.876
+  K=100 on/off: pooled 0.912 within-rel 0.819 | strength: pooled 0.927 within-rel 0.828
+
+=== Task 2: facts 1/5..4/5, correct vs wrong inside the same fact. dev rows 2865 test rows 3085
+  best single latent: separation 0.14 | - 0.11
+  K=1   on/off: within-fact AUROC 0.557 | strength: 0.579   (facts 617)
+  K=5   on/off: within-fact AUROC 0.586 | strength: 0.592   (facts 617)
+  K=20  on/off: within-fact AUROC 0.592 | strength: 0.602   (facts 617)
+  K=100 on/off: within-fact AUROC 0.599 | strength: 0.612   (facts 617)

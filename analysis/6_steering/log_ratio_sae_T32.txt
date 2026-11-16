@@ -1,0 +1,46 @@
+selection: ratio; 0/5 rows used: broken 6547, entity 37119; facts with both: 3303; best separation broken-side 1.085, entity-side 1.437
+  K=20 within-fact AUROC on facts 1/5..4/5: correct-broken 0.705 (213 facts) | entity-broken 0.606 (142 facts) | correct-entity 0.576 (1118 facts)
+  K=5 within-fact AUROC on facts 1/5..4/5: correct-broken 0.657 (213 facts) | entity-broken 0.613 (142 facts) | correct-entity 0.551 (1118 facts)
+removed share of ||h||^2 (target rows, step 0): BROKEN K20 0.0058, BROKEN K5 0.0015, ENTITY-side K20 0.0060
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 151.28it/s]
+  base: 57s
+  remove BROKEN K20: 57s
+  add BROKEN K20 a1: 57s
+  remove ENTITY-side K20: 57s
+  add ENTITY-side K20 a1: 57s
+  remove BROKEN K5: 57s
+  remove random 20 #0: 59s
+  remove random 20 #1: 81s
+  remove random 20 #2: 78s
+  remove random 20 #3: 78s
+  remove random 20 #4: 79s
+  remove random 20 #5: 80s
+  remove random 20 #6: 81s
+  remove random 20 #7: 79s
+  remove random 5 #0: 78s
+  remove random 5 #1: 79s
+  remove random 5 #2: 79s
+  remove random 5 #3: 80s
+  remove random 5 #4: 80s
+  remove random 5 #5: 57s
+  remove random 5 #6: 57s
+  remove random 5 #7: 57s
+  add random 20 a1 #0: 57s
+  add random 20 a1 #1: 66s
+  add random 20 a1 #2: 75s
+  add random 20 a1 #3: 80s
+  add random 20 a1 #4: 83s
+  add random 20 a1 #5: 71s
+  add random 20 a1 #6: 76s
+  add random 20 a1 #7: 82s
+
+==== broken rows of facts 1/5..4/5 (n=310) -> new answer type: correct / entity / broken
+  base                         correct 0.039 | entity 0.106 | broken 0.855
+  remove BROKEN K20            correct 0.039 | entity 0.113 | broken 0.848
+  add BROKEN K20 a1            correct 0.081 | entity 0.268 | broken 0.648
+  remove ENTITY-side K20       correct 0.045 | entity 0.103 | broken 0.852
+  add ENTITY-side K20 a1       correct 0.165 | entity 0.277 | broken 0.555
+  remove BROKEN K5             correct 0.035 | entity 0.100 | broken 0.865
+  remove random 20             broken mean 0.859 (min 0.832, max 0.881) | correct mean 0.045 (min 0.029, max 0.065)  [8 draws]
+  remove random 5              broken mean 0.853 (min 0.835, max 0.874) | correct mean 0.045 (min 0.039, max 0.052)  [8 draws]
+  add random 20 a1             broken mean 0.688 (min 0.635, max 0.723) | correct mean 0.079 (min 0.052, max 0.100)  [8 draws]

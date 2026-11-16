@@ -1,0 +1,43 @@
+fold 0: raw lengths  A 13.64  B 4.16 (173 facts)  C 3.87  D 0.45; mean||h|| 54.1
+cosine between directions (fold 0): A-B 0.27  A-C 0.51  B-C 0.49  A-D 0.09
+fold overlap: cosine of A between folds 0 and 1: 1.000, of B: 0.989
+patch reference: mean ||h_donor - h|| = 23.8 (0.44 x mean||h||)
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 206.42it/s]
+  base: 63s
+  A correct-broken pooled c0.25: 76s
+  A correct-broken pooled c0.5: 56s
+  A correct-broken pooled c1: 56s
+  B correct-broken within-fact c0.25: 91s
+  B correct-broken within-fact c0.5: 87s
+  B correct-broken within-fact c1: 81s
+  C entity-broken c0.5: 56s
+  C entity-broken c1: 56s
+  D broken-broken c0.5: 79s
+  D broken-broken c1: 89s
+  R random #0 c0.5: 80s
+  R random #1 c0.5: 84s
+  R random #2 c0.5: 93s
+  R random #3 c0.5: 73s
+  R random #4 c0.5: 56s
+  R random #5 c0.5: 65s
+  R random #0 c1: 75s
+  R random #1 c1: 72s
+  R random #2 c1: 79s
+  R random #3 c1: 77s
+  R random #4 c1: 73s
+  R random #5 c1: 91s
+
+==== broken rows of facts 1/5..4/5 (n=310) -> new answer type
+  base                                 correct 0.039 | entity 0.106 | broken 0.855
+  A correct-broken pooled c0.25        correct 0.110 | entity 0.135 | broken 0.755
+  A correct-broken pooled c0.5         correct 0.123 | entity 0.190 | broken 0.681
+  A correct-broken pooled c1           correct 0.087 | entity 0.365 | broken 0.539
+  B correct-broken within-fact c0.25   correct 0.097 | entity 0.155 | broken 0.748
+  B correct-broken within-fact c0.5    correct 0.187 | entity 0.261 | broken 0.552
+  B correct-broken within-fact c1      correct 0.258 | entity 0.361 | broken 0.381
+  C entity-broken c0.5                 correct 0.165 | entity 0.226 | broken 0.606
+  C entity-broken c1                   correct 0.181 | entity 0.416 | broken 0.403
+  D broken-broken c0.5                 correct 0.110 | entity 0.226 | broken 0.661
+  D broken-broken c1                   correct 0.132 | entity 0.335 | broken 0.529
+  random (on-manifold) c0.5: correct mean 0.060 (0.042-0.090) | broken mean 0.781 (0.755-0.829)  [6 draws]
+  random (on-manifold) c1: correct mean 0.074 (0.045-0.119) | broken mean 0.694 (0.600-0.739)  [6 draws]

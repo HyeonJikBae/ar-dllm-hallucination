@@ -1,0 +1,24 @@
+rows: 1-4/5 5950, 0/5 sample 1000, 5/5 sample 1000
+base accuracy: whole data 14.60% | facts 1-4/5 47.63%   (0/5 sample 0.2%, 5/5 sample 99.5%)
+
+[no detector]
+  steer every row                                c= 0.5 | whole data 14.99% | facts 1-4/5 49.23% | steered: whole 100.0%, 1-4/5 100.0% | in 1-4/5: fixed 582, broken 487
+  steer every row                                c=  c1 | whole data 14.45% | facts 1-4/5 45.56% | steered: whole 100.0%, 1-4/5 100.0% | in 1-4/5: fixed 737, broken 860
+  steer only facts 1/5-4/5 (perfect knowledge gate) c= 0.5 | whole data 14.77% | facts 1-4/5 49.23% | steered: whole  10.8%, 1-4/5 100.0% | in 1-4/5: fixed 582, broken 487
+  steer only facts 1/5-4/5 (perfect knowledge gate) c=  c1 | whole data 14.37% | facts 1-4/5 45.56% | steered: whole  10.8%, 1-4/5 100.0% | in 1-4/5: fixed 737, broken 860
+
+[oracle: knows which rows are wrong at base]
+  steer only rows that are wrong                 c= 0.5 | whole data 16.06% | facts 1-4/5 57.41% | steered: whole  85.4%, 1-4/5  52.4% | in 1-4/5: fixed 582, broken 0
+  steer only rows that are wrong                 c=  c1 | whole data 16.85% | facts 1-4/5 60.02% | steered: whole  85.4%, 1-4/5  52.4% | in 1-4/5: fixed 737, broken 0
+  steer only wrong rows of facts 1/5-4/5         c= 0.5 | whole data 15.65% | facts 1-4/5 57.41% | steered: whole   5.6%, 1-4/5  52.4% | in 1-4/5: fixed 582, broken 0
+  steer only wrong rows of facts 1/5-4/5         c=  c1 | whole data 15.93% | facts 1-4/5 60.02% | steered: whole   5.6%, 1-4/5  52.4% | in 1-4/5: fixed 737, broken 0
+
+[detectors, threshold and c chosen on the other 4 folds]
+  steer if P_all is low (likely wrong)           | whole data 14.58% | facts 1-4/5 46.72% | steered: whole  77.8%, 1-4/5  48.2% | in 1-4/5: fixed 276, broken 330
+      chosen per fold (c, threshold quantile): [(' c1', 0.34), (' c1', 0.4), (' c1', 0.36), ('0.5', 0.46), ('0.5', 0.92)]
+  steer if P_mid is low (likely wrong)           | whole data 14.73% | facts 1-4/5 47.83% | steered: whole  89.0%, 1-4/5  79.2% | in 1-4/5: fixed 513, broken 501
+      chosen per fold (c, threshold quantile): [(' c1', 0.66), (' c1', 0.66), ('0.5', 0.68), ('0.5', 0.92), ('0.5', 0.96)]
+  steer if axis is low (likely wrong)            | whole data 14.95% | facts 1-4/5 49.29% | steered: whole  83.1%, 1-4/5  78.9% | in 1-4/5: fixed 485, broken 386
+      chosen per fold (c, threshold quantile): [('0.5', 0.88), ('0.5', 0.46), ('0.5', 0.88), ('0.5', 0.88), ('0.5', 0.88)]
+  steer if P_know high AND P_mid low             | whole data 14.73% | facts 1-4/5 47.76% | steered: whole  65.2%, 1-4/5  74.4% | in 1-4/5: fixed 493, broken 485
+      chosen per fold (c, threshold quantile): [(' c1', (0.02, 0.66)), (' c1', (0.02, 0.66)), ('0.5', (0.1, 0.66)), ('0.5', (0.02, 0.9)), ('0.5', (0.1, 0.82))]

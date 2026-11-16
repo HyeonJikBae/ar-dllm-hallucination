@@ -14,6 +14,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score
 warnings.filterwarnings("ignore"); MODEL, TYPE = sys.argv[1], sys.argv[2]; D = "data"
+import os
+MINK = int(os.environ.get("MINK", "1")); MID = tuple(f"{g}/5" for g in range(MINK, 5))   # partly known = MINK..4 of 5
 popqa = {str(json.loads(l)["id"]): json.loads(l)["s_uri"] for l in open(f"{D}/1_raw/popqa_raw.jsonl", encoding="utf-8")}
 if MODEL == "dream":
     rows = [json.loads(l) for l in open(f"{D}/3_classification/full/dream_final_full.jsonl", encoding="utf-8")]
@@ -22,9 +24,9 @@ else:
     rows = [json.loads(l) for l in open(f"{D}/3_classification/full/qwen_final_full.jsonl", encoding="utf-8")]
     F = f"{D}/1_raw/qwen_hidden"; index = json.load(open(f"{F}/rows.json")); ok = lambda r: True
 def state(r):
-    if r["correct"]: return "know" if r["fact_group"] in ("1/5", "2/5", "3/5", "4/5") else ("known5" if r["fact_group"] == "5/5" else None)
+    if r["correct"]: return "know" if r["fact_group"] in MID else ("known5" if r["fact_group"] == "5/5" else None)
     if r["type3"] != TYPE: return None
-    return "kbw" if r["fact_group"] in ("1/5", "2/5", "3/5", "4/5") else ("dont" if r["fact_group"] == "0/5" else None)
+    return "kbw" if r["fact_group"] in MID else ("dont" if r["fact_group"] == "0/5" else None)
 keep = np.array([i for i in index if ok(rows[i]) and state(rows[i])]); st = np.array([state(rows[i]) for i in keep])
 rel = np.array([rows[i]["relation"] for i in keep]); sub = np.array([popqa[rows[i]["sample_id"]] for i in keep]); qtext = [rows[i]["question"] for i in keep]
 if MODEL == "dream": X = np.asarray(np.load(f"{F}/hid_prompt_last.npy", mmap_mode="r")[keep, 0], dtype=np.float32)
@@ -60,4 +62,4 @@ for n, s in (("one-vs-rest probe", s_ovr), ("knowledge axis (0/5 vs 5/5)", s_axi
     if s is None: continue
     a, na = pair(s, "kbw", "know"); b, nb = pair(s, "kbw", "dont")
     print(f"{n:26s} {a:10.3f} {b:14.3f}   (relations: {na}, {nb})"); res[n] = [a, b]
-json.dump(res, open(f"analysis/2_know_but_wrong/results_{MODEL}_{TYPE}.json", "w"), indent=1)
+json.dump(res, open(f"analysis/2_know_but_wrong/results_{MODEL}_{TYPE}" + (f"_k{MINK}" if MINK != 1 else "") + ".json", "w"), indent=1)

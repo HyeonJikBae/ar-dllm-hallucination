@@ -1,0 +1,46 @@
+0/5 rows used: broken 6547, entity 37119; facts with both: 3303; best separation broken-side 0.121, entity-side 0.071
+  K=20 within-fact AUROC on facts 1/5..4/5: correct-broken 0.706 (213 facts) | entity-broken 0.582 (142 facts) | correct-entity 0.569 (1118 facts)
+  K=5 within-fact AUROC on facts 1/5..4/5: correct-broken 0.672 (213 facts) | entity-broken 0.588 (142 facts) | correct-entity 0.557 (1118 facts)
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 200.72it/s]
+  base: 137s
+  base batch 8 (noise): 151s
+  remove BROKEN K20: 135s
+  add BROKEN K20 a0.5: 135s
+  add BROKEN K20 a1: 136s
+  remove ENTITY-side K20: 158s
+  add ENTITY-side K20 a0.5: 156s
+  add ENTITY-side K20 a1: 160s
+  remove BROKEN K5: 140s
+  remove random 20 #0: 151s
+  remove random 20 #1: 153s
+  remove random 20 #2: 152s
+  remove random 20 #3: 136s
+  remove random 20 #4: 135s
+  remove random 20 #5: 135s
+  remove random 20 #6: 135s
+  remove random 20 #7: 136s
+  remove random 5 #0: 136s
+  remove random 5 #1: 140s
+  remove random 5 #2: 137s
+  remove random 5 #3: 135s
+  remove random 5 #4: 138s
+  remove random 5 #5: 141s
+  remove random 5 #6: 143s
+  remove random 5 #7: 143s
+  add random 20 a1 #0: 139s
+  add random 20 a1 #1: 142s
+  add random 20 a1 #2: 142s
+
+==== broken rows of facts 1/5..4/5 (n=310) -> new answer type: correct / entity / broken
+  base                         correct 0.039 | entity 0.106 | broken 0.855
+  base batch 8 (noise)         correct 0.055 | entity 0.106 | broken 0.839
+  remove BROKEN K20            correct 0.065 | entity 0.123 | broken 0.813
+  add BROKEN K20 a0.5          correct 0.094 | entity 0.148 | broken 0.758
+  add BROKEN K20 a1            correct 0.142 | entity 0.174 | broken 0.681
+  remove ENTITY-side K20       correct 0.087 | entity 0.155 | broken 0.758
+  add ENTITY-side K20 a0.5     correct 0.045 | entity 0.158 | broken 0.797
+  add ENTITY-side K20 a1       correct 0.058 | entity 0.226 | broken 0.716
+  remove BROKEN K5             correct 0.065 | entity 0.145 | broken 0.790
+  remove random 20             broken mean 0.736 (min 0.697, max 0.845) | correct mean 0.082 (min 0.032, max 0.110)  [8 draws]
+  remove random 5              broken mean 0.825 (min 0.768, max 0.865) | correct mean 0.051 (min 0.035, max 0.071)  [8 draws]
+  add random 20 a1             broken mean 0.758 (min 0.684, max 0.803) | correct mean 0.071 (min 0.058, max 0.087)  [3 draws]

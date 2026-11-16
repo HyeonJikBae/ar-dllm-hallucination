@@ -32,7 +32,9 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."
 torch.set_num_threads(16)
 D = "data"
 MODEL = sys.argv[1]
-OUT = f"analysis/results_signal_{MODEL}.json"
+MINK = int(os.environ.get("MINK", "1"))          # partly known = facts answered correctly in MINK..4 of 5 paraphrases
+MID = tuple(f"{g}/5" for g in range(MINK, 5))
+OUT = f"analysis/1_signal_search/results_signal_{MODEL}" + (f"_k{MINK}" if MINK != 1 else "") + ".json"
 
 
 def fact_aucs(score, y, fact):
@@ -76,7 +78,7 @@ def load():
     byf = collections.defaultdict(list)
     for i in index:
         r = rows[i]
-        if ok(i, r) and r["fact_group"] in ("1/5", "2/5", "3/5", "4/5"):
+        if ok(i, r) and r["fact_group"] in MID:
             byf[r["sample_id"]].append(i)
     keep = [i for f, ix in byf.items() if 0 < sum(rows[j]["correct"] for j in ix) < len(ix) for i in ix]
     keep = np.array(sorted(keep))

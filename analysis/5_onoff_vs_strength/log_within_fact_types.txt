@@ -1,0 +1,33 @@
+
+=== correct vs entity-wrong   (label 1 = correct, 0 = entity; test facts with both kinds: 554; dev rows 2821, test rows 2803)
+  question wording (tf-idf)          within-fact AUROC 0.587  [0.559, 0.612]
+  SAE on/off, step 0                 within-fact AUROC 0.596  [0.568, 0.623]
+  SAE strength, step 0               within-fact AUROC 0.618  [0.588, 0.646]
+  raw probe, step 0                  within-fact AUROC 0.634  [0.604, 0.664]
+  slot confidence up to step 0       within-fact AUROC 0.606  [0.578, 0.636]
+  SAE on/off, step 8                 within-fact AUROC 0.619  [0.591, 0.646]
+  SAE strength, step 8               within-fact AUROC 0.699  [0.674, 0.727]
+  raw probe, step 8                  within-fact AUROC 0.739  [0.710, 0.766]
+  slot confidence up to step 8       within-fact AUROC 0.658  [0.628, 0.685]
+
+=== correct vs broken   (label 1 = correct, 0 = broken; test facts with both kinds: 113; dev rows 1558, test rows 1627)
+  question wording (tf-idf)          within-fact AUROC 0.668  [0.594, 0.730]
+  SAE on/off, step 0                 within-fact AUROC 0.742  [0.674, 0.802]
+  SAE strength, step 0               within-fact AUROC 0.794  [0.734, 0.848]
+  raw probe, step 0                  within-fact AUROC 0.835  [0.782, 0.882]
+  slot confidence up to step 0       within-fact AUROC 0.677  [0.612, 0.744]
+  SAE on/off, step 8                 within-fact AUROC 0.831  [0.781, 0.881]
+  SAE strength, step 8               within-fact AUROC 0.861  [0.799, 0.904]
+  raw probe, step 8                  within-fact AUROC 0.893  [0.846, 0.940]
+  slot confidence up to step 8       within-fact AUROC 0.726  [0.655, 0.791]
+
+=== entity-wrong vs broken (both wrong)   (label 1 = broken, 0 = entity; test facts with both kinds: 72; dev rows 1547, test rows 1512)
+  question wording (tf-idf)          within-fact AUROC 0.515  [0.423, 0.596]
+  SAE on/off, step 0                 within-fact AUROC 0.620  [0.516, 0.713]
+  SAE strength, step 0               within-fact AUROC 0.627  [0.526, 0.730]
+  raw probe, step 0                  within-fact AUROC 0.652  [0.558, 0.755]
+  slot confidence up to step 0       within-fact AUROC 0.488  [0.392, 0.597]
+  SAE on/off, step 8                 within-fact AUROC 0.591  [0.495, 0.685]
+  SAE strength, step 8               within-fact AUROC 0.624  [0.525, 0.718]
+  raw probe, step 8                  within-fact AUROC 0.778  [0.693, 0.852]
+  slot confidence up to step 8       within-fact AUROC 0.552  [0.438, 0.657]

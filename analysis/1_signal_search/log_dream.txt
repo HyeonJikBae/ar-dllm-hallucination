@@ -1,0 +1,65 @@
+dream: rows 5950 | facts 1190 | subjects 1174 | correct share 0.48
+positions: ['prompt_last', 'q_last', 'subj_last'] | SAE L0 {'prompt_last': 89.2, 'q_last': 83.7, 'subj_last': 147.7}
+  dev 0.577  conf-lp
+  dev 0.538  conf-margin
+  dev 0.573  conf-lr
+  dev 0.610  text-lr
+  dev 0.605  sae-sum20|prompt_last
+  dev 0.635  sae-lr300|C0.003|prompt_last
+  dev 0.616  sae-lr300|C0.03|prompt_last
+  dev 0.624  sae-lr2000|C0.003|prompt_last
+  dev 0.598  sae-lr2000|C0.03|prompt_last
+  dev 0.664  raw-lr|C0.0003|prompt_last
+  dev 0.646  raw-lr|C0.003|prompt_last
+  dev 0.589  sae-sum20|q_last
+  dev 0.592  sae-lr300|C0.003|q_last
+  dev 0.585  sae-lr300|C0.03|q_last
+  dev 0.609  sae-lr2000|C0.003|q_last
+  dev 0.591  sae-lr2000|C0.03|q_last
+  dev 0.625  raw-lr|C0.0003|q_last
+  dev 0.618  raw-lr|C0.003|q_last
+  dev 0.596  sae-sum20|subj_last
+  dev 0.605  sae-lr300|C0.003|subj_last
+  dev 0.593  sae-lr300|C0.03|subj_last
+  dev 0.568  sae-lr2000|C0.003|subj_last
+  dev 0.551  sae-lr2000|C0.03|subj_last
+  dev 0.636  raw-lr|C0.0003|subj_last
+  dev 0.621  raw-lr|C0.003|subj_last
+picked on dev: {'conf-lp': 'conf-lp', 'conf-margin': 'conf-margin', 'conf-lr': 'conf-lr', 'text-lr': 'text-lr', 'sae-su': 'sae-sum20|prompt_last', 'sae-lr': 'sae-lr300|C0.003|prompt_last', 'raw-lr': 'raw-lr|C0.0003|prompt_last'}
+
+TEST (within-fact AUROC, mean [95% CI over facts])
+  0.581 [0.553, 0.610]  conf-lp  <- picked
+  0.547 [0.517, 0.575]  conf-margin  <- picked
+  0.578 [0.550, 0.607]  conf-lr  <- picked
+  0.608 [0.582, 0.635]  text-lr  <- picked
+  0.606 [0.578, 0.632]  sae-sum20|prompt_last  <- picked
+  0.630 [0.604, 0.656]  sae-lr300|C0.003|prompt_last  <- picked
+  0.608 [0.580, 0.633]  sae-lr300|C0.03|prompt_last
+  0.613 [0.584, 0.640]  sae-lr2000|C0.003|prompt_last
+  0.580 [0.552, 0.607]  sae-lr2000|C0.03|prompt_last
+  0.657 [0.628, 0.683]  raw-lr|C0.0003|prompt_last  <- picked
+  0.645 [0.618, 0.670]  raw-lr|C0.003|prompt_last
+  0.602 [0.574, 0.628]  sae-sum20|q_last
+  0.602 [0.574, 0.629]  sae-lr300|C0.003|q_last
+  0.593 [0.566, 0.620]  sae-lr300|C0.03|q_last
+  0.593 [0.566, 0.619]  sae-lr2000|C0.003|q_last
+  0.571 [0.544, 0.597]  sae-lr2000|C0.03|q_last
+  0.638 [0.610, 0.664]  raw-lr|C0.0003|q_last
+  0.634 [0.605, 0.661]  raw-lr|C0.003|q_last
+  0.611 [0.583, 0.638]  sae-sum20|subj_last
+  0.583 [0.552, 0.611]  sae-lr300|C0.003|subj_last
+  0.566 [0.536, 0.594]  sae-lr300|C0.03|subj_last
+  0.573 [0.544, 0.600]  sae-lr2000|C0.003|subj_last
+  0.550 [0.522, 0.576]  sae-lr2000|C0.03|subj_last
+  0.641 [0.612, 0.667]  raw-lr|C0.0003|subj_last
+  0.608 [0.582, 0.634]  raw-lr|C0.003|subj_last
+
+NULL (labels shuffled inside each fact, picked configurations, mean over 20 shuffles)
+  0.501 ± 0.017  conf-lp
+  0.502 ± 0.017  conf-lr
+  0.503 ± 0.015  conf-margin
+  0.500 ± 0.009  raw-lr|C0.0003|prompt_last
+  0.502 ± 0.013  sae-lr300|C0.003|prompt_last
+  0.501 ± 0.015  sae-sum20|prompt_last
+  0.499 ± 0.014  text-lr
+saved analysis/results_signal_dream.json

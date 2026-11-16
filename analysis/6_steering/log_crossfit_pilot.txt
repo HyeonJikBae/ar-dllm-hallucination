@@ -1,0 +1,46 @@
+
+[A: signal from half 1, steer half 2] facts per group {1: 40, 2: 25, 3: 25, 4: 19}, entity-broken facts 77, correct-entity facts 540; best MaxMin score correct 0.100, broken 0.153
+   held-out within-fact AUROC, score vs correct-broken (104 facts): 0.715
+   held-out within-fact AUROC, score vs entity-broken (65 facts): 0.552
+   held-out within-fact AUROC, score vs correct-entity (578 facts): 0.567
+
+[B: signal from half 2, steer half 1] facts per group {1: 35, 2: 25, 3: 24, 4: 20}, entity-broken facts 65, correct-entity facts 578; best MaxMin score correct 0.051, broken 0.156
+   held-out within-fact AUROC, score vs correct-broken (109 facts): 0.763
+   held-out within-fact AUROC, score vs entity-broken (77 facts): 0.577
+   held-out within-fact AUROC, score vs correct-entity (540 facts): 0.592
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 147.52it/s]
+  [A] base: 10s
+  [A] base batch 8 (noise): 9s
+  [A] remove BROKEN signal: 9s
+  [A] add BROKEN signal a0.5: 9s
+  [A] add BROKEN signal a1: 8s
+  [A] remove CORRECT signal: 9s
+  [A] add CORRECT signal a0.5: 8s
+  [A] add CORRECT signal a1: 9s
+  [A] remove random latents #0: 9s
+  [A] remove random latents #1: 9s
+  [B] base: 9s
+  [B] base batch 8 (noise): 9s
+  [B] remove BROKEN signal: 10s
+  [B] add BROKEN signal a0.5: 10s
+  [B] add BROKEN signal a1: 9s
+  [B] remove CORRECT signal: 9s
+  [B] add CORRECT signal a0.5: 9s
+  [B] add CORRECT signal a1: 9s
+  [B] remove random latents #0: 9s
+  [B] remove random latents #1: 10s
+
+==== pooled over both folds: the BROKEN rows (facts 1/5..4/5) -> new answer type
+  base                             correct 0.062 | entity 0.188 | broken 0.750 | abstain 0.000
+  base batch 8 (noise)             correct 0.062 | entity 0.188 | broken 0.750 | abstain 0.000
+  remove BROKEN signal             correct 0.250 | entity 0.188 | broken 0.562 | abstain 0.000
+  add BROKEN signal a0.5           correct 0.000 | entity 0.312 | broken 0.688 | abstain 0.000
+  add BROKEN signal a1             correct 0.000 | entity 0.188 | broken 0.812 | abstain 0.000
+  remove CORRECT signal            correct 0.000 | entity 0.188 | broken 0.812 | abstain 0.000
+  add CORRECT signal a0.5          correct 0.188 | entity 0.188 | broken 0.625 | abstain 0.000
+  add CORRECT signal a1            correct 0.125 | entity 0.188 | broken 0.688 | abstain 0.000
+  remove random latents #0         correct 0.062 | entity 0.188 | broken 0.750 | abstain 0.000
+  remove random latents #1         correct 0.250 | entity 0.125 | broken 0.625 | abstain 0.000
+
+random-latent controls: broken rate mean 0.688, min 0.625, max 0.750 (n draws per fold 2, pooled over folds)
+n broken rows: 16
