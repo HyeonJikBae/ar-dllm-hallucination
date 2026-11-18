@@ -1,0 +1,11 @@
+rows: wrong 300, correct 300 | no edit: wrong rows correct 0.023, correct rows correct 0.923
+condition    wrong->correct  correct kept | net gain (all rows edited)  95% interval   | only wrong rows edited: gain
+L16 B c0.5   0.107           0.830        |  -0.1 pt                  [ -3.0,  +2.8] |  +4.4 pt
+L16 B c1.0   0.113           0.750        |  -3.5 pt                  [ -6.7,  -0.2] |  +4.7 pt
+L20 B c0.5   0.187           0.817        |  +3.5 pt                  [ +0.3,  +6.8] |  +8.6 pt
+L20 B c1.0   0.253           0.703        |  +1.6 pt                  [ -1.8,  +5.1] | +12.1 pt
+L24 B c0.5   0.263           0.763        |  +5.0 pt                  [ +1.0,  +8.7] | +12.6 pt
+L24 B c1.0   0.367           0.537        |  -0.4 pt                  [ -4.5,  +3.9] | +18.0 pt
+L16 D c1     0.077           0.530        | -15.9 pt                  [-19.2, -12.6] |  +2.8 pt
+L20 D c1     0.093           0.403        | -21.1 pt                  [-24.4, -17.8] |  +3.7 pt
+L24 D c1     0.070           0.453        | -19.9 pt                  [-23.2, -16.5] |  +2.4 pt

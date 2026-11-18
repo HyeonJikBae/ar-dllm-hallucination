@@ -19,6 +19,7 @@ grounded_dream/*.tsv
 
 # large hidden-state files and the symlink to them
 data/1_raw/dream_hidden_steps/
+data/1_raw/dream_hidden_layers/
 sae_analysis/features_dream_steps
 data/1_raw/qwen_hidden/
 sae_analysis/features_qwen_type

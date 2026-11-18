@@ -1,0 +1,28 @@
+layer 16: mean||h|| 41.9 | cos(B, raw D) per fold [-0.74, 0.01, 0.25, 0.69, -0.24] (D is then made orthogonal to B)
+layer 20: mean||h|| 54.1 | cos(B, raw D) per fold [-0.59, -0.0, 0.14, 0.47, -0.3] (D is then made orthogonal to B)
+layer 24: mean||h|| 150.4 | cos(B, raw D) per fold [-0.36, 0.01, 0.01, 0.28, -0.15] (D is then made orthogonal to B)
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 155.35it/s]
+  base: 218s
+  L16 B c0.5: 217s
+  L16 B c1.0: 216s
+  L20 B c0.5: 216s
+  L20 B c1.0: 217s
+  L24 B c0.5: 217s
+  L24 B c1.0: 217s
+  L16 D c1: 212s
+  L20 D c1: 216s
+  L24 D c1: 216s
+
+share correct after the edit.   wrong rows: higher = more fixed;  correct rows: higher = fewer broken
+  condition      wrong (n=300)  correct (n=300)  | wrong rows by k: 1/5 2/5 3/5 4/5
+  base           0.023          0.923          | 0.02 0.01 0.04 0.03
+  L16 B c0.5     0.107          0.830          | 0.08 0.05 0.14 0.26
+  L16 B c1.0     0.113          0.750          | 0.10 0.08 0.14 0.21
+  L20 B c0.5     0.187          0.817          | 0.11 0.18 0.26 0.38
+  L20 B c1.0     0.253          0.703          | 0.17 0.28 0.37 0.32
+  L24 B c0.5     0.263          0.763          | 0.24 0.23 0.28 0.41
+  L24 B c1.0     0.367          0.537          | 0.35 0.34 0.40 0.44
+  L16 D c1       0.077          0.530          | 0.07 0.07 0.07 0.12
+  L20 D c1       0.093          0.403          | 0.09 0.08 0.07 0.18
+  L24 D c1       0.070          0.453          | 0.04 0.08 0.09 0.12
+  wrong rows by k: {1: 135, 2: 74, 3: 57, 4: 34}

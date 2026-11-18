@@ -1,0 +1,11 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 49.85it/s]
+6454/55225
+12817/55225
+19223/55225
+25623/55225
+32026/55225
+38437/55225
+44837/55225
+51246/55225
+check layer 20 vs stored step-0 state (2000 rows): mean cosine 1.00000, min 1.00000, max abs diff 0.0000
+done 55225 rows, 28 layers
