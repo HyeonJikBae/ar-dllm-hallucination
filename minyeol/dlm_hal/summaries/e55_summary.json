@@ -1,0 +1,337 @@
+{
+ "acc_diffullama": {
+  "n": 55225,
+  "acc": 11.78,
+  "types": {
+   "entity": 34856,
+   "broken": 13715,
+   "correct": 6503,
+   "abstain": 151
+  },
+  "k_dist_facts": {
+   "0": 8882,
+   "1": 542,
+   "2": 372,
+   "3": 349,
+   "4": 330,
+   "5": 570
+  },
+  "n_facts_1to4": 1593,
+  "n_rows_1to4": 7965
+ },
+ "acc_llama2": {
+  "n": 55225,
+  "acc": 20.07,
+  "types": {
+   "entity": 31398,
+   "correct": 11081,
+   "broken": 12705,
+   "abstain": 41
+  },
+  "k_dist_facts": {
+   "0": 7927,
+   "1": 537,
+   "2": 364,
+   "3": 381,
+   "4": 507,
+   "5": 1329
+  },
+  "n_facts_1to4": 1789,
+  "n_rows_1to4": 8945
+ },
+ "cross_k_facts": {
+  "dllm0_ar0": 7701,
+  "dllm0_ar1-4": 948,
+  "dllm0_ar5": 233,
+  "dllm1-4_ar0": 222,
+  "dllm1-4_ar1-4": 761,
+  "dllm1-4_ar5": 610,
+  "dllm5_ar0": 4,
+  "dllm5_ar1-4": 80,
+  "dllm5_ar5": 486
+ },
+ "agreement_both_mixed": {
+  "n_facts": 761,
+  "mean_diff": 0.2905
+ },
+ "phaseB": {
+  "n_rows": 7965,
+  "n_rows_expected": 7965,
+  "base_answer_same_as_A": 99.06,
+  "base_correct_same_as_A": 99.74,
+  "s0_rank0_same_as_A": 98.83
+ },
+ "n_wrong_rows_mixed": {
+  "total": 4306,
+  "dlm": 2349,
+  "shared": 1957,
+  "facts": 1592,
+  "gold_tok_is_bare_space": 0,
+  "gold_tok_missing": 0,
+  "abstain_rows_excluded": 7,
+  "types": {
+   "dlm": {
+    "broken": 651,
+    "entity": 1698
+   },
+   "shared": {
+    "entity": 1420,
+    "broken": 537
+   }
+  }
+ },
+ "routes": {
+  "H55.1_top1_step0": {
+   "n": [
+    2349,
+    1957
+   ],
+   "rate": [
+    30.31,
+    9.66
+   ],
+   "diff": 20.65,
+   "ci": [
+    17.82,
+    23.5
+   ],
+   "n_facts": 1592
+  },
+  "H55.1_within_fact": {
+   "n_facts": 454,
+   "n_rows": [
+    791,
+    749
+   ],
+   "diff": 8.77,
+   "ci": [
+    5.58,
+    12.15
+   ]
+  },
+  "top5_step0": {
+   "n": [
+    2349,
+    1957
+   ],
+   "rate": [
+    67.52,
+    37.51
+   ],
+   "diff": 30.01,
+   "ci": [
+    26.3,
+    33.87
+   ],
+   "n_facts": 1592
+  },
+  "lost_top1_then_slot0_not_gold": {
+   "n": [
+    2349,
+    1957
+   ],
+   "rate": [
+    16.26,
+    5.26
+   ],
+   "diff": 11.0,
+   "ci": [
+    8.88,
+    13.01
+   ],
+   "n_facts": 1592
+  },
+  "median_rank_step0": {
+   "dlm": 2.0,
+   "shared": 9.0
+  },
+  "log2rank_within_fact": {
+   "n_facts": 454,
+   "n_rows": [
+    791,
+    749
+   ],
+   "diff": -0.809,
+   "ci": [
+    -0.974,
+    -0.653
+   ]
+  },
+  "H55.2_slot0first_recovery": {
+   "n": [
+    2349,
+    1957
+   ],
+   "rate": [
+    24.35,
+    7.66
+   ],
+   "diff": 16.69,
+   "ci": [
+    14.27,
+    19.15
+   ],
+   "n_facts": 1592
+  },
+  "H55.2_within_fact": {
+   "n_facts": 454,
+   "n_rows": [
+    791,
+    749
+   ],
+   "diff": 10.98,
+   "ci": [
+    7.67,
+    14.39
+   ]
+  },
+  "llama2_first_pos_gold_top1": {
+   "n": [
+    2349,
+    1957
+   ],
+   "rate": [
+    76.37,
+    6.13
+   ],
+   "diff": 70.24,
+   "ci": [
+    67.29,
+    73.23
+   ],
+   "n_facts": 1592
+  },
+  "s0f_token_equals_base_slot0": {
+   "n": [
+    2349,
+    1957
+   ],
+   "rate": [
+    45.42,
+    39.86
+   ],
+   "diff": 5.57,
+   "ci": [
+    2.1,
+    8.98
+   ],
+   "n_facts": 1592
+  },
+  "s0f_token_is_gold": {
+   "n": [
+    2349,
+    1957
+   ],
+   "rate": [
+    29.33,
+    9.2
+   ],
+   "diff": 20.13,
+   "ci": [
+    17.35,
+    22.89
+   ],
+   "n_facts": 1592
+  }
+ },
+ "stratified_llama2_goldprob_x_len": {
+  "균형 (DLM 고유 / 공유)": {
+   "LLaMA-2 금 logprob 평균": [
+    -1.848,
+    -4.722
+   ],
+   "금 답 토큰 수 평균": [
+    2.71,
+    2.76
+   ],
+   "LLaMA-2 금 1 위 %": [
+    76.4,
+    6.1
+   ]
+  },
+  "H55.1 step0 금 1 위": {
+   "층화 없음": [
+    20.65,
+    17.87,
+    23.48
+   ],
+   "MH: LLaMA-2 금 logprob 5 분위 x 답 토큰 수": [
+    -1.17,
+    -3.88,
+    1.6
+   ],
+   "덮는 행 비율": 0.934,
+   "MH: LLaMA-2 금 logprob 5 분위만": [
+    -2.05,
+    -4.81,
+    0.75
+   ]
+  },
+  "H55.2 칸0먼저 복구": {
+   "층화 없음": [
+    16.69,
+    14.38,
+    19.01
+   ],
+   "MH: LLaMA-2 금 logprob 5 분위 x 답 토큰 수": [
+    10.28,
+    7.2,
+    13.35
+   ],
+   "덮는 행 비율": 0.934,
+   "MH: LLaMA-2 금 logprob 5 분위만": [
+    10.16,
+    7.03,
+    13.26
+   ]
+  }
+ },
+ "slot0first_break_correct_rows": {
+  "n": [
+   858,
+   2794
+  ],
+  "rate": [
+   59.67,
+   25.52
+  ],
+  "diff": 34.15,
+  "ci": [
+   30.17,
+   38.31
+  ],
+  "n_facts": 1592
+ },
+ "slot0first_acc_by_k": {
+  "1": {
+   "n": 2710,
+   "base": 20.07,
+   "s0f": 19.45
+  },
+  "2": {
+   "n": 1860,
+   "base": 40.05,
+   "s0f": 35.22
+  },
+  "3": {
+   "n": 1745,
+   "base": 59.89,
+   "s0f": 49.23
+  },
+  "4": {
+   "n": 1650,
+   "base": 79.88,
+   "s0f": 67.15
+  }
+ },
+ "acc_diffullama_s0f_phaseB": {
+  "n": 7965,
+  "base": 45.85,
+  "s0f": 39.54
+ },
+ "verdict": {
+  "H55.1": true,
+  "H55.2": true,
+  "n_facts_1to4_lt_150": false
+ }
+}

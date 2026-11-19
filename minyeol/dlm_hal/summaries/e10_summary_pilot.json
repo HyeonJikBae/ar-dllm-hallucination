@@ -1,0 +1,388 @@
+{
+ "표본": {
+  "n": 100,
+  "mid": 60,
+  "zero": 20,
+  "five": 20,
+  "mid_이번정답률": 48.3,
+  "저장라벨일치": 91.7
+ },
+ "궤적_복원_일치": 98.0,
+ "진동": {
+  "0/5": {
+   "n": 20,
+   "중간에_정답_나옴": 0.0,
+   "나왔다가_사라짐": 0.0
+  },
+  "1~4/5 정답": {
+   "n": 29,
+   "중간에_정답_나옴": 100.0,
+   "나왔다가_사라짐": 0.0
+  },
+  "1~4/5 오답": {
+   "n": 31,
+   "중간에_정답_나옴": 32.3,
+   "나왔다가_사라짐": 32.3
+  },
+  "5/5": {
+   "n": 20,
+   "중간에_정답_나옴": 100.0,
+   "나왔다가_사라짐": 0.0
+  }
+ },
+ "감지": {
+  "T1 사실 step<=8": {
+   "상위": [
+    [
+     "가운데K L27 prompt_end s8",
+     0.73
+    ],
+    [
+     "가운데K L27 subj_last s8",
+     0.718
+    ],
+    [
+     "가운데K L27 prompt_end s4",
+     0.714
+    ],
+    [
+     "가운데K L24 prompt_end s4",
+     0.714
+    ],
+    [
+     "가운데K L27 subj_last s4",
+     0.71
+    ],
+    [
+     "가운데K L27 subj_last s0",
+     0.702
+    ],
+    [
+     "가운데K L24 prompt_end s8",
+     0.7
+    ],
+    [
+     "가운데K L24 subj_last s0",
+     0.699
+    ]
+   ],
+   "겹밖최선": {
+    "평균": 0.7,
+    "고른점수": [
+     "가운데K L27 prompt_end s8",
+     "가운데K L24 subj_last s0",
+     "가운데K L27 prompt_end s8",
+     "가운데K L27 prompt_end s8",
+     "가운데K L27 prompt_end s8"
+    ]
+   }
+  },
+  "T1 사실 사후 포함": {
+   "상위": [
+    [
+     "가운데K L27 prompt_end s8",
+     0.73
+    ],
+    [
+     "가운데K L27 subj_last s8",
+     0.718
+    ],
+    [
+     "가운데K L27 prompt_end s4",
+     0.714
+    ],
+    [
+     "가운데K L24 prompt_end s4",
+     0.714
+    ],
+    [
+     "가운데K L27 subj_last s4",
+     0.71
+    ],
+    [
+     "가운데K L27 subj_last s0",
+     0.702
+    ],
+    [
+     "가운데K L24 prompt_end s8",
+     0.7
+    ],
+    [
+     "가운데K L24 subj_last s0",
+     0.699
+    ]
+   ],
+   "겹밖최선": {
+    "평균": 0.7,
+    "고른점수": [
+     "가운데K L27 prompt_end s8",
+     "가운데K L24 subj_last s0",
+     "가운데K L27 prompt_end s8",
+     "가운데K L27 prompt_end s8",
+     "가운데K L27 prompt_end s8"
+    ]
+   }
+  },
+  "T2 질문 step<=8": {
+   "상위": [
+    [
+     "가운데K L27 subj_last s8",
+     0.743
+    ],
+    [
+     "조합[가운데K x 첫4칸logprob(-)] L27 prompt_end s8",
+     0.722
+    ],
+    [
+     "가운데K L27 subj_last s4",
+     0.719
+    ],
+    [
+     "조합[가운데K x 첫4칸logprob(-)] L27 subj_last s8",
+     0.715
+    ],
+    [
+     "가운데K L16 prompt_end s8",
+     0.714
+    ],
+    [
+     "조합[가운데K x 첫4칸logprob(-)] L24 prompt_end s8",
+     0.712
+    ],
+    [
+     "가운데K L27 prompt_end s8",
+     0.705
+    ],
+    [
+     "가운데K L24 prompt_end s0",
+     0.695
+    ]
+   ],
+   "겹밖최선": {
+    "평균": 0.654,
+    "고른점수": [
+     "가운데K L16 prompt_end s8",
+     "가운데K L27 subj_last s8",
+     "가운데K L16 prompt_end s8",
+     "조합[가운데K x 첫4칸logprob(-)] L27 prompt_end s8",
+     "가운데K L27 subj_last s8"
+    ]
+   }
+  },
+  "T2 질문 사후 포함": {
+   "상위": [
+    [
+     "가운데K L27 subj_last s8",
+     0.743
+    ],
+    [
+     "조합[가운데K x 첫4칸logprob(-)] L27 prompt_end s8",
+     0.722
+    ],
+    [
+     "가운데K L27 subj_last s4",
+     0.719
+    ],
+    [
+     "조합[가운데K x 첫4칸logprob(-)] L27 subj_last s8",
+     0.715
+    ],
+    [
+     "가운데K L16 prompt_end s8",
+     0.714
+    ],
+    [
+     "조합[가운데K x 첫4칸logprob(-)] L24 prompt_end s8",
+     0.712
+    ],
+    [
+     "가운데K L27 prompt_end s8",
+     0.705
+    ],
+    [
+     "가운데K L24 prompt_end s0",
+     0.695
+    ]
+   ],
+   "겹밖최선": {
+    "평균": 0.654,
+    "고른점수": [
+     "가운데K L16 prompt_end s8",
+     "가운데K L27 subj_last s8",
+     "가운데K L16 prompt_end s8",
+     "조합[가운데K x 첫4칸logprob(-)] L27 prompt_end s8",
+     "가운데K L27 subj_last s8"
+    ]
+   }
+  },
+  "T3 1~4/5 안 step<=8": {
+   "상위": [
+    [
+     "K L27 prompt_end s8",
+     0.775
+    ],
+    [
+     "K L20 subj_last s8",
+     0.773
+    ],
+    [
+     "K L20 subj_last s4",
+     0.77
+    ],
+    [
+     "K L27 prompt_end s4",
+     0.762
+    ],
+    [
+     "K L24 subj_last s4",
+     0.761
+    ],
+    [
+     "중간답 종류(-) s8",
+     0.755
+    ],
+    [
+     "K L24 subj_last s0",
+     0.754
+    ],
+    [
+     "K L24 subj_last s8",
+     0.751
+    ]
+   ],
+   "겹밖최선": {
+    "평균": 0.763,
+    "고른점수": [
+     "K L20 subj_last s4",
+     "중간답 종류(-) s8",
+     "K L20 subj_last s8",
+     "K L27 prompt_end s8",
+     "K L20 subj_last s8"
+    ]
+   }
+  },
+  "T3 1~4/5 안 사후 포함": {
+   "상위": [
+    [
+     "K L27 prompt_end s8",
+     0.775
+    ],
+    [
+     "중간답 종류(-) s31",
+     0.775
+    ],
+    [
+     "K L20 subj_last s8",
+     0.773
+    ],
+    [
+     "K L20 subj_last s4",
+     0.77
+    ],
+    [
+     "K L27 prompt_end s4",
+     0.762
+    ],
+    [
+     "K L24 subj_last s4",
+     0.761
+    ],
+    [
+     "중간답 종류(-) s8",
+     0.755
+    ],
+    [
+     "K L24 subj_last s0",
+     0.754
+    ]
+   ],
+   "겹밖최선": {
+    "평균": 0.735,
+    "고른점수": [
+     "중간답 종류(-) s31",
+     "중간답 종류(-) s31",
+     "K L20 subj_last s8",
+     "K L27 prompt_end s8",
+     "K L20 subj_last s8"
+    ]
+   }
+  },
+  "T3 같은사실 step<=8 상위": [
+   [
+    "첫칸 logprob s0",
+    NaN
+   ],
+   [
+    "첫4칸 logprob s0",
+    NaN
+   ],
+   [
+    "첫칸 margin s0",
+    NaN
+   ],
+   [
+    "첫4칸 margin s0",
+    NaN
+   ],
+   [
+    "첫칸 logprob s4",
+    NaN
+   ],
+   [
+    "첫4칸 logprob s4",
+    NaN
+   ],
+   [
+    "첫칸 margin s4",
+    NaN
+   ],
+   [
+    "첫4칸 margin s4",
+    NaN
+   ]
+  ]
+ },
+ "판정": {
+  "H10_1": false,
+  "H10_2": false,
+  "H10_3": false
+ },
+ "참고_학습probe": {
+  "L12 prompt_end s0": {
+   "T1": 0.401,
+   "T2": 0.392,
+   "T3": 0.436,
+   "T3_같은사실": NaN
+  },
+  "L20 prompt_end s0": {
+   "T1": 0.542,
+   "T2": 0.459,
+   "T3": 0.508,
+   "T3_같은사실": NaN
+  },
+  "L27 prompt_end s0": {
+   "T1": 0.584,
+   "T2": 0.589,
+   "T3": 0.557,
+   "T3_같은사실": NaN
+  },
+  "L12 prompt_end s8": {
+   "T1": 0.433,
+   "T2": 0.506,
+   "T3": 0.622,
+   "T3_같은사실": NaN
+  },
+  "L20 prompt_end s8": {
+   "T1": 0.577,
+   "T2": 0.54,
+   "T3": 0.716,
+   "T3_같은사실": NaN
+  },
+  "L27 prompt_end s8": {
+   "T1": 0.572,
+   "T2": 0.547,
+   "T3": 0.74,
+   "T3_같은사실": NaN
+  }
+ }
+}
